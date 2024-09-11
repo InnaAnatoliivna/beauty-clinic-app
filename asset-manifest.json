@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/beauty-clinic-app/static/css/main.68022fdd.css",
+    "main.js": "/beauty-clinic-app/static/js/main.ad0ae193.js",
+    "static/js/453.ddb957e3.chunk.js": "/beauty-clinic-app/static/js/453.ddb957e3.chunk.js",
+    "static/media/Roboto-Medium.eot": "/beauty-clinic-app/static/media/Roboto-Medium.9bf33c160fe6d9bc342c.eot",
+    "static/media/Roboto-Medium.ttf": "/beauty-clinic-app/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Roboto-Regular.eot": "/beauty-clinic-app/static/media/Roboto-Regular.b07ca3a5dd152812569d.eot",
+    "static/media/Roboto-Regular.ttf": "/beauty-clinic-app/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Bold.eot": "/beauty-clinic-app/static/media/Roboto-Bold.b4c37be6f212bc0e6e22.eot",
+    "static/media/Roboto-Bold.ttf": "/beauty-clinic-app/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "static/media/Roboto-Medium.woff": "/beauty-clinic-app/static/media/Roboto-Medium.368d61c1c1edadcef26e.woff",
+    "static/media/Roboto-Bold.woff": "/beauty-clinic-app/static/media/Roboto-Bold.f01cee897c02d821d657.woff",
+    "static/media/Roboto-Regular.woff": "/beauty-clinic-app/static/media/Roboto-Regular.b9ed0af95c60cec80fbf.woff",
+    "static/media/Roboto-Medium.woff2": "/beauty-clinic-app/static/media/Roboto-Medium.70ace3870f471997ceb7.woff2",
+    "static/media/Roboto-Bold.woff2": "/beauty-clinic-app/static/media/Roboto-Bold.002079d85a6f27587d17.woff2",
+    "static/media/Roboto-Regular.woff2": "/beauty-clinic-app/static/media/Roboto-Regular.9429985be4f46ec8fcfc.woff2",
+    "index.html": "/beauty-clinic-app/index.html",
+    "main.68022fdd.css.map": "/beauty-clinic-app/static/css/main.68022fdd.css.map",
+    "main.ad0ae193.js.map": "/beauty-clinic-app/static/js/main.ad0ae193.js.map",
+    "453.ddb957e3.chunk.js.map": "/beauty-clinic-app/static/js/453.ddb957e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68022fdd.css",
+    "static/js/main.ad0ae193.js"
+  ]
+}
