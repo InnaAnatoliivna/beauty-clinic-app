@@ -2,7 +2,9 @@
 @import url("./css/font.css");
 
 :root {
-  --bc-header: #f0ecec;
+  --bc-header: #efefef;
+  --bc-hero: #d6cfc7;
+
   --color-black: #040404;
   --color-orange: #e6533c;
   --color-orange-one: #ef8964;
@@ -10,7 +12,7 @@
   --color-white: #efede8;
   --color-rad: #d80027;
 
-  --accent-color-grey: rgba(239, 237, 232, 0.3);
+  --accent-color-gray: rgba(239, 237, 232, 0.3);
   --accent-color-border: rgba(239, 237, 232, 0.2);
   --accent-color-user-ava: rgba(239, 237, 232, 0.1);
 
