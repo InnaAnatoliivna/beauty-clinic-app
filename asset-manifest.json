@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beauty-clinic-app/static/css/main.691d0e74.css",
-    "main.js": "/beauty-clinic-app/static/js/main.be11894d.js",
+    "main.js": "/beauty-clinic-app/static/js/main.27c7dc7d.js",
     "static/js/453.ddb957e3.chunk.js": "/beauty-clinic-app/static/js/453.ddb957e3.chunk.js",
     "static/media/Roboto-Medium.eot": "/beauty-clinic-app/static/media/Roboto-Medium.9bf33c160fe6d9bc342c.eot",
     "static/media/Roboto-Medium.ttf": "/beauty-clinic-app/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
@@ -19,11 +19,11 @@
     "static/media/hero-b-c-portret.jpg": "/beauty-clinic-app/static/media/hero-b-c-portret.fc58f257702a89757ffd.jpg",
     "index.html": "/beauty-clinic-app/index.html",
     "main.691d0e74.css.map": "/beauty-clinic-app/static/css/main.691d0e74.css.map",
-    "main.be11894d.js.map": "/beauty-clinic-app/static/js/main.be11894d.js.map",
+    "main.27c7dc7d.js.map": "/beauty-clinic-app/static/js/main.27c7dc7d.js.map",
     "453.ddb957e3.chunk.js.map": "/beauty-clinic-app/static/js/453.ddb957e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.691d0e74.css",
-    "static/js/main.be11894d.js"
+    "static/js/main.27c7dc7d.js"
   ]
 }
