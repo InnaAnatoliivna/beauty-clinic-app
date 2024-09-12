@@ -40,6 +40,10 @@ export const LinkStyled = styled(NavLink)`
 
 `;
 
+export const ButtonMenu = styled.button`
+    background-color: transparent;
+`
+
 //svg mobile menu
 
 export const MenuIconStyled = styled(TiThMenu)`

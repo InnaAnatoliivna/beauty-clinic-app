@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Container from '../Container/Container';
 import logo from '../../images/logo-b-c-1.jpg';
-import { Navigation, List, Wrapper, ListItem, LinkStyled, MenuIconStyled } from './Header.styled';
+import { Navigation, List, Wrapper, ListItem, LinkStyled, MenuIconStyled, ButtonMenu } from './Header.styled';
 // import SpaIcon from '@mui/icons-material/Spa';
 import { useMediaQuery } from 'react-responsive';
 import { useState } from 'react';
@@ -29,9 +29,9 @@ const Header = () => {
                     </Link>
 
                     {isMobile && (
-                        <button type='button' onClick={handleMobileMenu}>
+                        <ButtonMenu type='button' onClick={handleMobileMenu}>
                             <MenuIconStyled />
-                        </button>)
+                        </ButtonMenu>)
                     }
 
                     {isDesktopOrTablet && (<List>
