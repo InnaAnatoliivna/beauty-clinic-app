@@ -19,7 +19,7 @@ export const SectionWrapper = styled.div`
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            background-image: url(${imageHero});
+            background-image: url(${imgHeroMobile});
         }
 
     @media (min-width: 768px) {
