@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
 import Container from '../Container/Container';
 import logo from '../../images/logo-b-c-1.jpg';
-import { Navigation, List, Wrapper, ListItem, LinkStyled } from './Header.styled';
+import { Navigation, List, Wrapper, ListItem, LinkStyled, MenuIconStyled } from './Header.styled';
 // import SpaIcon from '@mui/icons-material/Spa';
 import { useMediaQuery } from 'react-responsive';
-import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from 'react';
 import MobileMenu from '../MobileMenu/MobileMenu';
 
@@ -31,29 +30,31 @@ const Header = () => {
 
                     {isMobile && (
                         <button type='button' onClick={handleMobileMenu}>
-                            <MenuIcon />
+                            <MenuIconStyled />
                         </button>)
                     }
 
                     {isDesktopOrTablet && (<List>
                         <ListItem>
-                            <LinkStyled to='/'>USłUGI</LinkStyled>
+                            <LinkStyled to='/services'>USłUGI</LinkStyled>
                         </ListItem>
                         <ListItem>
-                            <LinkStyled to='/'>CENNIK</LinkStyled>
+                            <LinkStyled to='/price'>CENNIK</LinkStyled>
                         </ListItem>
                         <ListItem>
-                            <LinkStyled to='/'>VOUCHER</LinkStyled>
+                            <LinkStyled to='/voucher'>VOUCHER</LinkStyled>
                         </ListItem>
                         <ListItem>
-                            <LinkStyled to='/'>ZESPÓL</LinkStyled>
+                            <LinkStyled to='/team'>ZESPÓL</LinkStyled>
                         </ListItem>
                         <ListItem>
-                            <LinkStyled to='/'>KONTAKT</LinkStyled>
+                            <LinkStyled to='/contact'>KONTAKT</LinkStyled>
                         </ListItem>
                     </List>)}
 
-                    {isOpenMenu && <MobileMenu onClose={isOpenMenu} />}
+                    {isOpenMenu && <MobileMenu
+                        showMenu={handleMobileMenu}
+                    />}
                 </Navigation>
 
             </Container>

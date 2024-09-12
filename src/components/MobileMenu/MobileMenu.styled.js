@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import styled from '@emotion/styled';
+import { TfiClose } from "react-icons/tfi";
 
 export const Overlay = styled.div`
   position: fixed;
@@ -94,7 +95,8 @@ export const Link = styled(NavLink)`
   line-height: 1.5;
   padding: 10px 27px;
   color: var(--color-black);
-  border: 1px solid var(--color-black);
+  border: 1px solid var(--color-main-text);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   border-radius: 12px;
 
   @media screen and (min-width: 768px) {
@@ -106,3 +108,10 @@ export const Link = styled(NavLink)`
     border: 1px solid var(--color-black);
   }
 `;
+
+// svg close button mob menu
+
+export const CloseIconStyled = styled(TfiClose)`
+  font-size: 38px;
+  fill: var(--color-main-text);
+`

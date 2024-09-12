@@ -1,14 +1,15 @@
 import { useEffect } from 'react';
 import {
     CloseButton,
+    CloseIconStyled,
     Link,
     MenuWrapper,
     NavList,
     Overlay,
 } from './MobileMenu.styled';
-import CloseIcon from '@mui/icons-material/Close';
+// import CloseIcon from '@mui/icons-material/Close';
 
-const MobileMenu = ({ onClose }) => {
+const MobileMenu = ({ showMenu }) => {
 
     useEffect(() => {
         window.addEventListener('keydown', handleKeyDown);
@@ -19,13 +20,13 @@ const MobileMenu = ({ onClose }) => {
 
     const handleKeyDown = (e) => {
         if (e.code === 'Escape') {
-            onClose();
+            showMenu();
         }
     };
 
     const handleClickBackdrop = (e) => {
         if (e.target === e.currentTarget) {
-            onClose();
+            showMenu();
         }
     };
 
@@ -35,33 +36,33 @@ const MobileMenu = ({ onClose }) => {
         <>
             <Overlay onClick={handleClickBackdrop}>
                 <MenuWrapper>
-                    <CloseButton onClick={onClose}>
-                        <CloseIcon />
+                    <CloseButton onClick={showMenu}>
+                        <CloseIconStyled />
                     </CloseButton>
                     <nav>
                         <NavList>
                             <li>
-                                <Link to="/" onClick={onClose}>
+                                <Link to="/services" onClick={showMenu}>
                                     USłUGI
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/" onClick={onClose}>
+                                <Link to="/price" onClick={showMenu}>
                                     CENNIK
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/" onClick={onClose}>
+                                <Link to="/voucher" onClick={showMenu}>
                                     VOUCHER
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/" onClick={onClose}>
+                                <Link to="/team" onClick={showMenu}>
                                     ZESPÓL
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/" onClick={onClose}>
+                                <Link to="/contact" onClick={showMenu}>
                                     KONTAKT
                                 </Link>
                             </li>
