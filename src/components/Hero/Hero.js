@@ -8,11 +8,23 @@ import Container from "../../components/Container/Container";
 import InfoCard from "../InfoCard/InfoCard";
 import ContentCard from "../ContentCard/ContentCard";
 import GoogleMapLink from "../GoogleMapLink/GoogleMapLink"
+import { useEffect, useState } from 'react';
+import ModalWindow from '../ModalWindow/ModalWindow';
 
 const Hero = () => {
+    const [isShowModal, setIsShowModal] = useState(false);
 
     const isDesktopOrTablet = useMediaQuery({ query: '(min-width: 768px)' });
     const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+
+    const handleButton = () => setIsShowModal(!isShowModal);
+
+    useEffect(() => {
+        window.addEventListener('keydown', handleButton);
+        return () => {
+            window.removeEventListener('keydown', handleButton);
+        };
+    });
 
     return (
         <Section>
@@ -35,6 +47,7 @@ const Hero = () => {
                                     76-200 SŁUPSK, MICKIEWICZA 59/1
                                 </GoogleMapLink>
                             </ContentCard>
+                            <ButtonStyled onClick={handleButton}>UMÓW</ButtonStyled>
                         </InfoCard>)}
                     {isMobile && (
                         <>
@@ -55,9 +68,10 @@ const Hero = () => {
                                     <MdPhoneIphone />
                                 </ContentCard>
                             </WrappMob>
-                            <ButtonStyled>Umów</ButtonStyled>
+                            <ButtonStyled onClick={handleButton}>UMÓW</ButtonStyled>
                         </>
                     )}
+                    {isShowModal && <ModalWindow toggleShowMenu={handleButton} />}
                 </Wrapper>
             </Container>
         </Section>

@@ -1,10 +1,10 @@
-import React from 'react'
-import { Wrapper } from './InfoCard.styled'
+import React from 'react';
+import { Wrapper } from './InfoCard.styled';
 
 const InfoCard = ({ children }) => {
     return (
         <Wrapper>{children}</Wrapper>
     )
-}
+};
 
-export default InfoCard
+export default InfoCard;

@@ -51,6 +51,38 @@ export const ButtonStyled = styled(StyledButton)`
     position: absolute;
     bottom: 150px;
     left: 30%;
+
+    @media (min-width: 768px) {
+        bottom: 50%;
+        left: -50%;
+        padding: 18px 40px;
+        color: var(--bc-hero);
+        border-color: var(--bc-hero);
+        background-color: var(--color-brown);
+
+        transition: color linear 500ms,
+            border-color linear 500ms,
+            background-color linear 500ms;
+
+    &:hover {
+        color: var(--color-brown);
+        border-color: var(--color-brown);
+        background-color: var(--bc-hero);
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1); 
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    animation: pulse 2s infinite;
+    }
 `
 
 export const Wrapper = styled.div`
@@ -90,4 +122,5 @@ export const Wrapper = styled.div`
         (min-width: 768px) and (min-resolution: 2dppx) {
             background-image: url(${imageHero});
     } */
-`
+`;
+
