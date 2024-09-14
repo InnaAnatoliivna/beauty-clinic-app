@@ -1,4 +1,5 @@
-import { Wrapper, Title } from "./Hero.styled";
+import { useMediaQuery } from 'react-responsive';
+import { Wrapper, Title, WrappMob, ButtonStyled } from "./Hero.styled";
 import { MdPhoneIphone } from "react-icons/md";
 import { PiChatsThin } from "react-icons/pi";
 import { IoLocationOutline } from "react-icons/io5";
@@ -10,27 +11,53 @@ import GoogleMapLink from "../GoogleMapLink/GoogleMapLink"
 
 const Hero = () => {
 
+    const isDesktopOrTablet = useMediaQuery({ query: '(min-width: 768px)' });
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+
     return (
         <Section>
             <Container>
                 <Wrapper>
-                    <InfoCard>
-                        <Title>ZADBAM O TW0JĄ <br /> SKÓRĘ I CIAŁO</Title>
-                        <ContentCard>
-                            <MdPhoneIphone />
-                            <a href="tel:+48607135955">607-135-955</a>
-                        </ContentCard>
-                        <ContentCard>
-                            <PiChatsThin />
-                            <a href="mailto:epilacjaslupsk@gmail.com">EPILACJASLUPSK@GMAIL.COM</a>
-                        </ContentCard>
-                        <ContentCard>
-                            <IoLocationOutline />
-                            <GoogleMapLink>
-                                76-200 SŁUPSK, MICKIEWICZA 59/1
-                            </GoogleMapLink>
-                        </ContentCard>
-                    </InfoCard>
+                    {isDesktopOrTablet && (
+                        <InfoCard>
+                            <Title>ZADBAM O TW0JĄ <br /> SKÓRĘ I CIAŁO</Title>
+                            <ContentCard>
+                                <MdPhoneIphone />
+                                <a href="tel:+48607135955">607-135-955</a>
+                            </ContentCard>
+                            <ContentCard>
+                                <PiChatsThin />
+                                <a href="mailto:epilacjaslupsk@gmail.com">EPILACJASLUPSK@GMAIL.COM</a>
+                            </ContentCard>
+                            <ContentCard>
+                                <IoLocationOutline />
+                                <GoogleMapLink>
+                                    76-200 SŁUPSK, MICKIEWICZA 59/1
+                                </GoogleMapLink>
+                            </ContentCard>
+                        </InfoCard>)}
+                    {isMobile && (
+                        <>
+                            <Title>ZADBAM O TW0JĄ <br /> SKÓRĘ I CIAŁO</Title>
+                            <WrappMob>
+                                <ContentCard>
+                                    <GoogleMapLink>
+                                        76-200 SŁUPSK, MICKIEWICZA 59/1
+                                    </GoogleMapLink>
+                                    <IoLocationOutline />
+                                </ContentCard>
+                                <ContentCard>
+                                    <a href="mailto:epilacjaslupsk@gmail.com">EPILACJASLUPSK@GMAIL.COM</a>
+                                    <PiChatsThin />
+                                </ContentCard>
+                                <ContentCard>
+                                    <a href="tel:+48607135955">607-135-955</a>
+                                    <MdPhoneIphone />
+                                </ContentCard>
+                            </WrappMob>
+                            <ButtonStyled>Umów</ButtonStyled>
+                        </>
+                    )}
                 </Wrapper>
             </Container>
         </Section>

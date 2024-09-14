@@ -7,7 +7,6 @@ import {
     NavList,
     Overlay,
 } from './MobileMenu.styled';
-// import CloseIcon from '@mui/icons-material/Close';
 
 const MobileMenu = ({ showMenu }) => {
 
@@ -29,7 +28,6 @@ const MobileMenu = ({ showMenu }) => {
             showMenu();
         }
     };
-
 
 
     return (

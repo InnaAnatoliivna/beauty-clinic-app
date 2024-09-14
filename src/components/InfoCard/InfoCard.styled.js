@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
     box-shadow: var(--shadow-cards-second);
     color: var(--color-main-text);
     text-align: center;
-    font-size: 12px;
+    /* font-size: 12px; */
 
     display: flex;
     flex-direction: column;
@@ -20,14 +20,7 @@ export const Wrapper = styled.div`
     top: 55px;
     left: 100%;
 
-    h1{
-        /* text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-                width: 100%;
-        text-align: center;
-        margin: 0;  */
-            }
+    /* @media (min-width: 768px) {
+        font-size: 8px;
+    } */
 `;

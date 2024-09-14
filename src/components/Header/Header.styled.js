@@ -1,11 +1,10 @@
 import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
-// import MenuIcon from '@mui/icons-material/Menu';
-import { TiThMenu } from "react-icons/ti";
+import { CiMenuBurger } from "react-icons/ci";
 
 export const Wrapper = styled.div`
     background-color: var(--bc-header);
-    width: 100%;
+    /* width: 100%; */
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 `;
@@ -46,7 +45,7 @@ export const ButtonMenu = styled.button`
 
 //svg mobile menu
 
-export const MenuIconStyled = styled(TiThMenu)`
+export const MenuIconStyled = styled(CiMenuBurger)`
     font-size: 50px;
     fill: var(--color-main-text);
 `;

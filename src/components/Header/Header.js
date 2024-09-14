@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import Container from '../Container/Container';
 import logo from '../../images/logo-b-c-1.jpg';
 import { Navigation, List, Wrapper, ListItem, LinkStyled, MenuIconStyled, ButtonMenu } from './Header.styled';
-// import SpaIcon from '@mui/icons-material/Spa';
 import { useMediaQuery } from 'react-responsive';
 import { useState } from 'react';
 import MobileMenu from '../MobileMenu/MobileMenu';

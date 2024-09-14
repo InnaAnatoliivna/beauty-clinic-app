@@ -1,12 +1,23 @@
 import styled from '@emotion/styled';
 import imageHero from '../../images/hero-b-c.jpg';
 import imgHeroMobile from '../../images/hero-b-c-portret.jpg';
+import { StyledButton } from '../Button/Button.styled';
 
 
 export const Title = styled.h1`
-
+    font-size: 16px;
+    color: var(--color-main-text);
     position: relative;
+    padding-bottom: 30px;
+
+    @media(max-width: 767px)  {
+        padding-top: 20px;
+        text-align: center;
+    }
+    @media (min-width: 768px) {
+        font-size: 24px;
     padding-bottom: 50px;
+    }
 
     &::after {
         content: '';
@@ -20,7 +31,26 @@ export const Title = styled.h1`
         position: absolute;
         top: 72px;
         left: 0;
+        @media(max-width: 767px)  {
+            top: 65px;
+            left: 0;
+        }
     };
+`;
+
+export const WrappMob = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 16px;
+    position: relative;
+`;
+
+export const ButtonStyled = styled(StyledButton)`
+    position: absolute;
+    bottom: 150px;
+    left: 30%;
 `
 
 export const Wrapper = styled.div`
