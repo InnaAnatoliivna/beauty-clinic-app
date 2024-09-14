@@ -5,20 +5,27 @@
   --bc-header: #efefef;
   --bc-hero: #d6cfc7;
   --color-main-text: #6c6c6c;
+  --color-cards: #efebec;
+  --color-white: #ffffff;
+  --color-red: #d00f0e;
+  --color-dark: #242025;
+  --color-brown: #473737;
+  --color-test: #b17447;
 
   --color-black: #040404;
   --color-orange: #e6533c;
-  --color-orange-one: #ef8964;
-  --color-beige: #efa082;
-  --color-white: #efede8;
-  --color-rad: #d80027;
 
   --accent-color-gray: rgba(239, 237, 232, 0.3);
   --accent-color-border: rgba(239, 237, 232, 0.2);
   --accent-color-user-ava: rgba(239, 237, 232, 0.1);
 
-  --color-modal-window: rgba(04, 04, 04, 0.4);
-  --color-modal-btn-close: rgba(239, 237, 232, 1);
+  --shadow-cards: -16px 24px 52px -8px rgba(108, 108, 108, 0.75);
+  --shadow-cards-second: 2px 12px 40px -23px rgba(108, 108, 108, 0.75);
+  --shadow-card-inset: 7px -4px 24px -136px rgba(108, 108, 108, 0.75) inset;
+
+  --card-border-radius: 28px;
+
+  --transition-list: border linear 500ms;
 }
 
 h1,

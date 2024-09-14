@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
-display: block;
+/* display: block; */
+position: relative;
 `;
