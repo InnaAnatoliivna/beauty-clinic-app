@@ -16,6 +16,6 @@ export const SocialNetworks = [
     {
         name: 'Booksy',
         link: 'https://booksy.com/pl-pl/119440_epilacja-slupsk_depilacja_20103_slupsk',
-        icon: <img src={iconBooksy} alt="Booksy Icon" />,
+        icon: <img src={iconBooksy} alt="Booksy Icon" width={120} />,
     }
 ]

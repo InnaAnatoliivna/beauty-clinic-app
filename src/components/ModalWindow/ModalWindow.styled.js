@@ -38,4 +38,36 @@ export const ModalTitle = styled.h3`
     margin: 25px 0;
     transform: uppercase;
     letter-spacing: 1.1px;
-    `
+`;
+
+export const ModalContent = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease;
+    }
+
+    img {
+        transition: transform 0.3s ease; 
+
+    }
+    svg {
+        font-size: 40px;
+        color: var(--color-black);
+        transition: transform 0.3s ease; 
+    }
+
+    a:hover svg, a:focus svg {
+        transform: scale(1.1); 
+    }
+    a:hover img, a:focus img {
+        transform: scale(1.1); 
+    }
+`;

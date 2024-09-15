@@ -64,7 +64,7 @@ const Hero = () => {
                                     <PiChatsThin />
                                 </ContentCard>
                                 <ContentCard>
-                                    <a href="tel:+48607135955">607-135-955</a>
+                                    <a href="tel:{+48607135955}">607-135-955</a>
                                     <MdPhoneIphone />
                                 </ContentCard>
                             </WrappMob>
