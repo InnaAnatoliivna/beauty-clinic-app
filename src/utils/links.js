@@ -14,8 +14,8 @@ export const SocialNetworks = [
         icon: <FaFacebookSquare />,
     },
     {
-        name: 'Instagram',
-        link: 'https://www.facebook.com/epilacja.slupsk/',
+        name: 'Booksy',
+        link: 'https://booksy.com/pl-pl/119440_epilacja-slupsk_depilacja_20103_slupsk',
         icon: <img src={iconBooksy} alt="Booksy Icon" />,
     }
 ]
