@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
     gap: 6px;
     transition: var(--transition-list);
     border: 1.5px solid var(--color-main-text);
-
+    transition: var(--transition-list-second);
     a {
         height: 100%;
         width: 100%;
@@ -28,7 +28,8 @@ export const Wrapper = styled.div`
     }
 
     &:hover {
-        border-color: var(--color-dark);    
+        border-color: var(--color-dark);
+        transform: scale(1.03)    
     }
 
     @media (min-width: 768px) {

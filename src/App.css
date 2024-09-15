@@ -26,6 +26,7 @@
   --card-border-radius: 28px;
 
   --transition-list: border linear 500ms;
+  --transition-list-second: transform 0.5s ease;
 }
 
 h1,
