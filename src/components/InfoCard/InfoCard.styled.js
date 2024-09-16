@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
-    width: 358px;
+    width: 458px;
     height: 510px;
-    padding: 50px 26px;
+    padding: 50px 40px;
     background-color: var(--color-white);
     border-radius: var(--card-border-radius);
     box-shadow: var(--shadow-cards-second);
@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
 
     position: absolute;
     top: 55px;
-    left: 100%;
+    right: 0;
 
     /* @media (min-width: 768px) {
         font-size: 8px;

@@ -34,10 +34,10 @@ export const Wrapper = styled.div`
 
     @media (min-width: 768px) {
         width: 100%;
-        padding: 12px 18px;
+        padding: 18px 24px;
         background-color: var(--color-cards);
 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
 
         justify-content: start;

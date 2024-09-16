@@ -15,8 +15,8 @@ export const Title = styled.h1`
         text-align: center;
     }
     @media (min-width: 768px) {
-        font-size: 24px;
-    padding-bottom: 50px;
+        font-size: 26px;
+        padding-bottom: 50px;
     }
 
     &::after {
@@ -29,7 +29,7 @@ export const Title = styled.h1`
         border-radius: var(--card-border-radius);
 
         position: absolute;
-        top: 72px;
+        top: 78px;
         left: 0;
         @media(max-width: 767px)  {
             top: 65px;
@@ -40,7 +40,7 @@ export const Title = styled.h1`
 
 export const WrappMob = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: end;
     align-items: end;
     gap: 16px;
@@ -70,6 +70,13 @@ export const ButtonStyled = styled(StyledButton)`
         background-color: var(--bc-hero);
     }
 
+    @media screen and (min-width: 1440px) {
+        bottom: 50%;
+        left: -50%;
+        padding: 20px 36px;
+        font-size: 24px;
+    }
+
     @keyframes pulse {
         0% {
             transform: scale(1);
@@ -86,14 +93,18 @@ export const ButtonStyled = styled(StyledButton)`
 `
 
 export const Wrapper = styled.div`
-    width: 100%;
-    max-width: 420px;
-    height: 600px;
+    /* width: 100%;
+    max-width: 420px; */
+    height: 500px;
     background-image: url(${imgHeroMobile});
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 0 110%;
     position: relative;
+
+    @media screen and (min-width: 768px) {
+        height: 600px;
+    }
 
     /* @media (min-device-pixel-ratio: 2),
         (-webkit-min-device-pixel-ratio: 2),
