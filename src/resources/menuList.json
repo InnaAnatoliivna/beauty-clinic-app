@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ZABIEGI",
+    "link": "/services"
+  },
+  {
+    "name": "O NAS",
+    "link": "/about-us"
+  },
+  {
+    "name": "CENNIK",
+    "link": "/price"
+  },
+  {
+    "name": "PYTANIA I ODPOWIEDZI",
+    "link": "/faq"
+  },
+  {
+    "name": "KONTAKT",
+    "link": "/contact"
+  }
+]

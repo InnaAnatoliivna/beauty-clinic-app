@@ -26,7 +26,7 @@
   --card-border-radius: 28px;
 
   --transition-list: border linear 500ms;
-  --transition-list-second: transform 0.5s ease;
+  --transition-list-second: transform linear 500ms;
 }
 
 h1,
@@ -65,7 +65,6 @@ button {
   border: none;
 }
 body {
-  /* background-color: var(--color-black); */
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;

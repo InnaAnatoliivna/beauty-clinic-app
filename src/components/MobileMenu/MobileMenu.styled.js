@@ -20,11 +20,12 @@ export const MenuWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  gap: 18px;
   height: 100%;
   width: 100%;
-  padding: 20px;
-  background-color: var(--bc-hero);
+  padding: 60px 20px;
+  background-color: var(--bc-header);
   z-index: 2;
 
   div {
@@ -98,10 +99,6 @@ export const Link = styled(NavLink)`
   border: 1px solid var(--color-main-text);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   border-radius: 12px;
-
-  @media screen and (min-width: 768px) {
-    font-size: 16px;
-  }
 
   &:hover,
   :focus {

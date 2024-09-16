@@ -1,61 +1,58 @@
-import { Link } from 'react-router-dom';
 import Container from '../Container/Container';
-import logo from '../../images/logo-b-c-1.jpg';
-import { Navigation, List, Wrapper, ListItem, LinkStyled, MenuIconStyled, ButtonMenu } from './Header.styled';
+import { Navigation, List, Wrapper, MenuIconStyled, ButtonMenu } from './Header.styled';
 import { useMediaQuery } from 'react-responsive';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import MobileMenu from '../MobileMenu/MobileMenu';
+import MenuItems from '../MenuItems/MenuItems';
+import Logo from '../Logo/Logo';
 
 const Header = () => {
 
     const [isOpenMenu, setIsOpenMenu] = useState(false);
+    const [isSticky, setIsSticky] = useState(false);
 
     const isDesktopOrTablet = useMediaQuery({ query: '(min-width: 768px)' });
     const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
 
     const handleMobileMenu = () => setIsOpenMenu(!isOpenMenu);
 
+    // sticky header-------------------------->>>
+    const handleScroll = () => {
+        if (window.scrollY > 0) {
+            setIsSticky(true);
+        } else {
+            setIsSticky(false);
+        }
+    };
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+    // <<<-----------------------------------
+
     return (
-        <Wrapper>
+        <Wrapper isSticky={isSticky}>
             <Container>
                 <Navigation>
-                    <Link to='/'>
-                        <img
-                            src={logo}
-                            alt='ŻELAZNOWSKA - beauty clinic'
-                            width='300'
-                        />
-                    </Link>
-
+                    <Logo />
                     {isMobile && (
                         <ButtonMenu type='button' onClick={handleMobileMenu}>
                             <MenuIconStyled />
                         </ButtonMenu>)
                     }
 
-                    {isDesktopOrTablet && (<List>
-                        <ListItem>
-                            <LinkStyled to='/services'>USłUGI</LinkStyled>
-                        </ListItem>
-                        <ListItem>
-                            <LinkStyled to='/price'>CENNIK</LinkStyled>
-                        </ListItem>
-                        <ListItem>
-                            <LinkStyled to='/voucher'>VOUCHER</LinkStyled>
-                        </ListItem>
-                        <ListItem>
-                            <LinkStyled to='/team'>ZESPÓL</LinkStyled>
-                        </ListItem>
-                        <ListItem>
-                            <LinkStyled to='/contact'>KONTAKT</LinkStyled>
-                        </ListItem>
-                    </List>)}
+                    {isDesktopOrTablet && (
+                        <List>
+                            <MenuItems isMobile={false} />
+                        </List>)}
 
-                    {isOpenMenu && <MobileMenu
-                        showMenu={handleMobileMenu}
-                    />}
+                    {isOpenMenu &&
+                        (<MobileMenu showMenu={handleMobileMenu}>
+                            <MenuItems isMobile={true} onLinkClick={handleMobileMenu} />
+                        </MobileMenu>)}
                 </Navigation>
-
             </Container>
         </Wrapper>
     )

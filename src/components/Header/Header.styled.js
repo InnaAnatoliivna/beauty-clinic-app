@@ -1,42 +1,33 @@
 import styled from '@emotion/styled';
-import { NavLink } from 'react-router-dom';
 import { CiMenuBurger } from "react-icons/ci";
 
 export const Wrapper = styled.div`
-    background-color: var(--bc-header);
-    /* width: 100%; */
+    width: 100vw;
+    background-color: ${({ isSticky }) => (isSticky ? '#efefef9a' : 'var(--bc-header)')};
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    /* --for sticky-->>> */
+    z-index: 1000;
+    transition: background-color linear 0.3s, box-shadow linear 0.3s;
+    position: ${({ isSticky }) => (isSticky ? 'fixed' : 'relative')};
 `;
 
 export const Navigation = styled.nav`
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    gap: 38px;
+    justify-content: space-between;
 `;
 
 export const List = styled.ul`
+    width: 100%;
+    max-width: 740px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 38px;
-`;
+    justify-content: space-around;
 
-export const ListItem = styled.li`
-    /* height: 100%; */
-`;
-
-export const LinkStyled = styled(NavLink)`
-    height: 100%;
-    padding: 35px 0; 
-
-    color: var(--color-main-text);
-
-    &.active {
-        color: orange;
+    @media screen and (min-width: 768px) {
+        gap:18px;
     }
-
 `;
 
 export const ButtonMenu = styled.button`

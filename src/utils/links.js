@@ -1,8 +1,8 @@
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebookSquare } from "react-icons/fa";
-import iconBooksy from '../images/BooksyIcon.png'
+import iconBooksy from '../images/BooksyIcon.png';
 
-export const SocialNetworks = [
+export const socialNetworks = [
     {
         name: 'Instagram',
         link: 'https://www.instagram.com/epilacja.slupsk/',
@@ -18,4 +18,4 @@ export const SocialNetworks = [
         link: 'https://booksy.com/pl-pl/119440_epilacja-slupsk_depilacja_20103_slupsk',
         icon: <img src={iconBooksy} alt="Booksy Icon" width={120} />,
     }
-]
+];
