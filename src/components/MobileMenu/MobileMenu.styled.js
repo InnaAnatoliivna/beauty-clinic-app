@@ -67,7 +67,7 @@ export const MenuWrapper = styled.div`
   justify-content: space-between;
   height: 100vh;
   width: 100vw;
-  padding: 60px 20px;
+  padding: 20px 20px;
   background-color: var(--bc-header);
   z-index: 2;
   overflow: hidden;
