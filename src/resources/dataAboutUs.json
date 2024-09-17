@@ -1,28 +1,26 @@
-[
-  {
-    "title": "O NAS",
-    "info": "Klinika kosmetologii powstała z miłości do ludzi i piękna. Stale się rozwijamy i poszerzamy ofertę kliniki o zabiegi HI-TECH. Wykorzystujemy najnowocześniejsze rozwiązania technologiczne i urządzenia, dzięki którym możemy uzyskać efekty spełniające Wasze oczekiwania. Z nami:",
-    "descriptions": [
-      { "name": "* trwale usuniesz zbędne owłosienie" },
-      {
-        "name": "* zapomnisz o wszystkich obawach związanych z bolesnością zabiegów epilacji laserowej"
-      },
-      { "name": "* zyskasz czas, który poświęcałaś na golenie, depilację" },
-      { "name": "* zmniejszysz zmarszczki" },
-      { "name": "* zadbasz o swoją skórę" },
-      { "name": "* ujędrnisz swoje ciało" },
-      { "name": "* wyszczuplisz swoją sylwetkę" },
-      { "name": "* zredukujesz cellulit" }
-    ],
-    "employee": [
-      {
-        "name": "Alicja Łyszyk-Żelaznowska",
-        "photo": ""
-      },
-      {
-        "name": "Julia Baumann",
-        "photo": ""
-      }
-    ]
-  }
-]
+{
+  "title": "O NAS",
+  "info": "Klinika kosmetologii powstała z miłości do ludzi i piękna. Stale się rozwijamy i poszerzamy ofertę kliniki o zabiegi HI-TECH. Wykorzystujemy najnowocześniejsze rozwiązania technologiczne i urządzenia, dzięki którym możemy uzyskać efekty spełniające Wasze oczekiwania. Z nami:",
+  "descriptions": [
+    {
+      "name": "zapomnisz o wszystkich obawach związanych z bolesnością zabiegów epilacji laserowej"
+    },
+    { "name": "trwale usuniesz zbędne owłosienie" },
+    { "name": "zyskasz czas, który poświęcałaś na golenie, depilację" },
+    { "name": "zmniejszysz zmarszczki" },
+    { "name": "zadbasz o swoją skórę" },
+    { "name": "ujędrnisz swoje ciało" },
+    { "name": "wyszczuplisz swoją sylwetkę" },
+    { "name": "zredukujesz cellulit" }
+  ],
+  "employee": [
+    {
+      "name": "Alicja Łyszyk-Żelaznowska",
+      "photo": ""
+    },
+    {
+      "name": "Julia Baumann",
+      "photo": ""
+    }
+  ]
+}

@@ -28,6 +28,7 @@ export const Title = styled.h1`
         background-color: var(--color-main-text);
         box-shadow: var(--shadow-cards-second);
         border-radius: var(--card-border-radius);
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
         position: absolute;
         top: 78px;
@@ -94,13 +95,12 @@ export const ButtonStyled = styled(StyledButton)`
 `
 
 export const Wrapper = styled.div`
-    height: 600px;
+    height: 700px;
     background-image: url(${imgHeroMobile});
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0 110%;
     position: relative;
-
     @media screen and (min-width: 1440px) {
         height: 600px;
     background-image: url(${imageHero});

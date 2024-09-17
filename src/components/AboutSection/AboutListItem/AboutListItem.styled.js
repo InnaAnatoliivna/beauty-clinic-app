@@ -1,0 +1,26 @@
+import styled from '@emotion/styled';
+
+export const Item = styled.li`
+    color: var(--color-brown);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    svg {
+        color: var(--color-red);
+        font-size: 24px;
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+            line-height: 1.2;
+        }    
+    }
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+`
+
