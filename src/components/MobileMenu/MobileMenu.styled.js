@@ -12,6 +12,7 @@ export const Overlay = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 1200;
+  overflow: hidden;
 `;
 
 export const WrappMenu = styled.div`
@@ -69,6 +70,7 @@ export const MenuWrapper = styled.div`
   padding: 60px 20px;
   background-color: var(--bc-header);
   z-index: 2;
+  overflow: hidden;
 
   div {
     display: flex;
