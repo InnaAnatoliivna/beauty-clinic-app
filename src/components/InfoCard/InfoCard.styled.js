@@ -19,11 +19,12 @@ export const Wrapper = styled.div`
     gap: 40px;
 
     position: absolute;
-    top: 55px;
+    top: 32px;
     right: 0;
 
     @media (max-width: 1439px) {
         max-width: 328px;
         padding: 40px 30px;
+        /* top: 32px; */
     }
 `;

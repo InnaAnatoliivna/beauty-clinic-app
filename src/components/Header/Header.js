@@ -25,11 +25,13 @@ const Header = () => {
         }
     };
     useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+        if (isDesktopOrTablet) {
+            window.addEventListener('scroll', handleScroll);
+            return () => {
+                window.removeEventListener('scroll', handleScroll);
+            };
+        } else { return }
+    }, [isDesktopOrTablet]);
     // <<<-----------------------------------
 
     return (

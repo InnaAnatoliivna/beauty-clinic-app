@@ -1,9 +1,7 @@
 import styled from '@emotion/styled';
 import imageHero from '../../images/photo-desktop.jpg';
 import imgHeroMobile from '../../images/photo-mob.jpg';
-// import imgBC from '../../images/276230497_149097284242841_4479337240596802514_n.jpg'
 import { StyledButton } from '../Button/Button.styled';
-
 
 export const Title = styled.h1`
     font-size: 16px;
@@ -92,18 +90,27 @@ export const ButtonStyled = styled(StyledButton)`
     }
     animation: pulse 2s infinite;
     }
+
+    @media screen and (min-width: 768px) and (max-width: 1439px) {
+        bottom: -100px;
+        left: 26%;
+    }
 `
 
 export const Wrapper = styled.div`
-    height: 700px;
+    height: 580px;
     background-image: url(${imgHeroMobile});
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0 110%;
     position: relative;
+
+    @media screen and (min-width: 768px) {
+        height: 700px;
+    }
+
     @media screen and (min-width: 1440px) {
-        height: 600px;
-    background-image: url(${imageHero});
+        background-image: url(${imageHero});
     }
 `;
 
