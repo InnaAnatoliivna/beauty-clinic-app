@@ -96,14 +96,6 @@
     "author": "Anna G"
   },
   {
-    "service": "",
-    "employee": "Alicja Łyszyk-Żelaznowska",
-    "commentary": "",
-    "score": "5",
-    "date": "",
-    "author": ""
-  },
-  {
     "service": "Epilacja wąsik",
     "employee": "Alicja Łyszyk-Żelaznowska",
     "commentary": "Pełen profesjonalizm przemiła atmosfera ogromna wiedza pani Alicji. Polecam z całego serca 💙",
@@ -160,11 +152,139 @@
     "author": "Marta R"
   },
   {
-    "service": "",
+    "service": "Endermologia LPG",
     "employee": "Alicja Łyszyk-Żelaznowska",
-    "commentary": "",
+    "commentary": "Epilacja bezbolesna, endermologia super przyjemna, wszystko na najwyższym poziomie. Profesjonalne doradztwo :)",
     "score": "5",
-    "date": ", 2024",
-    "author": ""
+    "date": "Mar 19, 2024",
+    "author": "Beata G"
+  },
+  {
+    "service": "Epilacja bikini głębokie",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Zabieg depilacji miło i bezboleśnie. Polecam ❤️",
+    "score": "5",
+    "date": "Mar 5, 2024",
+    "author": "Alicja S"
+  },
+  {
+    "service": "Epilacja bikini głębokie",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Wspaniałe podejście Pani Alicji! Klient zostaje poinformowany o wszystkich etapach zabiegu z chirurgiczną dokładnością. Życzliwość Pani Alicji buduje atmosferę lużną i ciepłą co sprzyja pozytywnej aurze zabiegów. Polecam gorąco :)",
+    "score": "5",
+    "date": "Lut 28, 2024",
+    "author": "Zuzanna B"
+  },
+  {
+    "service": "Epilacja bikini głębokie",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Dobra atmosfera, czysto i przyjemnie. Gabinet bardzo profesjonalny!",
+    "score": "5",
+    "date": "Lut 28, 2024",
+    "author": "Emanuela W"
+  },
+  {
+    "service": "Endermologia LPG",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Bardzo polecam. Przyjemna atmosfera, piękny gabinet. Świetne miejsce, żeby się zrelaksować.",
+    "score": "5",
+    "date": "Lut 27, 2024",
+    "author": "Joanna S"
+  },
+  {
+    "service": "Epilacja bikini głębokie, Epilacja pachy",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Piękna nowoczesna klinika oraz przesympatyczny Pani kosmetolog. Zabieg epilacji przebiegł bez boleśnie. Polecam 🌟❤️❤️🌟",
+    "score": "5",
+    "date": "Lut 22, 2024",
+    "author": "Paula S"
+  },
+  {
+    "service": "Oczyszczanie wodorowe + maską PCA",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Bardzo fachowa i profesjonalna usługa! Miła atmosfera pozwalająca na pełen relaks! Szczerze polecam :)",
+    "score": "5",
+    "date": "Lut 19, 2024",
+    "author": "Izabela M"
+  },
+  {
+    "service": "Epilacja bikini głębokie",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Miło i profesjonalnie!",
+    "score": "5",
+    "date": "Lut 9, 2024",
+    "author": "Magdalena W"
+  },
+  {
+    "service": "Epilacja bikini głębokie, Epilacja pachy",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Najlepsza w Słupsku, bardzo polecam 🔥",
+    "score": "5",
+    "date": "Sty 19, 2024",
+    "author": "Violetta P"
+  },
+  {
+    "service": "Epilacja bikini głębokie",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Pani Kosmetolog przecudowna kobieta, wszystko wytlumaczyła, atmosfera bez żadnych krępacji. Robilam epilacje bikini glębokie laser motus - sztos! Bezbolesnie i przyjemnie, gorąco polecam ❤️",
+    "score": "5",
+    "date": "Gru 14, 2023",
+    "author": "Kat S"
+  },
+  {
+    "service": "10 zabiegów Endermologia 3 obszary",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Pełen profesjonalism 👍 przemiła atmosfera🙂polecam z całego ❤️",
+    "score": "5",
+    "date": "Lis 23, 2023",
+    "author": "Katarzyna T"
+  },
+  {
+    "service": "Epilacja pachy",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Polecam z całego ❤️",
+    "score": "5",
+    "date": "Kwi 1, 2023",
+    "author": "Klaudia K"
+  },
+  {
+    "service": "Epilacja pachy",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Prawdziwy profesjonalism i to z najwyższej półki. Obsługa na wysokim poziomie, z indywidualnym podejściem. Bardzo polecam",
+    "score": "5",
+    "date": "Mar 31, 2023",
+    "author": "Anna K"
+  },
+  {
+    "service": "Epilacja wąsik",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Cudowna atmosfera ❤️",
+    "score": "5",
+    "date": "Mar 11, 2023",
+    "author": "Aleksandra W"
+  },
+  {
+    "service": "STORZ Fala uderzeniowa UDA przód",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Wszystko dokładnie wytłumaczone, zabiegi wykonane z najwyższą starannością. Pani Alicja profesjonalna i przy okazji przemiła. Szczerze polecam :)",
+    "score": "5",
+    "date": "Sty 31, 2023",
+    "author": "Agnieszka P"
+  },
+  {
+    "service": "Epilacja wąsik",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Nie spodziewałam się tak szybkich efektów po depilacji laserowej. Dokładnie, bezboleśnie, w gabinecie zawsze sterylnie. Usługa na najwyższym poziomie, bardzo polecam panią Alicję.",
+    "score": "5",
+    "date": "Sty 3, 2022",
+    "author": "Marta K"
+  },
+  {
+    "service": "Epilacja pachy",
+    "employee": "Alicja Łyszyk-Żelaznowska",
+    "commentary": "Po depilacji woskiem usuwanie włosów laserem to zupełnie inna bajka. Krótko: profesjonalnie i faktycznie bezboleśnie :-)",
+    "score": "5",
+    "date": "Sty 2, 2022",
+    "author": "Mateusz K"
   }
 ]

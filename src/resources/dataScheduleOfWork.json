@@ -1,0 +1,30 @@
+[
+  {
+    "day": "Poniedziałek",
+    "time": "08:15 - 16:30"
+  },
+  {
+    "day": "Wtorek",
+    "time": "09:30 - 18:00"
+  },
+  {
+    "day": "Środa",
+    "time": "08:15 - 16:30"
+  },
+  {
+    "day": "Czwartek",
+    "time": "09:30 - 18:00"
+  },
+  {
+    "day": "Piątek",
+    "time": "08:15 - 16:30"
+  },
+  {
+    "day": "Sobota",
+    "time": "Zamknięte"
+  },
+  {
+    "day": "Niedziela",
+    "time": "Zamknięte"
+  }
+]
