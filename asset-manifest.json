@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beauty-clinic-app/static/css/main.7fb65016.css",
-    "main.js": "/beauty-clinic-app/static/js/main.e9634e8f.js",
+    "main.js": "/beauty-clinic-app/static/js/main.be24ddad.js",
     "static/js/453.ddb957e3.chunk.js": "/beauty-clinic-app/static/js/453.ddb957e3.chunk.js",
     "static/media/Roboto-Medium.eot": "/beauty-clinic-app/static/media/Roboto-Medium.9bf33c160fe6d9bc342c.eot",
     "static/media/Roboto-Medium.ttf": "/beauty-clinic-app/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
@@ -16,15 +16,17 @@
     "static/media/Roboto-Bold.woff2": "/beauty-clinic-app/static/media/Roboto-Bold.002079d85a6f27587d17.woff2",
     "static/media/Roboto-Regular.woff2": "/beauty-clinic-app/static/media/Roboto-Regular.9429985be4f46ec8fcfc.woff2",
     "static/media/photo-mob.jpg": "/beauty-clinic-app/static/media/photo-mob.4b346244993c0d9c6524.jpg",
+    "static/media/about-mob.jpg": "/beauty-clinic-app/static/media/about-mob.38fbe4d58e0973d23a21.jpg",
     "static/media/photo-desktop.jpg": "/beauty-clinic-app/static/media/photo-desktop.f8eb5efc68cbf4fdbe6c.jpg",
+    "static/media/about.jpg": "/beauty-clinic-app/static/media/about.0c9855f8bb2f32c49de6.jpg",
     "static/media/BooksyIcon.png": "/beauty-clinic-app/static/media/BooksyIcon.b7f812d889192d19fc52.png",
     "index.html": "/beauty-clinic-app/index.html",
     "main.7fb65016.css.map": "/beauty-clinic-app/static/css/main.7fb65016.css.map",
-    "main.e9634e8f.js.map": "/beauty-clinic-app/static/js/main.e9634e8f.js.map",
+    "main.be24ddad.js.map": "/beauty-clinic-app/static/js/main.be24ddad.js.map",
     "453.ddb957e3.chunk.js.map": "/beauty-clinic-app/static/js/453.ddb957e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7fb65016.css",
-    "static/js/main.e9634e8f.js"
+    "static/js/main.be24ddad.js"
   ]
 }
