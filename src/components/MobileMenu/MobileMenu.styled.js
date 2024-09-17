@@ -3,16 +3,17 @@ import styled from '@emotion/styled';
 import { TfiClose } from "react-icons/tfi";
 
 export const Overlay = styled.div`
+  overflow: auto;
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
+  overflow-y: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1200;
-  overflow: hidden;
 `;
 
 export const WrappMenu = styled.div`
@@ -59,14 +60,14 @@ color: var(--color-main-text);
 `;
 
 export const MenuWrapper = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   padding: 20px 20px;
   background-color: var(--bc-header);
   z-index: 2;
