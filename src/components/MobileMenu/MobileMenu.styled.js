@@ -55,7 +55,7 @@ color: var(--color-main-text);
         top: 30px;
         right: -72px;
     };
-`
+`;
 
 export const MenuWrapper = styled.div`
   position: absolute;
@@ -64,8 +64,8 @@ export const MenuWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   padding: 60px 20px;
   background-color: var(--bc-header);
   z-index: 2;
