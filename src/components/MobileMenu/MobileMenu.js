@@ -5,8 +5,12 @@ import {
     MenuWrapper,
     NavList,
     Overlay,
+    Text,
+    WrappLinks,
+    WrappMenu,
 } from './MobileMenu.styled';
 import Logo from '../Logo/Logo';
+import NetworksList from '../NetworksList/NetworksList';
 
 const MobileMenu = ({ showMenu, children }) => {
 
@@ -26,17 +30,22 @@ const MobileMenu = ({ showMenu, children }) => {
     return (
         <>
             <Overlay onClick={() => showMenu()}>
-
                 <MenuWrapper>
-                    <Logo onClick={handleKeyDown} />
-                    <CloseButton onClick={showMenu}>
-                        <CloseIconStyled />
-                    </CloseButton>
-                    <nav>
-                        <NavList>
-                            {children}
-                        </NavList>
-                    </nav>
+                    <WrappMenu>
+                        <Logo onClick={handleKeyDown} />
+                        <CloseButton onClick={showMenu}>
+                            <CloseIconStyled />
+                        </CloseButton>
+                        <nav>
+                            <NavList>
+                                {children}
+                            </NavList>
+                        </nav>
+                    </WrappMenu>
+                    <WrappLinks>
+                        <Text>UMÓW SIĘ</Text>
+                        <NetworksList />
+                    </WrappLinks>
                 </MenuWrapper>
             </Overlay>
         </>

@@ -1,6 +1,6 @@
 import { useMediaQuery } from 'react-responsive';
 import { Wrapper, Title, WrappMob, ButtonStyled } from "./Hero.styled";
-import Section from "../../components/Section/Section";
+// import Section from "../../components/Section/Section";
 import Container from "../../components/Container/Container";
 import InfoCard from "../InfoCard/InfoCard";
 import { useEffect, useState } from 'react';
@@ -32,28 +32,28 @@ const Hero = () => {
     }, [isShowModal]);
 
     return (
-        <Section>
-            <Container>
-                <Wrapper>
-                    {isDesktopOrTablet && (
-                        <InfoCard>
-                            <Title>ZADBAM O TW0JĄ <br /> SKÓRĘ I CIAŁO</Title>
+        // <Section>
+        <Container>
+            <Wrapper>
+                {isDesktopOrTablet && (
+                    <InfoCard>
+                        <Title>ZADBAM O TW0JĄ <br /> SKÓRĘ I CIAŁO</Title>
+                        <ContactList />
+                        <ButtonStyled onClick={handleButton}>UMÓW SIĘ</ButtonStyled>
+                    </InfoCard>)}
+                {isMobile && (
+                    <>
+                        <Title>ZADBAM O TW0JĄ <br /> SKÓRĘ I CIAŁO</Title>
+                        <WrappMob>
                             <ContactList />
-                            <ButtonStyled onClick={handleButton}>UMÓW SIĘ</ButtonStyled>
-                        </InfoCard>)}
-                    {isMobile && (
-                        <>
-                            <Title>ZADBAM O TW0JĄ <br /> SKÓRĘ I CIAŁO</Title>
-                            <WrappMob>
-                                <ContactList />
-                            </WrappMob>
-                            <ButtonStyled onClick={handleButton}>UMÓW SIĘ</ButtonStyled>
-                        </>
-                    )}
-                    {isShowModal && <ModalWindow toggleShowMenu={handleButton} />}
-                </Wrapper>
-            </Container>
-        </Section>
+                        </WrappMob>
+                        <ButtonStyled onClick={handleButton}>UMÓW SIĘ</ButtonStyled>
+                    </>
+                )}
+                {isShowModal && <ModalWindow toggleShowMenu={handleButton} />}
+            </Wrapper>
+        </Container>
+        // </Section>
     )
 };
 

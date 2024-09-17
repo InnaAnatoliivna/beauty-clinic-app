@@ -14,14 +14,56 @@ export const Overlay = styled.div`
   z-index: 1200;
 `;
 
+export const WrappMenu = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+`;
+
+export const WrappLinks = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+
+  position: relative;
+  svg {
+    font-size: 30px;
+    color: var(--color-black);
+  }
+`;
+
+export const Text = styled.p`
+position: absolute;
+top: -48px;
+
+font-size: 15px;
+color: var(--color-main-text);
+
+&::after {
+        content: '';
+        display: block;
+        width: 220px;
+        height: 1.5px;
+        background-color: var(--color-main-text);
+        box-shadow: var(--shadow-cards-second);
+        border-radius: var(--card-border-radius);
+
+        position: absolute;
+        top: 30px;
+        right: -72px;
+    };
+`
+
 export const MenuWrapper = styled.div`
   position: absolute;
   top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
-  gap: 18px;
+  justify-content: space-between;
   height: 100%;
   width: 100%;
   padding: 60px 20px;
@@ -29,9 +71,6 @@ export const MenuWrapper = styled.div`
   z-index: 2;
 
   div {
-    position: absolute;
-    bottom: 26px;
-    left: 35px;
     display: flex;
     width: 100%;
     svg {
@@ -39,7 +78,6 @@ export const MenuWrapper = styled.div`
     }
   }
   @media screen and (min-width: 768px) {
-    /* width: 350px; */
     padding: 26px 32px 32px 32px;
   }
 

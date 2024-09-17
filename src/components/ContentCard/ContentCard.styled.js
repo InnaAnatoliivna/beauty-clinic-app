@@ -34,6 +34,12 @@ export const Wrapper = styled.div`
 
     @media (min-width: 768px) {
         width: 100%;
+        padding: 14px 20px;
+        
+        gap: 10px;    
+    }
+
+    @media (min-width: 1240px) {
         padding: 18px 24px;
         background-color: var(--color-cards);
 

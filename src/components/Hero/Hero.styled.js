@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
-import imageHero from '../../images/hero-b-c.jpg';
-import imgHeroMobile from '../../images/hero-b-c-portret.jpg';
+import imageHero from '../../images/photo-desktop.jpg';
+import imgHeroMobile from '../../images/photo-mob.jpg';
+// import imgBC from '../../images/276230497_149097284242841_4479337240596802514_n.jpg'
 import { StyledButton } from '../Button/Button.styled';
 
 
@@ -74,7 +75,7 @@ export const ButtonStyled = styled(StyledButton)`
         bottom: 50%;
         left: -50%;
         padding: 20px 36px;
-        font-size: 24px;
+        font-size: 18px;
     }
 
     @keyframes pulse {
@@ -93,45 +94,16 @@ export const ButtonStyled = styled(StyledButton)`
 `
 
 export const Wrapper = styled.div`
-    /* width: 100%;
-    max-width: 420px; */
-    height: 500px;
+    height: 600px;
     background-image: url(${imgHeroMobile});
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0 110%;
     position: relative;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1440px) {
         height: 600px;
+    background-image: url(${imageHero});
     }
-
-    /* @media (min-device-pixel-ratio: 2),
-        (-webkit-min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-            background-image: url(${imgHeroMobile});
-        }
-    //tablet-------------------------------->
-    @media (min-width: 768px) {
-        background-image:
-                    url(${imageHero});
-    }
-    @media (min-width: 768px) and (min-device-pixel-ratio: 2),
-        (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
-        (min-width: 768px) and (min-resolution: 192dpi),
-        (min-width: 768px) and (min-resolution: 2dppx) {
-            background-image: url(${imageHero});
-    }
-    //desktop-------------------------------->
-        @media (min-width: 1440px) {
-        background-image: url(${imageHero});
-    }
-    @media (min-width: 1440px) and (min-device-pixel-ratio: 2),
-        (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
-        (min-width: 768px) and (min-resolution: 192dpi),
-        (min-width: 768px) and (min-resolution: 2dppx) {
-            background-image: url(${imageHero});
-    } */
 `;
 
