@@ -29,6 +29,7 @@ export const WrappLinks = styled.div`
   align-items: center;
   justify-content: center;
   gap: 24px;
+  margin-top: 90px; 
 
   position: relative;
   svg {
@@ -65,13 +66,13 @@ export const MenuWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   height: 100vh;
   width: 100%;
   padding: 20px 20px;
   background-color: var(--bc-header);
   z-index: 2;
-  overflow: hidden;
+  overflow: auto;
 
   div {
     display: flex;
