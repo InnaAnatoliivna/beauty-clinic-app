@@ -5,8 +5,9 @@ export const TitleStyled = styled.h3`
 
     margin-bottom: 28px;
     text-align: center;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
     line-height: 1.3;
     color: var(--color-main-text);
 
@@ -38,10 +39,10 @@ export const TitleStyled = styled.h3`
                 animation: colorShift 3s infinite;
 
                 @media screen and (min-width: 768px) and (max-width: 1439px) {
-                    top: 110px;
+                    top: 140px;
                 }
                 @media screen and (min-width: 1440px) {
-                    top: 160px;
+                    top: 180px;
                 }
             };
         }

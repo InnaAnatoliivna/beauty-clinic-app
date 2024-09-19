@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 export const LinkStyled = styled(NavLink)`
     &.desktop {
         height: 100%;
-        padding: 48.5px 0; 
+        padding: 48px 0; 
         color: var(--color-main-text);
         font-size: 16px;
         line-height: normal;
@@ -17,7 +17,7 @@ export const LinkStyled = styled(NavLink)`
             border-bottom: 3px solid var(--color-main-text);
         }
         @media screen and (max-width: 1439px) {
-            padding: 30.5px 0;
+            padding: 30px 0;
         }
     }
 

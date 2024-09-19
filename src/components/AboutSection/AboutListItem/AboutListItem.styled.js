@@ -3,8 +3,9 @@ import styled from '@emotion/styled';
 export const Item = styled.li`
     color: var(--color-brown);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.2;
+    text-transform: uppercase;
 
     display: flex;
     align-items: center;
@@ -14,7 +15,7 @@ export const Item = styled.li`
         color: var(--color-red);
         font-size: 24px;
         @media screen and (min-width: 768px) {
-            font-size: 16px;
+            font-size: 26px;
             line-height: 1.2;
         }    
     }
@@ -23,4 +24,6 @@ export const Item = styled.li`
         line-height: 1.3;
     }
 `
+
+
 

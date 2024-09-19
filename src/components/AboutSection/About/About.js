@@ -2,7 +2,7 @@ import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 import Container from '../../Container/Container';
 import Section from '../../Section/Section';
-import { ContentWrapper, Wrapper, ButtonStyled } from './About.styled';
+import { ContentWrapper, Wrapper, ButtonStyled, Button } from './About.styled';
 import dataAboutUs from '../../../resources/dataAboutUs.json';
 
 import AboutList from './AboutList/AboutList';
@@ -26,7 +26,9 @@ const About = () => {
                         <AboutList>
                             <AboutListItem />
                         </AboutList>
-                        <ButtonStyled to="/about-us">Czytaj więcej ...</ButtonStyled>
+                        <Button>
+                            <ButtonStyled to="/about-us">Czytaj więcej ...</ButtonStyled>
+                        </Button>
                     </ContentWrapper>
                     {isDesktopOrTablet && (
                         <AboutImage />

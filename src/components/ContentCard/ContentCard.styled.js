@@ -7,7 +7,6 @@ export const Wrapper = styled.div`
     color: var(--color-main-text);
     font-size: 11px;
 
-
     display: flex;
     align-items: center;
     gap: 6px;

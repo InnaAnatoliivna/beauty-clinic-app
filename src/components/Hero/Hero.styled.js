@@ -56,7 +56,7 @@ export const ButtonStyled = styled(StyledButton)`
         bottom: 50%;
         left: -50%;
         padding: 18px 40px;
-        color: var(--bc-hero);
+        /* color: var(--bc-hero);
         border-color: var(--bc-hero);
         background-color: var(--color-brown);
 
@@ -64,31 +64,31 @@ export const ButtonStyled = styled(StyledButton)`
             border-color linear 500ms,
             background-color linear 500ms;
 
-    &:hover {
-        color: var(--color-brown);
-        border-color: var(--color-brown);
-        background-color: var(--bc-hero);
-    }
+        &:hover {
+            color: var(--color-brown);
+            border-color: var(--color-brown);
+            background-color: var(--bc-hero);
+        } */
 
-    @media screen and (min-width: 1440px) {
-        bottom: 50%;
-        left: -50%;
-        padding: 20px 36px;
-        font-size: 18px;
-    }
+        @media screen and (min-width: 1440px) {
+            bottom: 35%;
+            left: -50%;
+            padding: 20px 36px;
+            font-size: 18px;
+        }
 
-    @keyframes pulse {
-        0% {
-            transform: scale(1);
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1); 
+            }
+            100% {
+                transform: scale(1);
+            }
         }
-        50% {
-            transform: scale(1.1); 
-        }
-        100% {
-            transform: scale(1);
-        }
-    }
-    animation: pulse 2s infinite;
+        animation: pulse 2s infinite;
     }
 
     @media screen and (min-width: 768px) and (max-width: 1439px) {
