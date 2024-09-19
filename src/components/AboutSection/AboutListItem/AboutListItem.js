@@ -7,7 +7,7 @@ const AboutListItem = () => {
     return (
         <>
             {dataAboutUs.descriptions.map((item, index) => (
-                <Item key={index}><FaFire />{item.name}</Item>
+                <Item key={index}><FaFire /><p>{item.name}</p></Item>
             ))}
         </>
     )

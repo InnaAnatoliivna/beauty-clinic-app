@@ -2,10 +2,10 @@ import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
     padding: 20px 0;
-    overflow: hidden;
+    overflow-y: hidden;
 
     background-color: var(--bc-header);
-    border-top: 1px solid #e7e9fc;
+    /* border-top: 1px solid #e7e9fc; */
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 6px 1px rgba(46, 47, 66, 0.08);
 
     @media screen and (min-width: 768px) {
@@ -18,7 +18,7 @@ export const WrappFlex = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: start;
-    margin-bottom: 48px;
+    margin-bottom: 45px;
 
     svg {
         font-size: 20px;
