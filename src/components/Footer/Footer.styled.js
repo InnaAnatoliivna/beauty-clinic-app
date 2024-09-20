@@ -51,10 +51,10 @@ export const ContactInfo = styled.div`
 
     position: absolute;
     right: 0px;
-    top: 50px;
+    top: 30px;
 
     @media screen and (min-width: 768px) {
-        position: relative;
+        position: static;
         gap: 12px;
         align-items: flex-start;
     }
