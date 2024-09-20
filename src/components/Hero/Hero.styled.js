@@ -2,6 +2,16 @@ import styled from '@emotion/styled';
 import imageHero from '../../images/photo-desktop.jpg';
 import imgHeroMobile from '../../images/photo-mob.jpg';
 import { StyledButton } from '../Button/Button.styled';
+import circleImg from '../../images/b-c-img.jpg';
+
+export const Section = styled.div`
+    @media screen and (min-width: 768px) {
+        background-image: url(${circleImg});
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 100% 0%;
+    }
+`;
 
 export const Title = styled.h1`
     font-size: 16px;

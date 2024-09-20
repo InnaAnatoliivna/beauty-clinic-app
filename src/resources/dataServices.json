@@ -1,6 +1,254 @@
 [
   {
-    "name": "Endermologia",
-    "description": ""
+    "name": "Endermologia LPG",
+    "description": "",
+    "services": [
+      {
+        "name": "ENDERMOLOGIA masaż/drenaż 1 partii ciała",
+        "price": "120 zł",
+        "duration": "30 min",
+        "discount": ""
+      },
+      {
+        "name": "ENDERMOLIFTING twarzy masaz ani-aging",
+        "price": "130 zł",
+        "duration": "45 min",
+        "discount": ""
+      },
+      {
+        "name": "ENDERMOLOGIA masaż/drenaż dowolnie wybranych 3 partii ciata (Np. Brzuch, uda, posladki)",
+        "price": "170 zł",
+        "duration": "60 min",
+        "discount": ""
+      }
+    ]
+  },
+  {
+    "name": "Oczyszczanie wodorowe + maską PCA",
+    "description": "",
+    "services": [
+      {
+        "name": "Oczyszczanie wodorowe + maską PCA",
+        "price": "220 zł",
+        "duration": "60 min",
+        "discount": ""
+      }
+    ]
+  },
+  {
+    "name": "Epilacja laserowa",
+    "description": "",
+    "services": [
+      {
+        "name": "Epilacja bikini głębokie",
+        "price": "300 zł",
+        "duration": "35 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja bikini płytkie",
+        "price": "230 zł",
+        "duration": "30 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja broda",
+        "price": "150 zł",
+        "duration": "30 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja cała klatka piersiowa",
+        "price": "270 zł",
+        "duration": "40 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja całe nogi",
+        "price": "650 zł",
+        "duration": "85 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja cały brzuch",
+        "price": "290 zł",
+        "duration": "40 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja dłonie",
+        "price": "130 zł",
+        "duration": "25 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja kark",
+        "price": "200 zł",
+        "duration": "30 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja linia brzucha",
+        "price": "150 zł",
+        "duration": "30 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja łydki",
+        "price": "340 zł",
+        "duration": "30 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja męskie plecy",
+        "price": "320 zł",
+        "duration": "70 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja okolice brodawek",
+        "price": "120 zł",
+        "duration": "30 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja pachy",
+        "price": "150 zł",
+        "duration": "20 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja przedramiona",
+        "price": "250 zł",
+        "duration": "30 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja stopy",
+        "price": "130 zł",
+        "duration": "20 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja szpara pośladkowa",
+        "price": "150 zł",
+        "duration": "20 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja szyja",
+        "price": "200 zł",
+        "duration": "30 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja uda",
+        "price": "400 zł",
+        "duration": "50 min",
+        "discount": ""
+      },
+      {
+        "name": "Epilacja wąsik",
+        "price": "110 zł",
+        "duration": "30 min",
+        "discount": ""
+      }
+    ]
+  },
+  {
+    "name": "Mezoterapia mikroigłowa Nanofrax",
+    "description": "",
+    "services": [
+      {
+        "name": "Zabieg mezoterapii mikroigłowej obejmujący obszar twarzy",
+        "price": "320 zł",
+        "duration": "75 min",
+        "discount": ""
+      },
+      {
+        "name": "Zabieg mezoterapii mikroigłowej obejmujący Twarz, Szyje, Dekolt",
+        "price": "380 zł",
+        "duration": "85 min",
+        "discount": ""
+      }
+    ]
+  },
+  {
+    "name": "Mezoterapia igłowa",
+    "description": "",
+    "services": [
+      {
+        "name": "Oko - RRS",
+        "price": "250 zł",
+        "duration": "50 min",
+        "discount": ""
+      },
+      {
+        "name": "Twarz + Szyja + Dekolt - Filorga NCTF 135/Cytocare 532",
+        "price": "400 zł",
+        "duration": "90 min",
+        "discount": ""
+      }
+    ]
+  },
+  {
+    "name": "STORZ Fala uderzeniowa",
+    "description": "",
+    "services": [
+      {
+        "name": "STORZ Fala uderzeniowa BRZUCH",
+        "price": "300 zł",
+        "duration": "40 min",
+        "discount": ""
+      },
+      {
+        "name": "STORZ Fala uderzeniowa ŁYDKI tył",
+        "price": "200 zł",
+        "duration": "30 min",
+        "discount": ""
+      },
+      {
+        "name": "STORZ Fala uderzeniowa POŚLADKI",
+        "price": "250 zł",
+        "duration": "25 min",
+        "discount": ""
+      },
+      {
+        "name": "STORZ Fala uderzeniowa TWARZ",
+        "price": "200 zł",
+        "duration": "40 min",
+        "discount": ""
+      },
+      {
+        "name": "STORZ Fala uderzeniowa UDA przód/tył",
+        "price": "200 zł",
+        "duration": "30 min",
+        "discount": ""
+      }
+    ]
+  },
+  {
+    "name": "Inne",
+    "description": "",
+    "services": [
+      {
+        "name": "Konsultacja przedzabiegowa",
+        "price": "100 zł",
+        "duration": "20 min",
+        "discount": ""
+      },
+      {
+        "name": "Beauty plan",
+        "price": "300 zł",
+        "duration": "60 min",
+        "discount": ""
+      },
+      {
+        "name": "Podstawowa pielęgnacja twarzy + masaż",
+        "price": "200 zł",
+        "duration": "60 min",
+        "discount": ""
+      }
+    ]
   }
 ]

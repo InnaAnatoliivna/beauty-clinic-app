@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 
 export const ListStyled = styled.ul`
     margin-left: auto;
+    margin-bottom: 20px;
     list-style: none;
 
     > *:not(:last-child) {
