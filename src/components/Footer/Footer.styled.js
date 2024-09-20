@@ -19,7 +19,7 @@ export const WrappFlex = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: start;
-    margin-bottom: 45px;
+    /* margin-bottom: 45px; */
     overflow: hidden;
 
     svg {
@@ -46,14 +46,15 @@ export const ContactInfo = styled.div`
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
-    gap: 8px;
+    gap: 5px;
+    z-index: 100;
 
     position: absolute;
     right: 0px;
     top: 50px;
 
     @media screen and (min-width: 768px) {
-        position: static;
+        position: relative;
         gap: 12px;
         align-items: flex-start;
     }
@@ -62,7 +63,7 @@ export const ContactInfo = styled.div`
         font-size: 8px;
         color: var(--color-main-text);
         @media screen and (min-width: 768px) {
-            font-size: 12px;
+            font-size: 10px;
         }
         @media screen and (min-width: 1440px) {
             font-size: 14px;
@@ -72,6 +73,7 @@ export const ContactInfo = styled.div`
 
 export const TextStyled = styled.p`
     position: relative;
+    margin-top: 28px;
     font-size: 9px;
     text-align: end;
     color: var(--color-main-text);
@@ -87,7 +89,8 @@ export const TextStyled = styled.p`
     &::after {
         content: '';
         display: block;
-        width: 1440px;
+        width: 100%;
+        max-width: 1440px;
         height: 1px;
         background-color: var(--color-main-text);
         box-shadow: var(--shadow-cards-second);
@@ -96,10 +99,10 @@ export const TextStyled = styled.p`
 
         position: absolute;
         top: -20px;
-        left: -100px;
+        left: 0px;
         @media(max-width: 767px)  {
             top: -8px;
-            left: -100px;
+            left: 0px;
         }
     };
 `;
