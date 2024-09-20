@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const Wrapper = styled.div`
     width: 100%;
     padding: 20px 0;
-    overflow-y: hidden;
+    overflow: hidden;
 
     background-color: var(--bc-header);
     border-top: 1px solid #e7e9fc;
@@ -20,6 +20,7 @@ export const WrappFlex = styled.div`
     justify-content: space-between;
     align-items: start;
     margin-bottom: 45px;
+    overflow: hidden;
 
     svg {
         font-size: 20px;

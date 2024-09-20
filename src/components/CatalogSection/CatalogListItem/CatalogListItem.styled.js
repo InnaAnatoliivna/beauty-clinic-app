@@ -56,22 +56,25 @@ export const Box = styled.div`
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) );
     border-radius: 12px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-        &:hover p {
+    &:hover a {
         transform: scale(1.1);
     }
 
-    p {
+    a {
         transform: scale(1);
+
+        display: flex;
+        align-items: center;    
+        justify-content: center;
+        width: 100%;           
+        height: 100%;
 
         color: var(--bc-header);
         font-size: 14px;
         text-align: center;
 
-        transition: var(--transition-list-second);
+        transition: var(--transition-list-second, color linear 500ms);
+
 
         @media screen and (min-width: 768px) {
             font-size: 18px;
@@ -80,9 +83,9 @@ export const Box = styled.div`
         font-size: 24px;
         }
 
-
         &:hover {
-            transform: scale(1.1)
+            transform: scale(1.1);
+            color: #fff;
         }
     }
 `;
