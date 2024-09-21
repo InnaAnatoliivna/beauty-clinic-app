@@ -24,18 +24,6 @@
     ]
   },
   {
-    "name": "Oczyszczanie wodorowe + maską PCA",
-    "description": "",
-    "services": [
-      {
-        "name": "Oczyszczanie wodorowe + maską PCA",
-        "price": "220 zł",
-        "duration": "60 min",
-        "discount": ""
-      }
-    ]
-  },
-  {
     "name": "Epilacja laserowa",
     "description": "",
     "services": [
@@ -156,42 +144,6 @@
     ]
   },
   {
-    "name": "Mezoterapia mikroigłowa Nanofrax",
-    "description": "",
-    "services": [
-      {
-        "name": "Zabieg mezoterapii mikroigłowej obejmujący obszar twarzy",
-        "price": "320 zł",
-        "duration": "75 min",
-        "discount": ""
-      },
-      {
-        "name": "Zabieg mezoterapii mikroigłowej obejmujący Twarz, Szyje, Dekolt",
-        "price": "380 zł",
-        "duration": "85 min",
-        "discount": ""
-      }
-    ]
-  },
-  {
-    "name": "Mezoterapia igłowa",
-    "description": "",
-    "services": [
-      {
-        "name": "Oko - RRS",
-        "price": "250 zł",
-        "duration": "50 min",
-        "discount": ""
-      },
-      {
-        "name": "Twarz + Szyja + Dekolt - Filorga NCTF 135/Cytocare 532",
-        "price": "400 zł",
-        "duration": "90 min",
-        "discount": ""
-      }
-    ]
-  },
-  {
     "name": "STORZ Fala uderzeniowa",
     "description": "",
     "services": [
@@ -223,6 +175,54 @@
         "name": "STORZ Fala uderzeniowa UDA przód/tył",
         "price": "200 zł",
         "duration": "30 min",
+        "discount": ""
+      }
+    ]
+  },
+  {
+    "name": "Oczyszczanie wodorowe + maską PCA",
+    "description": "",
+    "services": [
+      {
+        "name": "Oczyszczanie wodorowe + maską PCA",
+        "price": "220 zł",
+        "duration": "60 min",
+        "discount": ""
+      }
+    ]
+  },
+  {
+    "name": "Mezoterapia mikroigłowa Nanofrax",
+    "description": "",
+    "services": [
+      {
+        "name": "Zabieg mezoterapii mikroigłowej obejmujący obszar twarzy",
+        "price": "320 zł",
+        "duration": "75 min",
+        "discount": ""
+      },
+      {
+        "name": "Zabieg mezoterapii mikroigłowej obejmujący Twarz, Szyje, Dekolt",
+        "price": "380 zł",
+        "duration": "85 min",
+        "discount": ""
+      }
+    ]
+  },
+  {
+    "name": "Mezoterapia igłowa",
+    "description": "",
+    "services": [
+      {
+        "name": "Oko - RRS",
+        "price": "250 zł",
+        "duration": "50 min",
+        "discount": ""
+      },
+      {
+        "name": "Twarz + Szyja + Dekolt - Filorga NCTF 135/Cytocare 532",
+        "price": "400 zł",
+        "duration": "90 min",
         "discount": ""
       }
     ]

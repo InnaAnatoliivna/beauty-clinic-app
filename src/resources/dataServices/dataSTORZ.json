@@ -1,0 +1,36 @@
+{
+  "name": "STORZ Fala uderzeniowa",
+  "description": "",
+  "services": [
+    {
+      "name": "STORZ Fala uderzeniowa BRZUCH",
+      "price": "300 zł",
+      "duration": "40 min",
+      "discount": ""
+    },
+    {
+      "name": "STORZ Fala uderzeniowa ŁYDKI tył",
+      "price": "200 zł",
+      "duration": "30 min",
+      "discount": ""
+    },
+    {
+      "name": "STORZ Fala uderzeniowa POŚLADKI",
+      "price": "250 zł",
+      "duration": "25 min",
+      "discount": ""
+    },
+    {
+      "name": "STORZ Fala uderzeniowa TWARZ",
+      "price": "200 zł",
+      "duration": "40 min",
+      "discount": ""
+    },
+    {
+      "name": "STORZ Fala uderzeniowa UDA przód/tył",
+      "price": "200 zł",
+      "duration": "30 min",
+      "discount": ""
+    }
+  ]
+}

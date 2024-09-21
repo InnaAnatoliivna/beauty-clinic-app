@@ -1,0 +1,24 @@
+{
+  "name": "Endermologia LPG",
+  "description": "",
+  "services": [
+    {
+      "name": "ENDERMOLOGIA masaż/drenaż 1 partii ciała",
+      "price": "120 zł",
+      "duration": "30 min",
+      "discount": ""
+    },
+    {
+      "name": "ENDERMOLIFTING twarzy masaz ani-aging",
+      "price": "130 zł",
+      "duration": "45 min",
+      "discount": ""
+    },
+    {
+      "name": "ENDERMOLOGIA masaż/drenaż dowolnie wybranych 3 partii ciata (Np. Brzuch, uda, posladki)",
+      "price": "170 zł",
+      "duration": "60 min",
+      "discount": ""
+    }
+  ]
+}

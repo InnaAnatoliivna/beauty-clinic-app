@@ -1,0 +1,120 @@
+{
+  "name": "Epilacja laserowa",
+  "description": "",
+  "services": [
+    {
+      "name": "Epilacja bikini głębokie",
+      "price": "300 zł",
+      "duration": "35 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja bikini płytkie",
+      "price": "230 zł",
+      "duration": "30 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja broda",
+      "price": "150 zł",
+      "duration": "30 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja cała klatka piersiowa",
+      "price": "270 zł",
+      "duration": "40 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja całe nogi",
+      "price": "650 zł",
+      "duration": "85 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja cały brzuch",
+      "price": "290 zł",
+      "duration": "40 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja dłonie",
+      "price": "130 zł",
+      "duration": "25 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja kark",
+      "price": "200 zł",
+      "duration": "30 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja linia brzucha",
+      "price": "150 zł",
+      "duration": "30 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja łydki",
+      "price": "340 zł",
+      "duration": "30 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja męskie plecy",
+      "price": "320 zł",
+      "duration": "70 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja okolice brodawek",
+      "price": "120 zł",
+      "duration": "30 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja pachy",
+      "price": "150 zł",
+      "duration": "20 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja przedramiona",
+      "price": "250 zł",
+      "duration": "30 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja stopy",
+      "price": "130 zł",
+      "duration": "20 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja szpara pośladkowa",
+      "price": "150 zł",
+      "duration": "20 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja szyja",
+      "price": "200 zł",
+      "duration": "30 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja uda",
+      "price": "400 zł",
+      "duration": "50 min",
+      "discount": ""
+    },
+    {
+      "name": "Epilacja wąsik",
+      "price": "110 zł",
+      "duration": "30 min",
+      "discount": ""
+    }
+  ]
+}

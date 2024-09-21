@@ -1,0 +1,12 @@
+{
+  "name": "Oczyszczanie wodorowe + maską PCA",
+  "description": "",
+  "services": [
+    {
+      "name": "Oczyszczanie wodorowe + maską PCA",
+      "price": "220 zł",
+      "duration": "60 min",
+      "discount": ""
+    }
+  ]
+}

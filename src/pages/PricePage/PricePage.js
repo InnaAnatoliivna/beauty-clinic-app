@@ -1,12 +1,11 @@
 import React from 'react'
-// import SharedLayout from '../../components/SharedLayout/SharedLayout'
+import TablePrice from '../../components/TablePrice/TablePrice';
 
 const PricePage = () => {
     return (
-        // <SharedLayout>
-        <div>PricePage</div>
-        // </SharedLayout>
-
+        <>
+            <TablePrice />
+        </>
     )
 }
 
