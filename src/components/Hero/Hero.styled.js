@@ -18,6 +18,7 @@ export const Title = styled.h1`
     color: var(--color-main-text);
     position: relative;
     padding-bottom: 30px;
+    text-shadow: var(--shadow-text-title);
 
     @media(max-width: 767px)  {
         padding-top: 20px;

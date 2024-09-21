@@ -2,9 +2,8 @@ import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 import Container from '../../Container/Container';
 import Section from '../../Section/Section';
-import { ContentWrapper, Wrapper } from './About.styled';
+import { ContentWrapper, Wrapper, ButtonBox } from './About.styled';
 import dataAboutUs from '../../../resources/dataAboutUs.json';
-
 import AboutList from './AboutList/AboutList';
 import AboutListItem from '../AboutListItem/AboutListItem';
 import AboutTitle from './AboutTitle/AboutTitle';
@@ -14,24 +13,34 @@ import ButtonLink from '../../ButtonLink/ButtonLink';
 const About = () => {
     const isDesktopOrTablet = useMediaQuery({ query: '(min-width: 768px)' });
     const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+    // const isDesktop = useMediaQuery({ query: '(min-width: 1440px)' })
 
     return (
         <Section>
             <Container>
                 <Wrapper>
+                    <AboutTitle>
+                        {dataAboutUs.title}
+                    </AboutTitle>
+                    {isDesktopOrTablet && <span>W Klinice:</span>}
                     <ContentWrapper>
-                        <AboutTitle>{dataAboutUs.info}</AboutTitle>
                         {isMobile && (
-                            <AboutImage />
+                            <>
+                                <AboutImage />
+                                <AboutTitle>W Klinice:</AboutTitle>
+                            </>
                         )}
                         <AboutList>
+                            {/* {isDesktopOrTablet && <span>W Klinice:</span>} */}
                             <AboutListItem />
                         </AboutList>
-                        <ButtonLink path={'/about-us'}>Czytaj więcej...</ButtonLink>
+                        {isDesktopOrTablet && (
+                            <AboutImage />
+                        )}
                     </ContentWrapper>
-                    {isDesktopOrTablet && (
-                        <AboutImage />
-                    )}
+                    <ButtonBox>
+                        <ButtonLink path={'/about-us'}>Czytaj więcej...</ButtonLink>
+                    </ButtonBox>
                 </Wrapper>
             </Container>
         </Section>

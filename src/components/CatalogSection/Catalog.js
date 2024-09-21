@@ -1,8 +1,9 @@
 import React from 'react';
 import Container from '../Container/Container';
-import { Wrapper, Section, Title, ButtonStyled } from './Catalog.styled';
+import { Wrapper, Section, Title, ButtonBox } from './Catalog.styled';
 import CatalogList from './CatalogList/CatalogList';
 import CatalogListItem from './CatalogListItem/CatalogListItem';
+import ButtonLink from '../ButtonLink/ButtonLink';
 
 const Catalog = () => {
     return (
@@ -12,8 +13,10 @@ const Catalog = () => {
                     <Title>Katalog zabiegów</Title>
                     <CatalogList>
                         <CatalogListItem />
-                        <ButtonStyled path={'/services'}>Pokaż więcej...</ButtonStyled>
                     </CatalogList>
+                    <ButtonBox>
+                        <ButtonLink path={'/services'}>Pokaż więcej...</ButtonLink>
+                    </ButtonBox>
                 </Wrapper>
             </Container>
         </Section>

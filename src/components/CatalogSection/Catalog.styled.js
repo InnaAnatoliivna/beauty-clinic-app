@@ -1,6 +1,5 @@
 import styled from '@emotion/styled';
 import bcImg from '../../images/276230497_149097284242841_4479337240596802514_n.jpg'
-import ButtonLink from '../ButtonLink/ButtonLink';
 
 export const Section = styled.div`
     background-image: url(${bcImg});
@@ -23,6 +22,7 @@ export const Title = styled.div`
     font-size: 16px;
     text-align: center;
     color: var(--color-main-text);
+    text-shadow: var(--shadow-text-title);
 
     margin-bottom: 18px;
 
@@ -32,7 +32,11 @@ export const Title = styled.div`
     }
 `;
 
-export const ButtonStyled = styled(ButtonLink)`
-    margin: 0 auto;
-`
+export const ButtonBox = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+`;
+
 

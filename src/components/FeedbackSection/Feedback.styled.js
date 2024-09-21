@@ -14,6 +14,7 @@ export const Title = styled.div`
     font-size: 16px;
     text-align: center;
     color: var(--color-main-text);
+    text-shadow: var(--shadow-text-title);
 
     margin-bottom: 18px;
 

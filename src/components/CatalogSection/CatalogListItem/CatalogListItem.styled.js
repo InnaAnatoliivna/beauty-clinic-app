@@ -55,7 +55,11 @@ export const Box = styled.div`
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) );
     border-radius: 12px;
+    transition: box-shadow linear 500ms;
 
+    &:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
     &:hover a {
         transform: scale(1.1);
     }

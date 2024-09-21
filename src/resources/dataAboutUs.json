@@ -1,17 +1,26 @@
 {
-  "title": "O NAS",
-  "info": "Klinika kosmetologii powstała z miłości do ludzi i piękna. Stale się rozwijamy i poszerzamy ofertę kliniki o zabiegi HI-TECH. Wykorzystujemy najnowocześniejsze rozwiązania technologiczne i urządzenia, dzięki którym możemy uzyskać efekty spełniające Wasze oczekiwania. Z nami:",
+  "name": "O NAS",
+  "title": "Żelaznowska Beauty Clinic powstała z prawdziwej pasji do ludzi i piękna",
+  "subtitle": "Jestem dyplomowaną magister kosmetologii oraz magistrem inżynierem chemii, a od 3 lat z dumą prowadzę pełną spokoju i harmonii klinikę kosmetologii. Regularnie podnoszę swoje kwalifikacje, aby móc oferować Wam najnowsze i najskuteczniejsze rozwiązania w dziedzinie kosmetologii. W mojej pracy wierzę w siłę minimalistycznej pielęgnacji skóry – mniej znaczy więcej, a odpowiednio dobrane zabiegi i kosmetyki mogą zdziałać cuda. Patrzę na organizm holistycznie, ponieważ uważam, że kluczem do piękna jest harmonia ciała i ducha, a moim celem jest wspieranie Was w dążeniu do slow-aging, czyli zdrowego, naturalnego starzenia się.",
+  "suptitle": "Cały czas się rozwijamy, wprowadzając do oferty najnowsze zabiegi HI-TECH. Korzystamy z nowoczesnych, medycznych urządzeń ze wszystkimi atestami, które pozwalają nam uzyskać efekty, jakich oczekujecie bez kompromisów.",
   "descriptions": [
     {
-      "name": "zapomnisz o wszystkich obawach związanych z bolesnością zabiegów epilacji laserowej"
+      "name": "zapomnisz o obawach związanych z bólem podczas epilacji laserowej"
     },
-    { "name": "trwale usuniesz zbędne owłosienie" },
-    { "name": "zyskasz czas, który poświęcałaś na golenie, depilację" },
-    { "name": "zmniejszysz zmarszczki" },
-    { "name": "zadbasz o swoją skórę" },
-    { "name": "ujędrnisz swoje ciało" },
-    { "name": "wyszczuplisz swoją sylwetkę" },
-    { "name": "zredukujesz cellulit" }
+    { "name": "pozbędziesz się niechcianego owłosienia raz na zawsze" },
+    {
+      "name": "zyskasz czas, który do tej pory poświęcałaś na golenie czy depilację"
+    },
+    {
+      "name": "zredukujesz zmarszczki i zadbasz o piękną, zdrową skórę, nasz największy organ"
+    },
+    {
+      "name": "doprowadzisz swoją skórę do pięknego wyglądu, dzięki najnowszym metodom oczyszczania i idealnie dobranym dermokosmeceutykom"
+    },
+    { "name": "ujędrnisz ciało i wysmuklisz sylwetkę" },
+    { "name": "skutecznie i przyjemnie zredukujesz cellulit" },
+    { "name": "zmniejszysz ciężar swoich nóg - masażem limfatycznym" },
+    { "name": "oczyścisz ciało z zastojów i zapewnisz mu idealne krążenie" }
   ],
   "employee": [
     {

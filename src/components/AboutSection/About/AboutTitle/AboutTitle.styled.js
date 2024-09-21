@@ -3,8 +3,10 @@ import styled from '@emotion/styled';
 export const TitleStyled = styled.h3`
     position: relative; 
 
-    margin-bottom: 28px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
     text-align: center;
+    word-spacing: 1.8px;
     font-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
@@ -13,12 +15,11 @@ export const TitleStyled = styled.h3`
 
     @media screen and (min-width: 768px) and (max-width: 1439px) {
         width: 704px;
-        font-size: 20px;
+        font-size: 24px;
     }
     @media screen and (min-width: 1440px) {
         margin-bottom: 62px;
-        font-size: 20px;
-
+        font-size: 26px;
     }
 
         @media screen and (min-width: 768px) {
@@ -33,16 +34,16 @@ export const TitleStyled = styled.h3`
                 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
                 position: absolute;
-                top: 140px;
+                top: 80px;
                 left: 0;
 
                 animation: colorShift 3s infinite;
 
-                @media screen and (min-width: 768px) and (max-width: 1439px) {
+                /* @media screen and (min-width: 768px) and (max-width: 1439px) {
                     top: 140px;
-                }
+                } */
                 @media screen and (min-width: 1440px) {
-                    top: 180px;
+                    top: 65px;
                 }
             };
         }

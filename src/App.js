@@ -5,8 +5,8 @@ import MainPage from './pages/MainPage/MainPage';
 import ServicesPage from './pages/ServicesPage/ServicesPage';
 import PricePage from './pages/PricePage/PricePage';
 import FAQPage from './pages/FAQPage/FAQPage';
-import TeamPage from './pages/TeamPage/TeamPage';
 import ContactPage from './pages/ContactPage/ContactPage';
+import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Route index element={<MainPage />} />
         <Route path='/services' element={<ServicesPage />} />
         <Route path='/price' element={<PricePage />} />
-        <Route path='/about-us' element={<TeamPage />} />
+        <Route path='/about-us' element={<AboutUsPage />} />
         <Route path='/faq' element={<FAQPage />} />
         <Route path='/contact' element={<ContactPage />} />
       </Route>
