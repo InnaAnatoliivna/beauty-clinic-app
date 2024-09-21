@@ -41,8 +41,8 @@ const TablePrice = () => {
                             <thead>
                                 <tr>
                                     <th>Zabieg</th>
-                                    <th><Span><GiMoneyStack /> Cena</Span></th>
                                     <th><Span><GiSandsOfTime /> Czas trwania</Span></th>
+                                    <th><Span><GiMoneyStack /> Cena</Span></th>
                                     <th><Span><PiSealPercentThin /> Promocja</Span></th>
                                     <th style={{ width: '1px' }}></th>
                                 </tr>
@@ -51,8 +51,8 @@ const TablePrice = () => {
                                 {category.services.map((service, serviceIndex) => (
                                     <tr key={serviceIndex}>
                                         <td>{service.name}</td>
-                                        <td>{service.price}</td>
                                         <td>{service.duration}</td>
+                                        <td>{service.price}</td>
                                         {service.discount ? (
                                             <td className='discount'>{service.discount}</td>
                                         ) : (<td>-</td>)
