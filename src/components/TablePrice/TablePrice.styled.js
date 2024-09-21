@@ -6,38 +6,65 @@ export const Wrapper = styled.div`
 `;
 
 export const TableWrapp = styled.div`
-margin-bottom: 32px;
-
-h2 {
-    background-color: var(--bc-hero);
-}
+    h2 {
+        color: var(--color-dark);
+        font-size: 16px;
+        background-color: var(--bc-hero);
+        @media screen and (min-width: 768px) {
+            font-size: 24px;
+        }
+    }
 `;
 
 export const TableStyled = styled.table`
-width: 100%;
-border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+    margin-bottom: 44px;
 
     th, td {
+        color: var(--color-brown);
         border-bottom: 1px solid #e0e0e0; 
-        padding: 8px; 
+        padding: 5px; 
         text-align: left;
-        font-size: 14px;
+        font-size: 12px;
+        line-height: 1.4;
         text-align: center;
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+            padding: 8px; 
+        }
     }
-    th:first-child {
+
+    th:first-of-type {
         text-align: left;
     }
-    td:first-child {
+    td:first-of-type {
         width: 600px;
         text-align: left;
     }
-    td:not(:first-child) {
+    td:not(:first-of-type) {
         width: 60px;
-}
+    }
+
+    .discount {
+        color: var(--color-red);
+    }
 `;
 
-export const ButtonStyled = styled.div`
-display: flex;
-align-items: center;
-justify-content: center;
+export const ButtonBox = styled.span`
+    position: absolute;
+    bottom: -42px;
+    right: 0;
+`;
+
+export const Span = styled.span`
+        display: flex;
+        align-items: center; 
+        gap: 2px;
+
+        svg{
+            font-size: 20px;
+            color: var(--color-main-text);
+        }
 `;

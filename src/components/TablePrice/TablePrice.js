@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Container from '../Container/Container';
-import { Wrapper, TableWrapp, TableStyled, ButtonStyled } from './TablePrice.styled';
+import { Wrapper, TableWrapp, TableStyled, ButtonBox, Span } from './TablePrice.styled';
 import { GiSandsOfTime } from "react-icons/gi";
 import { GiMoneyStack } from "react-icons/gi";
 import { PiSealPercentThin } from "react-icons/pi";
@@ -41,9 +41,10 @@ const TablePrice = () => {
                             <thead>
                                 <tr>
                                     <th>Zabieg</th>
-                                    <th><GiMoneyStack /> Cena</th>
-                                    <th><GiSandsOfTime /> Czas trwania</th>
-                                    <th><PiSealPercentThin /> Promocja</th>
+                                    <th><Span><GiMoneyStack /> Cena</Span></th>
+                                    <th><Span><GiSandsOfTime /> Czas trwania</Span></th>
+                                    <th><Span><PiSealPercentThin /> Promocja</Span></th>
+                                    <th style={{ width: '1px' }}></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -53,18 +54,20 @@ const TablePrice = () => {
                                         <td>{service.price}</td>
                                         <td>{service.duration}</td>
                                         {service.discount ? (
-                                            <td>{service.discount}</td>
+                                            <td className='discount'>{service.discount}</td>
                                         ) : (<td>-</td>)
                                         }
+                                        <td style={{ width: '1px' }}>
+                                            <ButtonBox>
+                                                <Button small={true} onClick={handleButton}>UMÓW SIĘ</Button>
+                                            </ButtonBox>
+                                        </td>
                                     </tr>
                                 ))}
                             </tbody>
                         </TableStyled>
                     </TableWrapp>
                 ))}
-                <ButtonStyled>
-                    <Button onClick={handleButton}>UMÓW SIĘ</Button>
-                </ButtonStyled>
                 {isShowModal && <ModalWindow toggleShowMenu={handleButton} />}
             </Wrapper>
         </Container>

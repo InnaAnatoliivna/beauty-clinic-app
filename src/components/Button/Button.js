@@ -1,13 +1,11 @@
 import React from 'react';
 import { StyledButton } from './Button.styled';
 
-const Button = ({ children, onClick }) => {
+const Button = ({ children, onClick, small }) => {
     return (
         <StyledButton
             onClick={onClick}
-            // primary={primary}
-            // home={home}
-            // style={style}
+            small={small}
             type='button'
         >
             {children}

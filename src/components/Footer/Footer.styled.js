@@ -2,9 +2,9 @@ import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
     width: 100%;
+    min-height: 100%;
     padding: 20px 0;
-    overflow: hidden;
-
+    /* overflow: hidden; */
     background-color: var(--bc-header);
     border-top: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 6px 1px rgba(46, 47, 66, 0.08);
@@ -19,8 +19,6 @@ export const WrappFlex = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: start;
-    /* margin-bottom: 45px; */
-    overflow: hidden;
 
     svg {
         font-size: 20px;
