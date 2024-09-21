@@ -1,5 +1,4 @@
 import styled from '@emotion/styled';
-import Button from '../Button/Button';
 
 export const Wrapper = styled.div`
     padding-top: 32px;
@@ -32,6 +31,9 @@ border-collapse: collapse;
         width: 600px;
         text-align: left;
     }
+    td:not(:first-child) {
+        width: 60px;
+}
 `;
 
 export const ButtonStyled = styled.div`

@@ -63,7 +63,7 @@ const TablePrice = () => {
                     </TableWrapp>
                 ))}
                 <ButtonStyled>
-                    <Button>UMÓW SIĘ</Button>
+                    <Button onClick={handleButton}>UMÓW SIĘ</Button>
                 </ButtonStyled>
                 {isShowModal && <ModalWindow toggleShowMenu={handleButton} />}
             </Wrapper>
