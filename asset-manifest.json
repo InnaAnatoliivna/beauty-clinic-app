@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beauty-clinic-app/static/css/main.0e87b960.css",
-    "main.js": "/beauty-clinic-app/static/js/main.a21756e7.js",
+    "main.js": "/beauty-clinic-app/static/js/main.e23cc215.js",
     "static/js/453.ddb957e3.chunk.js": "/beauty-clinic-app/static/js/453.ddb957e3.chunk.js",
     "static/media/servises.jpg": "/beauty-clinic-app/static/media/servises.6a184cdd51a75417af9b.jpg",
     "static/media/276230497_149097284242841__n.jpg": "/beauty-clinic-app/static/media/276230497_149097284242841_4479337240596802514_n.602b3ea6015d061d5a99.jpg",
@@ -26,11 +26,11 @@
     "static/media/BooksyIcon.png": "/beauty-clinic-app/static/media/BooksyIcon.b7f812d889192d19fc52.png",
     "index.html": "/beauty-clinic-app/index.html",
     "main.0e87b960.css.map": "/beauty-clinic-app/static/css/main.0e87b960.css.map",
-    "main.a21756e7.js.map": "/beauty-clinic-app/static/js/main.a21756e7.js.map",
+    "main.e23cc215.js.map": "/beauty-clinic-app/static/js/main.e23cc215.js.map",
     "453.ddb957e3.chunk.js.map": "/beauty-clinic-app/static/js/453.ddb957e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e87b960.css",
-    "static/js/main.a21756e7.js"
+    "static/js/main.e23cc215.js"
   ]
 }
