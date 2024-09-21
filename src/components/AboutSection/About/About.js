@@ -31,7 +31,6 @@ const About = () => {
                             </>
                         )}
                         <AboutList>
-                            {/* {isDesktopOrTablet && <span>W Klinice:</span>} */}
                             <AboutListItem />
                         </AboutList>
                         {isDesktopOrTablet && (
