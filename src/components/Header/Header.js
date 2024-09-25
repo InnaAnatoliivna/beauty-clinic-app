@@ -1,10 +1,11 @@
 import Container from '../Container/Container';
-import { Navigation, List, Wrapper, MenuIconStyled, ButtonMenu } from './Header.styled';
+import { Navigation, List, Wrapper, MenuIconStyled, ButtonMenu, LinkStyled } from './Header.styled';
 import { useMediaQuery } from 'react-responsive';
 import { useEffect, useState } from 'react';
 import MobileMenu from '../MobileMenu/MobileMenu';
 import MenuItems from '../MenuItems/MenuItems';
 import Logo from '../Logo/Logo';
+import { ListItem } from '../MenuItems/MenuItems.styled';
 
 const Header = () => {
 
@@ -52,7 +53,12 @@ const Header = () => {
 
                     {isOpenMenu &&
                         (<MobileMenu showMenu={handleMobileMenu}>
-                            <MenuItems isMobile={true} onLinkClick={handleMobileMenu} />
+
+                            <MenuItems isMobile={true} onLinkClick={handleMobileMenu}>
+                                <ListItem><LinkStyled
+                                    to='/'
+                                >GłUWNA</LinkStyled></ListItem>
+                            </MenuItems>
                         </MobileMenu>)}
                 </Navigation>
             </Container>

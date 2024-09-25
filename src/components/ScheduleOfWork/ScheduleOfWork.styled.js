@@ -1,10 +1,5 @@
 import styled from '@emotion/styled';
 
-// export const Wrapper = styled.div`
-//     @media screen and (min-width: 768px)  {
-//     }
-// `;
-
 export const TableStyled = styled.table`
     width: 100%;
     max-width: 300px;

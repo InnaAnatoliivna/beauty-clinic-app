@@ -2,10 +2,10 @@ import React from 'react';
 import { LinkStyled, ListItem } from './MenuItems.styled';
 import menuData from '../../resources/menuList.json';
 
-const MenuItems = ({ isMobile, onLinkClick }) => {
+const MenuItems = ({ isMobile, onLinkClick, children }) => {
 
     return (
-        <>
+        <>  {isMobile && (children)}
             {menuData.map((menuItem, index) => (
                 <ListItem key={index}>
                     <LinkStyled
