@@ -1,25 +1,29 @@
 import React from 'react';
 import Container from '../Container/Container';
+import { Wrapper, FlexWrapp, Text } from './AboutClinic.styled';
 import dataAboutUs from '../../resources/dataAboutUs.json';
-import { FaFire } from "react-icons/fa";
-import { Item, ListStyled, Wrapper } from './AboutClinic.styled';
-import { Section } from '../CatalogSection/Catalog.styled';
+import image from '../../images/photo-desktop.jpg';
 
 const AboutClinic = () => {
+
     return (
-        <Section>
-            <Container>
-                <Wrapper>
-                    <h1>{dataAboutUs.title}</h1>
-                    <p>{dataAboutUs.subtitle}</p>
-                    <p>{dataAboutUs.suptitle}</p>
-                    <ListStyled>W klinice:</ListStyled>
-                    {dataAboutUs.descriptions.map((item, index) => (
-                        <Item key={index}><FaFire /><p>{item.name}</p></Item>
-                    ))}
-                </Wrapper>
-            </Container>
-        </Section>
+        // <Section>
+        <Container>
+            <Wrapper>
+                <h1>{dataAboutUs.title}</h1>
+                <FlexWrapp>
+                    <div>
+                        <img
+                            alt='Portrait'
+                            src={image}
+                            width='500px'
+                        ></img>
+                    </div>
+                    <Text>{dataAboutUs.subtitle}</Text>
+                </FlexWrapp>
+            </Wrapper>
+        </Container>
+        // </Section>
     )
 }
 
