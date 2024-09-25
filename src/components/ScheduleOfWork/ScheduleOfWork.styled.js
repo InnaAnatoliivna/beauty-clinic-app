@@ -21,6 +21,10 @@ export const TableStyled = styled.table`
         line-height: 1.4;
         text-align: start;
         @media screen and (min-width: 768px) {
+            font-size: 14px;
+            padding: 8px; 
+        }
+        @media screen and (min-width: 1440px) {
             font-size: 16px;
             padding: 8px; 
         }
@@ -33,6 +37,9 @@ export const TableWrapper = styled.div`
         font-size: 16px;
         background-color: var(--bc-hero);
         @media screen and (min-width: 768px) {
+            font-size: 20px;
+        }
+        @media screen and (min-width: 1440px) {
             font-size: 24px;
         }
     }

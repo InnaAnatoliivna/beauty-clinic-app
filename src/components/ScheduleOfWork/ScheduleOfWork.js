@@ -7,13 +7,14 @@ const ScheduleOfWork = () => {
         <TableWrapper>
             <h3>Godziny otwarcia</h3>
             <TableStyled>
-                {data.map((item, index) => (
-                    <tr key={index}>
-                        <td>{item.day}</td>
-                        <td>{item.time}</td>
-                    </tr>
-                ))}
-
+                <tbody>
+                    {data.map((item, index) => (
+                        <tr key={index}>
+                            <td> {item.day}</td>
+                            <td>{item.time}</td>
+                        </tr>
+                    ))}
+                </tbody>
             </TableStyled>
         </TableWrapper>
     )
