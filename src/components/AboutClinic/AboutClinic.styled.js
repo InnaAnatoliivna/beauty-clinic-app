@@ -30,13 +30,6 @@ export const FlexWrapp = styled.div`
                 margin-bottom: 15px;
             }
         }
-
-    /* img {
-        @media screen and (max-width: 767px)  {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
-            0 6px 20px rgba(0, 0, 0, 0.1);
-        }
-    } */
 `;
 
 export const Text = styled.div`
