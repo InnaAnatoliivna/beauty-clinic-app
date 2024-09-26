@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
-    padding-bottom: 28px;
+    padding: 28px 0px;
     @media screen and (min-width: 768px)  {
-        padding-bottom: 58px;
+        padding: 58px 0px;
     }
 `;
 
