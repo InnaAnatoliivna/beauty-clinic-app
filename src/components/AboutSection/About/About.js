@@ -13,7 +13,6 @@ import ButtonLink from '../../ButtonLink/ButtonLink';
 const About = () => {
     const isDesktopOrTablet = useMediaQuery({ query: '(min-width: 768px)' });
     const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
-    // const isDesktop = useMediaQuery({ query: '(min-width: 1440px)' })
 
     return (
         <Section>

@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 export const Wrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     gap: 32px;
     column-gap: 14px;
     row-gap: 14px;

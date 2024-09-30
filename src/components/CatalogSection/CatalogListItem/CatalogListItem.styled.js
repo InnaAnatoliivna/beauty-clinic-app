@@ -1,5 +1,4 @@
 import styled from '@emotion/styled';
-import cardImg from '../../../images/servises.jpg'
 
 export const Item = styled.div`
     height: 150px;
@@ -8,7 +7,6 @@ export const Item = styled.div`
     border-radius: 12px;
     position: relative;
 
-    background-image: url(${cardImg});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 0%;

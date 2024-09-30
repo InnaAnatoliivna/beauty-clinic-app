@@ -1,7 +1,7 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { ImgWrapper } from './AboutImage.styled';
-import aboutImg from '../../../images/about.jpg';
+import aboutImg from '../../../images/about-1.jpg';
 import aboutImgMob from '../../../images/about-mob.jpg';
 
 const AboutImage = () => {

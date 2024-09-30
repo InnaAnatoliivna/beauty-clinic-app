@@ -11,11 +11,9 @@ export const ImgWrapper = styled.div`
 
     @media screen and (min-width: 768px) and (max-width: 1439px) {
             width: 400px;
-    /* clip-path: circle(50% at 50% 50%); */
     }
     
     @media screen and (min-width: 1440px) {
             width: 500px;
-        /* clip-path: circle(50% at 50% 50%); */
 }
 `;
