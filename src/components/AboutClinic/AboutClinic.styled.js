@@ -26,7 +26,8 @@ export const FlexWrapp = styled.div`
         @media screen and (max-width: 767px)  {
             flex-direction: column;
             img {
-                box-shadow: 0 15px 10px rgba(0, 0, 0, 0.3);
+                border-radius: 8px; 
+                box-shadow: 0 9px 10px rgba(0, 0, 0, 0.3);
                 margin-bottom: 15px;
             }
         }

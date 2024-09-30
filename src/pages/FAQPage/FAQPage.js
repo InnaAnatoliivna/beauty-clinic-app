@@ -8,9 +8,9 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 // import Fade from '@mui/material/Fade';
 //
 import Container from '../../components/Container/Container';
-import { Wrapper } from './FAQPage.styled';
+import { Wrapper, Section } from './FAQPage.styled';
 import dataQA from '../../resources/QuestionAnswer.json';
-import { Section } from '../../components/CatalogSection/Catalog.styled';
+// import { Section } from '../../components/CatalogSection/Catalog.styled';
 
 
 const FAQPage = () => {

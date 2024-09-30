@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '../../Container/Container';
 import SwiperComponent from '../../Swiper/Swiper';
-import { Item, ListStyled, Wrapper } from './DetailsSection.styled';
+import { Item, ListStyled, Wrapper, Text } from './DetailsSection.styled';
 import imgClinic from '../../../images/servises.jpg'
 import dataAboutUs from '../../../resources/dataAboutUs.json';
 import { FaFire } from "react-icons/fa";
@@ -22,7 +22,7 @@ const DetailsSection = () => {
     return (
         <Container>
             <Wrapper>
-                <p>{dataAboutUs.suptitle}</p>
+                <Text>{dataAboutUs.suptitle}</Text>
 
                 <SwiperComponent>
                     {images.map((img, index) => (
@@ -37,7 +37,7 @@ const DetailsSection = () => {
                     }
                 </SwiperComponent>
 
-                <ListStyled>W klinice:</ListStyled>
+                <ListStyled><Text>W klinice:</Text></ListStyled>
                 {dataAboutUs.descriptions.map((item, index) => (
                     <Item key={index}><FaFire /><p>{item.name}</p></Item>
                 ))}

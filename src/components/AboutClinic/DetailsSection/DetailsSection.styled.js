@@ -7,6 +7,23 @@ export const Wrapper = styled.div`
     }
 `;
 
+export const Text = styled.div`
+    text-align: center;
+    color: var(--color-main-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+        line-height: 1.3;
+        margin-bottom: 20px;
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 20px;
+    }
+`;
+
 export const ListStyled = styled.ul`
     margin-left: auto;
     margin-bottom: 20px;
@@ -31,7 +48,7 @@ export const ListStyled = styled.ul`
 `;
 
 export const Item = styled.li`
-color: var(--color-main-text);
+    color: var(--color-main-text);
     /* font-weight: 500; */
     font-size: 14px;
     line-height: 1.2;
