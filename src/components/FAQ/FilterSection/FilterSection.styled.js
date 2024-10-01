@@ -44,6 +44,10 @@ export const List = styled.ul`
         }
         @media (max-width: 767px) {
             width: calc((100% - 12px) / 2);
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 `;
