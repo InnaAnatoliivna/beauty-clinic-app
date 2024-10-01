@@ -1,30 +1,48 @@
-import React from 'react';
-//materia
-// import Accordion from '@mui/material/Accordion';
-// import AccordionSummary from '@mui/material/AccordionSummary';
-// import AccordionDetails from '@mui/material/AccordionDetails';
-// import Typography from '@mui/material/Typography';
-// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-// // import Fade from '@mui/material/Fade';
-// //
-// import Container from '../../components/Container/Container';
-// import { Wrapper, Section } from './FAQPage.styled';
-// import dataQA from '../../resources/QuestionAnswer.json';
+import React, { useState } from 'react';
+import { Section } from './FAQPage.styled';
 import AccordionComponent from '../../components/FAQ/Accordion/Accordion';
-import { Section } from '../../components/CatalogSection/Catalog.styled';
+import FilterSection from '../../components/FAQ/FilterSection/FilterSection';
+import dataQA from '../../resources/QuestionAnswer.json';
 
+const arrayFilter = ["Endermologia LPG", "Oczyszczenie wodorowe", "Epilacja laserowa", "Wszystkie"];
 
 const FAQPage = () => {
 
-    // const [expanded, setExpanded] = React.useState(false);
+    // const [value, setValue] = useState('Wszystkie');
+    const [filteredArray, setFilteredArray] = useState(dataQA);
 
-    // const handleExpansion = (panel) => (event, isExpanded) => {
-    //     setExpanded(isExpanded ? panel : false);
-    // };
+    const handleClick = (newValue) => {
+        console.log(newValue)
+        // setValue(newValue);
+        switch (newValue) {
+            case "Endermologia LPG":
+                setFilteredArray(dataQA.filter(item => item.theme === "Endermologia LPG"));
+                break;
+            case "Oczyszczenie wodorowe":
+                setFilteredArray(dataQA.filter(item => item.theme === "Oczyszczenie wodorowe"));
+                break;
+            case "Epilacja laserowa":
+                setFilteredArray(dataQA.filter(item => item.theme === "Epilacja laserowa"));
+                break;
+            case "Wszystkie":
+                setFilteredArray(dataQA); // Show all items
+                break;
+            default:
+                setFilteredArray(dataQA);
+        }
+    };
+
 
     return (
         <Section>
-            <AccordionComponent />
+            <FilterSection>
+                {arrayFilter.map((item, index) => (
+                    <li key={index} onClick={() => handleClick(item)}>
+                        <p>{item}</p>
+                    </li>
+                ))}
+            </FilterSection>
+            <AccordionComponent question={filteredArray} />
         </Section>
     )
 };

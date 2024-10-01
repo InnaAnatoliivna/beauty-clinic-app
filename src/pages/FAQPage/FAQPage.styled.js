@@ -7,3 +7,4 @@ export const Section = styled.div`
     background-repeat: no-repeat;
     background-position: 0% 0%;
 `;
+

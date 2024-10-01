@@ -6,11 +6,11 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 //
-import dataQA from '../../../resources/QuestionAnswer.json';
-import { Wrapper } from './Accordion.styled';
+import { Wrapper, Text, SubTitle } from './Accordion.styled';
 import Container from '../../Container/Container';
 
-const AccordionComponent = () => {
+
+const AccordionComponent = ({ question }) => {
 
     const [expanded, setExpanded] = React.useState(false);
 
@@ -22,7 +22,7 @@ const AccordionComponent = () => {
         <Container>
             <div id="back-to-top-anchor"></div>
             <Wrapper>
-                {dataQA.map((item, index) => (
+                {question.map((item, index) => (
                     <Accordion
                         key={index}
                         expanded={expanded === `panel${index}`}
@@ -34,12 +34,14 @@ const AccordionComponent = () => {
                             id={`panel${index}d-header`}
                         >
                             <Typography>
-                                <p>Temat: {item.theme}</p>
-                                <p>{item.question}</p>
+                                <SubTitle>{item.theme}</SubTitle>
+                                <Text>{item.question}</Text>
                             </Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography>{item.answer}</Typography>
+                            <Typography>
+                                <Text>{item.answer}</Text>
+                            </Typography>
                         </AccordionDetails>
                     </Accordion>
                 ))}

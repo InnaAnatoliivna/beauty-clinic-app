@@ -1,8 +1,27 @@
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
-    padding: 28px 0;
+    padding-bottom: 28px;
     @media screen and (min-width: 768px)  {
-        padding: 58px 0;
+        padding-bottom: 58px;
+    }
+`;
+
+export const Text = styled.span`
+    display: block;
+    color: var(--color-brown);
+    font-size: 14px;
+    @media (min-width: 768px) {
+        font-size: 15px;
+    }
+`;
+
+export const SubTitle = styled.span`
+    display: block;
+    margin-bottom: 10px;
+    color: var(--color-main-text);
+    font-size: 10px;
+    @media (min-width: 768px) {
+        font-size: 12px;
     }
 `;
