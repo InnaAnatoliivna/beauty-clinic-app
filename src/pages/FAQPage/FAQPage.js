@@ -24,6 +24,7 @@ const FAQPage = () => {
     return (
         <Section>
             <Container>
+                <div id="back-to-top-anchor"></div>
                 <Wrapper>
                     {dataQA.map((item, index) => (
                         <Accordion

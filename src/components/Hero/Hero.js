@@ -31,7 +31,7 @@ const Hero = () => {
     }, [isShowModal]);
 
     return (
-        <Section>
+        <Section id="back-to-top-anchor">
             <Container>
                 <Wrapper>
                     {isDesktopOrTablet && (

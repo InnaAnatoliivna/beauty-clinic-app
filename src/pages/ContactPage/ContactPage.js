@@ -13,6 +13,7 @@ import NetworksList from '../../components/NetworksList/NetworksList';
 const ContactPage = () => {
     return (
         <Container>
+            <div id="back-to-top-anchor"></div>
             <Wrapper>
                 <div>
                     <ScheduleOfWork />
