@@ -21,7 +21,6 @@ export const Item = styled.div`
         height: 360px;
     }
 
-
     /* .enderm {
 
     }

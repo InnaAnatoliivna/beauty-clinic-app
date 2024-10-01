@@ -1,4 +1,16 @@
 import styled from '@emotion/styled';
+import background from '../../../images/b-c-img.jpg'
+
+export const Section = styled.div`
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    @media screen and (min-width: 1440px)  {
+        background-image: url(${background});
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 100% 0;
+    }
+`;
 
 export const Wrapper = styled.div`
     padding: 28px 0px;
@@ -8,10 +20,12 @@ export const Wrapper = styled.div`
 `;
 
 export const Text = styled.div`
+    letter-spacing: 0.5px; 
     text-align: center;
     color: var(--color-main-text);
     font-weight: 500;
     font-size: 14px;
+    margin-bottom: 20px;
     line-height: 1.2;
 
     @media screen and (min-width: 768px) {
@@ -26,6 +40,7 @@ export const Text = styled.div`
 
 export const ListStyled = styled.ul`
     margin-left: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
     list-style: none;
 

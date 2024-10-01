@@ -1,53 +1,128 @@
 import styled from '@emotion/styled';
-import background from '../../images/b-c-img.jpg';
 
 export const Section = styled.div`
-    border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    background-color: #e2cfc2;
     @media screen and (min-width: 1440px)  {
-        background-image: url(${background});
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: 100% 0;
     }
 `;
 
 export const Wrapper = styled.div`
-    padding-top: 28px;
     position: relative;
-    @media screen and (min-width: 768px)  {
-        padding-top: 58px;
+    @media screen and (max-width: 767px)  {
+        padding-top: 28px;
     }
 `;
 
 export const FlexWrapp = styled.div`
     display: flex;
+    gap: 30px;
     align-items: center;
+    justify-content: space-between;
         @media screen and (max-width: 767px)  {
             flex-direction: column;
             img {
                 border-radius: 8px; 
                 box-shadow: 0 9px 10px rgba(0, 0, 0, 0.3);
-                margin-bottom: 15px;
             }
         }
+
+    span {
+        width: 100%;
+        color: var(--bc-header);
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #47373765;
+        padding: 8px 20px;
+        position: absolute;
+        z-index: 100;
+        left: 0;
+        bottom: 0;
+        @media screen and (min-width: 768px) {
+            font-size: 10px;
+        }
+    }
 `;
 
-export const Text = styled.div`
+export const TextBox = styled.div`
+    @media screen and (min-width: 768px) {
+        width: 60%;
+    }
+`;
+
+export const Box = styled.div`
+    position: relative;
+`;
+
+export const TitleStyled = styled.h1`
+    position: relative; 
+
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+    text-align: center;
+    word-spacing: 1.8px;
+    letter-spacing: 0.5px; 
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.4;
+    color: var(--color-main-text);
+
+    @media screen and (min-width: 768px) and (max-width: 1439px) {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 62px;
+        font-size: 26px;
+    }
+@media screen and (min-width: 768px){
+            &::after {
+                content: '';
+                display: block;
+                width: 100%;
+                height: 1.5px;
+                background-color: var(--color-main-text);
+                box-shadow: var(--shadow-cards-second);
+                border-radius: var(--card-border-radius);
+                box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
+                position: absolute;
+                /* top: 64px; */
+                left: 0;
+
+                animation: colorShift 3s infinite;
+                @media screen and (min-width: 768px) {
+                    top: 80px;
+                }
+                @media screen and (min-width: 1440px) {
+                    top: 95px;
+                }
+            };}
+
+    @keyframes colorShift {
+        0% { background-color: var(--color-main-text);}
+        50% {background-color: var(--color-test);}
+        100% {background-color: var(--color-main-text); }
+    }
+`;
+
+export const Text = styled.p`
+    text-indent: 50px;
     color: var(--color-main-text);
     font-size: 14px;
-    font-style: italic;
+    font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.5px; 
     text-align: center;
     gap: 12px;
 
     @media screen and (min-width: 768px) {
-        width: 60%;
+        /* width: 60%; */
         font-size: 16px;
-        line-height: 1.3;
+        line-height: 1.2;
     }
     @media screen and (min-width: 1440px) {
-        width: 40%;
-        font-size: 18px;
+        /* width: 55%; */
+        line-height: 1.3;
+        font-size: 20px;
     }
 `;

@@ -1,9 +1,8 @@
 import React from 'react';
 import Container from '../Container/Container';
-import { Wrapper, FlexWrapp, Text, Section } from './AboutClinic.styled';
+import { Wrapper, FlexWrapp, Text, Section, Box, TitleStyled, TextBox } from './AboutClinic.styled';
 import dataAboutUs from '../../resources/dataAboutUs.json';
-import image from '../../images/photo-desktop.jpg';
-import { TitleStyled } from '../AboutSection/About/AboutTitle/AboutTitle.styled';
+import cosmetologistIMG from '../../images/cosmetologist.jpg';
 
 const AboutClinic = () => {
 
@@ -11,16 +10,19 @@ const AboutClinic = () => {
         <Section>
             <Container>
                 <Wrapper>
-                    <TitleStyled>{dataAboutUs.title}</TitleStyled>
                     <FlexWrapp>
-                        <div>
+                        <TextBox>
+                            <TitleStyled>{dataAboutUs.title}</TitleStyled>
+                            <Text>{dataAboutUs.subtitle}</Text>
+                        </TextBox>
+                        <Box>
                             <img
                                 alt='Portrait'
-                                src={image}
+                                src={cosmetologistIMG}
                                 width='500px'
                             ></img>
-                        </div>
-                        <Text>{dataAboutUs.subtitle}</Text>
+                            <span>Alicja Łyszyk-Żelaznowska</span>
+                        </Box>
                     </FlexWrapp>
                 </Wrapper>
             </Container>
