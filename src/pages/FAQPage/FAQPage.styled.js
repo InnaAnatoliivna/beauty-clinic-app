@@ -6,5 +6,7 @@ export const Section = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 0%;
+    background-attachment: fixed; /* Фіксація фону */
+    min-height: 100vh; /* Щоб фон займав повну висоту вікна */
 `;
 
