@@ -1,12 +1,20 @@
-{
-  "name": "Oczyszczanie wodorowe + maską PCA",
-  "description": "",
-  "services": [
-    {
-      "name": "Oczyszczanie wodorowe + maską PCA",
-      "price": "220 zł",
-      "duration": "60 min",
-      "discount": ""
-    }
-  ]
-}
+[
+  {
+    "name": "Oczyszczanie wodorowe + maską PCA",
+    "description": "",
+    "services": [
+      {
+        "name": "Oczyszczanie wodorowe + maską PCA",
+        "price": "220 zł",
+        "duration": "60 min",
+        "discount": ""
+      }
+    ]
+  },
+  {
+    "name": "Podstawowa pielęgnacja twarzy + masaż",
+    "price": "200 zł",
+    "duration": "60 min",
+    "discount": ""
+  }
+]
