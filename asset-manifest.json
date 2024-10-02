@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beauty-clinic-app/static/css/main.89643e48.css",
-    "main.js": "/beauty-clinic-app/static/js/main.84ef7d98.js",
+    "main.js": "/beauty-clinic-app/static/js/main.8bd6f204.js",
     "static/js/453.bb792684.chunk.js": "/beauty-clinic-app/static/js/453.bb792684.chunk.js",
     "static/media/FAQ-bi.jpg": "/beauty-clinic-app/static/media/FAQ-bi.3052456c6e15d31d2274.jpg",
     "static/media/about-1.jpg": "/beauty-clinic-app/static/media/about-1.070eb455fe0b06d9e5b7.jpg",
@@ -41,7 +41,6 @@
     "static/media/DMSans-Regular.woff": "/beauty-clinic-app/static/media/DMSans-Regular.63edb8194c41678bcc8e.woff",
     "static/media/DMSans-Medium.woff": "/beauty-clinic-app/static/media/DMSans-Medium.167d68fed22fd324897c.woff",
     "static/media/DMSans-Bold.woff": "/beauty-clinic-app/static/media/DMSans-Bold.a69a577e0101b6a4913d.woff",
-    "static/media/cloud-bc-3.jpeg": "/beauty-clinic-app/static/media/cloud-bc-3.fd40d7dc86ac48bbb62e.jpeg",
     "static/media/photo-desktop.jpg": "/beauty-clinic-app/static/media/photo-desktop.f8eb5efc68cbf4fdbe6c.jpg",
     "static/media/DMSans-Regular.woff2": "/beauty-clinic-app/static/media/DMSans-Regular.bb7a29159298325ac439.woff2",
     "static/media/DMSans-Bold.woff2": "/beauty-clinic-app/static/media/DMSans-Bold.4db4fdab65d92a8037a8.woff2",
@@ -49,11 +48,11 @@
     "static/media/BooksyIcon.png": "/beauty-clinic-app/static/media/BooksyIcon.b7f812d889192d19fc52.png",
     "index.html": "/beauty-clinic-app/index.html",
     "main.89643e48.css.map": "/beauty-clinic-app/static/css/main.89643e48.css.map",
-    "main.84ef7d98.js.map": "/beauty-clinic-app/static/js/main.84ef7d98.js.map",
+    "main.8bd6f204.js.map": "/beauty-clinic-app/static/js/main.8bd6f204.js.map",
     "453.bb792684.chunk.js.map": "/beauty-clinic-app/static/js/453.bb792684.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89643e48.css",
-    "static/js/main.84ef7d98.js"
+    "static/js/main.8bd6f204.js"
   ]
 }
