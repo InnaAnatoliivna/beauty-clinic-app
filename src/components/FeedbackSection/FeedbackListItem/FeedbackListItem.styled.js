@@ -1,25 +1,26 @@
 import styled from '@emotion/styled';
-import imageCloud from '../../../images/cloud-bc-3.jpeg';
 
 export const ItemStyled = styled.div`
-    background-image: url(${imageCloud});
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-
     width: 100%;
     max-width: 500px;
-    height: 300px;
-    padding: 50px;
+    height: 280px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: var(--bc-header);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border: 1px solid var(--color-main-text);
+    border-radius: 12px;
+
+    padding: 28px;
     font-size: 14px;
     @media (min-width: 768px) {
-        height: 250px;
         font-size:15px;
-        padding: 20px 26px;
     }
     @media (min-width: 1440px) {
         height: 300px;
-        padding: 28px;
         font-size: 18px;
     }
 `;
