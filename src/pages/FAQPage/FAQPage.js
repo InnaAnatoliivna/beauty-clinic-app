@@ -12,7 +12,6 @@ const FAQPage = () => {
     const [filteredArray, setFilteredArray] = useState(dataQA);
 
     const handleClick = (newValue) => {
-        console.log(newValue)
         // setValue(newValue);
         switch (newValue) {
             case "Endermologia LPG":

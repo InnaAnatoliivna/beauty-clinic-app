@@ -29,7 +29,7 @@ export const FlexWrapp = styled.div`
     span {
         width: 100%;
         color: var(--bc-header);
-        font-size: 16px;
+        font-size: 10px;
         font-weight: 500;
         background-color: #47373765;
         padding: 8px 20px;
@@ -37,8 +37,12 @@ export const FlexWrapp = styled.div`
         z-index: 100;
         left: 0;
         bottom: 0;
+        @media screen and (max-width: 767px){
+            border-bottom-left-radius: 8px; 
+            border-bottom-right-radius: 8px; 
+        }
         @media screen and (min-width: 768px) {
-            font-size: 10px;
+            font-size: 16px;
         }
     }
 `;

@@ -35,7 +35,7 @@ const DetailsSection = () => {
                         ))}
                     </ListStyled>
                     <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-                        <ButtonLink path='/services'>Pokaż zabiegi</ButtonLink>
+                        <ButtonLink path='/services'>Zobacz naszą ofertę</ButtonLink>
                     </div>
                 </Wrapper>
             </Container>

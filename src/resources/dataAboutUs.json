@@ -22,14 +22,8 @@
     { "name": "zmniejszysz ciężar swoich nóg - masażem limfatycznym" },
     { "name": "oczyścisz ciało z zastojów i zapewnisz mu idealne krążenie" }
   ],
-  "employee": [
-    {
-      "name": "Alicja Łyszyk-Żelaznowska",
-      "photo": ""
-    },
-    {
-      "name": "Julia Baumann",
-      "photo": ""
-    }
-  ]
+  "employee": {
+    "name": "Julia Baumann",
+    "info": "Julia to młoda i ambitna kosmetolog, która szybko zdobywa uznanie w branży kosmetycznej. Jej pasja do kosmetologii zrodziła się już w młodym wieku, a profesjonalne wykształcenie zdobyła na prestiżowej WSZ w Gdańsku, gdzie ukończyła studia magisterskie. Julia charakteryzuje się doskonałymi umiejętnościami w zakresie epilacji, drenażu, pielęgnacji skóry oraz zaawansowanych zabiegów kosmetologicznych. Dzięki swojej dociekliwości i chęci nieustannego rozwoju, regularnie uczestniczy w kursach i szkoleniach, aby być na bieżąco z najnowszymi trendami i technologiami w kosmetologii. Jej podejście do klienta cechuje profesjonalizm, empatia i indywidualne podejście, co sprawia, że każda osoba czuje się wyjątkowo i dobrze zaopiekowana. Julia nie tylko wykonuje zabiegi na najwyższym poziomie, ale również doradza w zakresie codziennej pielęgnacji, pomagając klientom osiągnąć i utrzymać zdrową i piękną skórę."
+  }
 }
