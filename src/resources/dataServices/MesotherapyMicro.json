@@ -1,0 +1,56 @@
+{
+  "name": "Mezoterapia mikroigłowa Nanofrax",
+  "type": "Medycyna estetyczna",
+  "explanation": "Mezoterapia mikroigłowa to zabieg wykorzystujący urządzenie PEN Nanofrax wyposażone kartridż z bardzo cienkimi igłami, które penetrują skórę, tworząc mikroskopijne kanaliki. Te mikrokanaliki stymulują skórę do naturalnej regeneracji, pobudzając produkcję kolagenu i elastyny, które są kluczowe dla jej elastyczności i jędrności. ",
+  "info": "W trakcie zabiegu wprowadzane są specjalne koktajle zawierające składniki aktywne, takie jak witaminy, kwas hialuronowy, peptydy czy inne substancje odżywcze, które wspomagają procesy regeneracyjne skóry. Mezoterapia mikroigłowa jest skuteczną metodą w leczeniu różnych problemów skórnych, takich jak zmarszczki, blizny, rozstępy, utrata jędrności skóry oraz nierówności w jej teksturze. ",
+  "advantages": [
+    {
+      "suptitle": "Zalety mezoterapii mikroigłowej:",
+      "info": [
+        {
+          "advantage": "Stymulacja produkcji kolagenu i elastyny",
+          "description": "Zabieg pobudza naturalną produkcję tych dwóch kluczowych białek, co przyczynia się do poprawy jędrności i elastyczności skóry."
+        },
+        {
+          "advantage": "Poprawa struktury skóry",
+          "description": "Regularne zabiegi poprawiają teksturę skóry, redukując widoczność zmarszczek, blizn (np. potrądzikowych) oraz rozstępów. "
+        },
+        {
+          "advantage": "Zwiększenie nawilżenia skóry",
+          "description": "Mezoterapia mikroigłowa wspomaga lepsze wchłanianie substancji aktywnych, takich jak kwas hialuronowy, co prowadzi do głębszego nawilżenia skóry."
+        },
+        {
+          "advantage": "Redukcja porów",
+          "description": "Zabieg poprawia wygląd skóry, zmniejszając widoczność rozszerzonych porów i wygładzając jej powierzchnię."
+        },
+        {
+          "advantage": "Bezpieczny i mało inwazyjny",
+          "description": "Jest to stosunkowo mało inwazyjna metoda, która nie wymaga długiego okresu rekonwalescencji."
+        },
+        {
+          "advantage": "Skuteczność w leczeniu blizn i rozstępów",
+          "description": "Mezoterapia mikroigłowa jest skuteczną metodą na poprawę wyglądu blizn i rozstępów, które opracowujemy metodą mikropunktury, co zmniejsza czas rekonwalescencji."
+        },
+        {
+          "advantage": "Możliwość stosowania na różnych częściach ciała",
+          "description": "Zabieg można przeprowadzać na różnych obszarach skóry, w tym na twarzy, szyi, dekolcie, a także na ciele (np. na udach, brzuchu)."
+        },
+        {
+          "advantage": "Minimalny czas rekonwalescencji",
+          "description": "Po zabiegu może wystąpić lekkie zaczerwienienie, jednak zwykle ustępuje ono w ciągu kilku dni, co pozwala na szybki powrót do codziennych aktywności."
+        },
+        {
+          "advantage": "Wszechstronność",
+          "description": "Mezoterapia mikroigłowa może być stosowana w różnych problemach skórnych – od odmładzania skóry, przez leczenie blizn, po leczenie rozstępów i poprawę wyglądu skóry trądzikowej."
+        }
+      ]
+    }
+  ],
+  "additionalInfo": "",
+  "services": [
+    { "name": "Zabieg mezoterapii mikroigłowej obejmujący obszar twarzy" },
+    {
+      "name": "Zabieg mezoterapii mikroigłowej obejmujący Twarz, Szyje, Dekolt"
+    }
+  ]
+}

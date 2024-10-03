@@ -7,6 +7,8 @@ import PricePage from './pages/PricePage/PricePage';
 import FAQPage from './pages/FAQPage/FAQPage';
 import ContactPage from './pages/ContactPage/ContactPage';
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
+import ServiceDescription from './pages/ServicesPage/ServiceDescription/ServiceDescription';
+import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 
 
 function App() {
@@ -14,12 +16,13 @@ function App() {
     <Routes>
       <Route path='/' element={<SharedLayout />}>
         <Route index element={<MainPage />} />
-        <Route path='/services' element={<ServicesPage />} />
-        <Route path='/price' element={<PricePage />} />
-        <Route path='/about-us' element={<AboutUsPage />} />
-        <Route path='/faq' element={<FAQPage />} />
-        <Route path='/contact' element={<ContactPage />} />
-        {/* <Route path='*' element={<NotFoundPage />} /> */}
+        <Route path='services' element={<ServicesPage />} />
+        <Route path='services/:id' element={<ServiceDescription />} />
+        <Route path='price' element={<PricePage />} />
+        <Route path='about-us' element={<AboutUsPage />} />
+        <Route path='faq' element={<FAQPage />} />
+        <Route path='contact' element={<ContactPage />} />
+        <Route path='*' element={<NotFoundPage />} />
       </Route>
     </Routes>
 

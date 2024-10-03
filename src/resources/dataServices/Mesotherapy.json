@@ -1,0 +1,42 @@
+{
+  "name": "Mezoterapia igłowa",
+  "type": "Medycyna estetyczna",
+  "explanation": "Mezoterapia igłowa to jeden z moich ulubionych zabiegów, który stosuję w pracy jako kosmetolog. Dzięki precyzyjnym mikroiniekcjom, dostarczam skórze niezbędne składniki aktywne, takie jak kwas hialuronowy, witaminy i aminokwasy, bezpośrednio do głębszych warstw skóry. ",
+  "info": "Jeśli marzysz o zdrowej, nawilżonej i młodo wyglądającej skórze, mezoterapia igłowa to idealne rozwiązanie dla Ciebie!",
+  "advantages": [
+    {
+      "suptitle": "Zalety zabiegu mezoterapii igłowej:",
+      "info": [
+        {
+          "advantage": "Głębokie nawilżenie",
+          "description": "Mezoterapia igłowa dostarcza skórze składników odżywczych, takich jak kwas hialuronowy, witaminy i minerały, bezpośrednio do głębszych warstw skóry. Dzięki temu skóra staje się intensywnie nawilżona i jędrna."
+        },
+        {
+          "advantage": "Poprawa elastyczności i jędrności",
+          "description": "Zabieg stymuluje produkcję kolagenu i elastyny, co przyczynia się do poprawy elastyczności i jędrności skóry. Efekt to widocznie młodsza i bardziej napięta skóra."
+        },
+        {
+          "advantage": "Redukcja zmarszczek i drobnych linii",
+          "description": "Mezoterapia pomaga w wygładzaniu drobnych zmarszczek i linii, szczególnie wokół oczu, ust i na czole. Skóra staje się gładka i promienna."
+        },
+        {
+          "advantage": "Poprawa kolorytu i struktury skóry",
+          "description": "Dzięki mezoterapii można poprawić koloryt skóry, redukując przebarwienia i zaczerwienienia. Skóra staje się bardziej jednolita i zdrowo wyglądająca."
+        },
+        {
+          "advantage": "Regeneracja skóry",
+          "description": "Mezoterapia przyspiesza procesy regeneracyjne skóry, co jest szczególnie ważne po ekspozycji na słońce, stresie czy innych szkodliwych czynnikach."
+        },
+        {
+          "advantage": "Wszechstronność",
+          "description": "Mezoterapia igłowa może być stosowana nie tylko na twarzy, ale także na szyi, dekolcie, dłoniach i innych partiach ciała wymagających poprawy kondycji skóry."
+        }
+      ]
+    }
+  ],
+  "additionalInfo": "",
+  "services": [
+    { "name": "Oko - RRS" },
+    { "name": "Twarz + Szyja + Dekolt - Filorga NCTF 135/Cytocare 532" }
+  ]
+}

@@ -27,14 +27,15 @@ const Footer = () => {
                         <NetworksList />
                     </WrappLinks>
 
-
                 </WrappFlex>
-                <TextStyled>Developed by
-                    <a href='https://www.linkedin.com/in/inna-zadorozhnia-07384827a/'
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    > Inna Zadorozhnia
-                    </a>
+                <TextStyled>
+                    <span>Copyright © 2024</span>
+                    <span>Developed by
+                        <a href='https://www.linkedin.com/in/inna-zadorozhnia-07384827a/'
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        > Inna Zadorozhnia
+                        </a></span>
                 </TextStyled>
             </Container>
         </Wrapper>

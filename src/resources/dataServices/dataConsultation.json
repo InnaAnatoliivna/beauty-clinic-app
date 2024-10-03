@@ -1,0 +1,34 @@
+{
+  "name": "Konsultacja przedzabiegowa",
+  "type": "Konsultacje kosmetologiczne",
+  "explanation": "Konsultacja przedzabiegowa to pierwsze i niezwykle istotne spotkanie z kosmetologiem, mające na celu ocenę stanu skóry oraz dobór odpowiednich zabiegów. Dzięki profesjonalnej analizie kosmetolog może zaproponować spersonalizowany plan pielęgnacji, który odpowiada indywidualnym potrzebom skóry.",
+  "info": "Podczas konsultacji omawiane są cele zabiegowe, oczekiwania pacjenta oraz jego ewentualne problemy skórne. Często cena konsultacji jest odliczana od kosztu zabiegu, co sprawia, że jest to idealny pierwszy krok w stronę poprawy kondycji skóry.",
+  "advantages": [
+    {
+      "suptitle": "Zalety konsultacji przedzabiegowej:",
+      "info": [
+        {
+          "advantage": "Indywidualne podejście",
+          "description": "Konsultacja pozwala na dokładne dopasowanie zabiegu do potrzeb i stanu skóry pacjenta."
+        },
+        {
+          "advantage": "Oszczędność czasu i pieniędzy",
+          "description": "Dzięki konsultacji wybierasz tylko te zabiegi, które naprawdę są dla Ciebie odpowiednie, unikając niepotrzebnych kosztów."
+        },
+        {
+          "advantage": "Profesjonalna analiza skóry",
+          "description": "Kosmetolog dokładnie oceni stan Twojej skóry, co pozwoli na precyzyjne dobranie zabiegu."
+        },
+        {
+          "advantage": "Plan zabiegowy",
+          "description": "Na podstawie konsultacji otrzymasz spersonalizowany plan pielęgnacyjny, który krok po kroku poprowadzi Cię do lepszej kondycji skóry."
+        }
+      ]
+    }
+  ],
+  "additionalInfo": "",
+  "services": [
+    { "name": "Konsultacja przedzabiegowa twarzy" },
+    { "name": "Konsultacja przedzabiegowa ciała" }
+  ]
+}

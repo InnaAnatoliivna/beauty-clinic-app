@@ -1,120 +1,63 @@
 {
   "name": "Epilacja laserowa",
-  "description": "",
-  "services": [
+  "type": "Ciało",
+  "explanation": "Epilacja laserowa urządzeniem medycznym Motus AX to nowoczesna metoda usuwania owłosienia, która wykorzystuje technologię lasera diodowego z laserem aleksandrytowym. Laser Motus AX działa na zasadzie emitowania energii świetlnej, która jest pochłaniana przez melaninę (barwnik) we włosach. Energia zamieniana jest na ciepło, co skutkuje uszkodzeniem mieszka włosowego, uniemożliwiając jego dalszy wzrost. ",
+  "info": "Technologia Motus AX zapewnia bezpieczne, skuteczne i bezbolesne zabiegi.",
+  "advantages": [
     {
-      "name": "Epilacja bikini głębokie",
-      "price": "300 zł",
-      "duration": "35 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja bikini płytkie",
-      "price": "230 zł",
-      "duration": "30 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja broda",
-      "price": "150 zł",
-      "duration": "30 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja cała klatka piersiowa",
-      "price": "270 zł",
-      "duration": "40 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja całe nogi",
-      "price": "650 zł",
-      "duration": "85 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja cały brzuch",
-      "price": "290 zł",
-      "duration": "40 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja dłonie",
-      "price": "130 zł",
-      "duration": "25 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja kark",
-      "price": "200 zł",
-      "duration": "30 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja linia brzucha",
-      "price": "150 zł",
-      "duration": "30 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja łydki",
-      "price": "340 zł",
-      "duration": "30 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja męskie plecy",
-      "price": "320 zł",
-      "duration": "70 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja okolice brodawek",
-      "price": "120 zł",
-      "duration": "30 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja pachy",
-      "price": "150 zł",
-      "duration": "20 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja przedramiona",
-      "price": "250 zł",
-      "duration": "30 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja stopy",
-      "price": "130 zł",
-      "duration": "20 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja szpara pośladkowa",
-      "price": "150 zł",
-      "duration": "20 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja szyja",
-      "price": "200 zł",
-      "duration": "30 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja uda",
-      "price": "400 zł",
-      "duration": "50 min",
-      "discount": ""
-    },
-    {
-      "name": "Epilacja wąsik",
-      "price": "110 zł",
-      "duration": "30 min",
-      "discount": ""
+      "suptitle": "Zalety epilacji laserowej Motus AX:",
+      "info": [
+        {
+          "advantage": "Skuteczność",
+          "description": "Laser Motus AX działa na wszystkie typy włosów, w tym jasne, ciemne i cienkie, zapewniając trwałe rezultaty po serii zabiegów. "
+        },
+        {
+          "advantage": "Bezbolesność",
+          "description": "Dzięki innowacyjnej technologii chłodzenia i odpowiedniej mocy impulsów, zabieg jest znacznie mniej bolesny w porównaniu do tradycyjnych metod epilacji."
+        },
+        {
+          "advantage": "Bezpieczny dla skóry",
+          "description": "Laser Motus AX działa precyzyjnie, nie uszkadzając otaczających tkanek, co zmniejsza ryzyko podrażnień i oparzeń."
+        },
+        {
+          "advantage": "Minimalne ryzyko podrażnień",
+          "description": "W porównaniu do innych metod usuwania owłosienia, takich jak woskowanie czy depilacja mechaniczna, epilacja Motus AX generuje znacznie mniejsze ryzyko podrażnień czy wrastania włosów."
+        },
+        {
+          "advantage": "Brak okresu rekonwalescencji",
+          "description": "Zabieg nie wymaga długiego okresu gojenia. Po epilacji można wrócić do normalnych aktywności, bez konieczności odpoczynku. "
+        },
+        {
+          "advantage": "Bezpieczne dla osób o wrażliwej skórze",
+          "description": "Technologia Motus AX jest bezpieczna dla osób o skórze wrażliwej oraz skłonnej do podrażnień, ponieważ minimalizuje ryzyko uszkodzenia skóry."
+        },
+        {
+          "advantage": "Trwałość efektów",
+          "description": "Już po kilku zabiegach, efekty są długotrwałe, a niechciane owłosienie nie zabiera już nam radości z życia!"
+        }
+      ]
     }
+  ],
+  "additionalInfo": "",
+  "services": [
+    { "name": "Epilacja bikini głębokie" },
+    { "name": "Epilacja bikini płytkie" },
+    { "name": "Epilacja broda" },
+    { "name": "Epilacja cała klatka piersiowa" },
+    { "name": "Epilacja całe nogi" },
+    { "name": "Epilacja cały brzuch" },
+    { "name": "Epilacja dłonie" },
+    { "name": "Epilacja kark" },
+    { "name": "Epilacja linia brzucha" },
+    { "name": "Epilacja łydki" },
+    { "name": "Epilacja męskie plecy" },
+    { "name": "Epilacja okolice brodawek" },
+    { "name": "Epilacja pachy" },
+    { "name": "Epilacja przedramiona" },
+    { "name": "Epilacja stopy" },
+    { "name": "Epilacja szpara pośladkowa" },
+    { "name": "Epilacja szyja" },
+    { "name": "Epilacja uda" },
+    { "name": "Epilacja wąsik" }
   ]
 }

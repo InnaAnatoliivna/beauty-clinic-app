@@ -1,0 +1,47 @@
+{
+  "name": "Stymulatory tkankowe",
+  "type": "Medycyna estetyczna",
+  "explanation": "Stymulatory tkankowe to innowacyjne preparaty wykorzystywane w medycynie estetycznej, które pobudzają skórę do regeneracji poprzez stymulację produkcji kolagenu i elastyny. Zabieg ten wspomaga naturalne procesy odbudowy, poprawiając strukturę i wygląd skóry, zapewniając efekt liftingu i odmłodzenia.",
+  "info": "Stymulatory tkankowe działają na głębsze warstwy skóry, wzmacniając jej rusztowanie, poprawiając gęstość i sprężystość. Są doskonałe do rewitalizacji skóry twarzy, szyi, dekoltu oraz innych partii ciała, gdzie widoczne są oznaki starzenia.",
+  "advantages": [
+    {
+      "suptitle": "Zalety stymulatorów tkankowych:",
+      "info": [
+        {
+          "advantage": "Naturalne efekty odmłodzenia",
+          "description": "Stymulatory tkankowe pobudzają naturalne procesy regeneracyjne skóry, co zapewnia subtelny i naturalny efekt odmłodzenia."
+        },
+        {
+          "advantage": "Poprawa elastyczności skóry",
+          "description": "Zabieg zwiększa produkcję kolagenu i elastyny, dzięki czemu skóra staje się bardziej elastyczna i sprężysta."
+        },
+        {
+          "advantage": "Redukcja zmarszczek i bruzd",
+          "description": "Stymulatory skutecznie wygładzają drobne linie i zmarszczki, przywracając młodzieńczy wygląd skóry."
+        },
+        {
+          "advantage": "Długotrwałe efekty",
+          "description": "Efekty zabiegu są długotrwałe, ponieważ procesy regeneracyjne skóry działają jeszcze przez kilka miesięcy po zabiegu."
+        },
+        {
+          "advantage": "Poprawa gęstości skóry",
+          "description": "Stymulatory wspomagają odbudowę struktury skóry, zwiększając jej gęstość i odporność na działanie czynników zewnętrznych."
+        },
+        {
+          "advantage": "Bezpieczeństwo i mała inwazyjność",
+          "description": "Zabieg jest mało inwazyjny, a stymulatory są dobrze tolerowane przez organizm, co minimalizuje ryzyko powikłań."
+        },
+        {
+          "advantage": "Wszechstronność zastosowania",
+          "description": "Stymulatory mogą być stosowane nie tylko na twarzy, ale również na szyi, dekolcie, dłoniach i innych obszarach wymagających regeneracji."
+        }
+      ]
+    }
+  ],
+  "additionalInfo": "",
+  "services": [
+    { "name": "Stymulatory tkankowe na twarz" },
+    { "name": "Stymulatory tkankowe na szyję i dekolt" },
+    { "name": "Stymulatory tkankowe na dłonie" }
+  ]
+}

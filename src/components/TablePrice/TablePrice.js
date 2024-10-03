@@ -3,7 +3,7 @@ import Container from '../Container/Container';
 import { Wrapper, TableWrapp, TableStyled, ButtonBox, Span } from './TablePrice.styled';
 import { GiSandsOfTime } from "react-icons/gi";
 import { GiMoneyStack } from "react-icons/gi";
-// import { PiSealPercentThin } from "react-icons/pi";
+import { PiSealPercentThin } from "react-icons/pi";
 import dataServices from '../../resources/dataServices.json'
 import ModalWindow from '../ModalWindow/ModalWindow';
 import Button from '../Button/Button';
@@ -41,12 +41,14 @@ const TablePrice = () => {
                             <h2>{category.name}</h2>
                             <TableStyled>
                                 <thead>
-                                    <tr>
+                                    <tr key={categoryIndex}>
                                         <th>Zabieg</th>
                                         <th><Span><GiSandsOfTime /> Czas trwania</Span></th>
                                         <th><Span><GiMoneyStack /> Cena</Span></th>
-                                        {/* <th><Span><PiSealPercentThin /> Promocja</Span></th> */}
-                                        <th style={{ width: '1px' }}></th>
+                                        {category.services.some(service => service.discount) && (
+                                            <th key="promocja"><Span><PiSealPercentThin /> Promocja</Span></th>
+                                        )}
+                                        <th style={{ width: '0.1px' }}></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -55,10 +57,10 @@ const TablePrice = () => {
                                             <td>{service.name}</td>
                                             <td>{service.duration}</td>
                                             <td>{service.price}</td>
-                                            {/* {service.discount ? (
-                                            <td className='discount'>{service.discount}</td>
-                                        ) : (<td>-</td>)
-                                        } */}
+                                            {service.discount && (
+                                                <td key={`discount-${serviceIndex}`} className='discount'>{service.discount}</td>)}
+                                            {/* ) : (<td>-</td>) */}
+
                                             <td style={{ width: '1px' }}>
                                                 <ButtonBox>
                                                     <Button small={true} onClick={handleButton}>UMÓW SIĘ</Button>

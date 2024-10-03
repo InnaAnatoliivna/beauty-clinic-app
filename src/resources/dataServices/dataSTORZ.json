@@ -1,36 +1,57 @@
 {
   "name": "STORZ Fala uderzeniowa",
-  "description": "",
-  "services": [
+  "type": "Ciało",
+  "explanation": "Storz Medical – fala uderzeniowa (terapia falą akustyczną). Fala uderzeniowa, znana również jako terapia falą akustyczną, to nowoczesny zabieg stosowany w medycynie estetycznej, fizjoterapii i rehabilitacji, który polega na wysyłaniu impulsów akustycznych o wysokiej energii w głąb tkanek. Fale akustyczne pobudzają krążenie krwi, poprawiają mikrokrążenie, rozbijają zgrubienia tkankowe i wspomagają metabolizm komórkowy. ",
+  "info": "Falę uderzeniową stosujemy m.in. w leczeniu cellulitu zwłóknionego, redukcji tkanki tłuszczowej, poprawie jędrności skóry, leczeniu blizn czy na wdowi garb.",
+  "advantages": [
     {
-      "name": "STORZ Fala uderzeniowa BRZUCH",
-      "price": "300 zł",
-      "duration": "40 min",
-      "discount": ""
-    },
-    {
-      "name": "STORZ Fala uderzeniowa ŁYDKI tył",
-      "price": "200 zł",
-      "duration": "30 min",
-      "discount": ""
-    },
-    {
-      "name": "STORZ Fala uderzeniowa POŚLADKI",
-      "price": "250 zł",
-      "duration": "25 min",
-      "discount": ""
-    },
-    {
-      "name": "STORZ Fala uderzeniowa TWARZ",
-      "price": "200 zł",
-      "duration": "40 min",
-      "discount": ""
-    },
-    {
-      "name": "STORZ Fala uderzeniowa UDA przód/tył",
-      "price": "200 zł",
-      "duration": "30 min",
-      "discount": ""
+      "suptitle": "Zalety zabiegu fali uderzeniowej (Storz Medical):",
+      "info": [
+        {
+          "advantage": "Redukcja cellulitu",
+          "description": "Fala uderzeniowa pomaga rozbić zgrubienia tkankowe oraz wspomaga eliminację nadmiaru wody i toksyn, co przyczynia się do wygładzenia skóry i zmniejszenia widoczności cellulitu."
+        },
+        {
+          "advantage": "Poprawa jędrności skóry",
+          "description": "Zabieg stymuluje produkcję kolagenu i elastyny, co skutkuje poprawą elastyczności i jędrności skóry."
+        },
+        {
+          "advantage": "Skuteczna redukcja tkanki tłuszczowej",
+          "description": "Impulsy akustyczne wspomagają metabolizm komórkowy, przyspieszając proces spalania tłuszczu i poprawiając kontur sylwetki."
+        },
+        {
+          "advantage": "Bezbolesny i nieinwazyjna",
+          "description": "Terapia falą uderzeniową jest bezpieczna, bezbolesna i nie wymaga okresu rekonwalescencji. Pacjent może wrócić do normalnej aktywności zaraz po zabiegu. "
+        },
+        {
+          "advantage": "Poprawa mikrokrążenia",
+          "description": "Zabieg wspomaga krążenie krwi i limfy, co przyspiesza procesy regeneracyjne oraz poprawia dotlenienie i odżywienie tkanek. "
+        },
+        {
+          "advantage": "Redukcja blizn i rozstępów",
+          "description": "Terapia falą uderzeniową działa regenerująco na skórę, zmniejszając widoczność blizn i rozstępów."
+        },
+        {
+          "advantage": "Wspomaganie leczenia bólu",
+          "description": "Fala uderzeniowa wykorzystywana jest również w leczeniu bólów mięśniowych zmniejszając stan zapalny i przyspieszając proces gojenia. "
+        },
+        {
+          "advantage": "Szybkie efekty",
+          "description": "Efekty zabiegu są widoczne po kilku sesjach, co sprawia, że terapia jest stosunkowo szybka i efektywna. "
+        },
+        {
+          "advantage": "Wszechstronność",
+          "description": "Zabieg można stosować na różnych częściach ciała, takich jak uda, brzuch, pośladki, plecy a także w leczeniu problemów z mięśniami."
+        }
+      ]
     }
+  ],
+  "additionalInfo": "",
+  "services": [
+    { "name": "STORZ Fala uderzeniowa BRZUCH" },
+    { "name": "STORZ Fala uderzeniowa ŁYDKI tył" },
+    { "name": "STORZ Fala uderzeniowa POŚLADKI" },
+    { "name": "STORZ Fala uderzeniowa TWARZ" },
+    { "name": "STORZ Fala uderzeniowa UDA przód/tył" }
   ]
 }

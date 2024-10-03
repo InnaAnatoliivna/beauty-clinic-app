@@ -1,24 +1,53 @@
 {
   "name": "Endermologia LPG",
-  "description": "",
+  "type": "Ciało",
+  "explanation": "Endermologia to nieinwazyjny zabieg wykorzystujący technologię masażu podciśnieniowego, który pobudza naturalne mechanizmy regeneracyjne skóry. Endermologia jest stosowana głównie w celu redukcji cellulitu, poprawy kondycji skóry i modelowania sylwetki.",
+  "info": "Zabieg polega na użyciu najnowocześniejszego urządzenia od LPG Alliance Cellu M6, które za pomocą rolek i podciśnienia masuje skórę, stymulując krążenie krwi i limfy, a także poprawiając elastyczność oraz jędrność skóry.",
+  "advantages": [
+    {
+      "suptitle": "Zalety endermologii:",
+      "info": [
+        {
+          "advantage": "Redukcja cellulitu",
+          "description": "Zabieg skutecznie redukuje widoczność cellulitu poprzez poprawę mikrokrążenia i rozbijanie tkanki tłuszczowej. "
+        },
+        {
+          "advantage": "Poprawa jędrności skóry",
+          "description": "Regularne zabiegi zwiększają elastyczność skóry, co sprawia, że staje się ona bardziej jędrna i gładka."
+        },
+        {
+          "advantage": "Modelowanie sylwetki",
+          "description": "Endermologia pomaga w redukcji tkanki tłuszczowej i wymodelowaniu konturów ciała."
+        },
+        {
+          "advantage": "Stymulacja produkcji kolagenu",
+          "description": "Zabieg stymuluje fibroblasty do produkcji kolagenu, co wspomaga regenerację i odmłodzenie skóry."
+        },
+        {
+          "advantage": "Poprawa krążenia",
+          "description": "Dzięki masowaniu skóry i stymulacji krążenia, endermologia wspomaga usuwanie toksyn z organizmu i poprawia dotlenienie skóry."
+        },
+        {
+          "advantage": "Redukcja obrzęków",
+          "description": "Zabieg pomaga w redukcji nadmiaru wody w organizmie, zmniejszając obrzęki i poprawiając wygląd skóry. "
+        },
+        {
+          "advantage": "Bezbolesny i bezinwazyjny",
+          "description": "Endermologia jest zabiegiem bezpiecznym, bez potrzeby używania igieł czy skalpela, bez ryzyka powikłań."
+        },
+        {
+          "advantage": "Relaks i poprawa samopoczucia",
+          "description": "Zabieg działa relaksująco, redukując napięcie mięśniowe i stres, co pozytywnie wpływa na samopoczucie."
+        }
+      ]
+    }
+  ],
+  "additionalInfo": "",
   "services": [
+    { "name": "ENDERMOLOGIA masaż/drenaż 1 partii ciała" },
+    { "name": "ENDERMOLIFTING twarzy masaz ani-aging" },
     {
-      "name": "ENDERMOLOGIA masaż/drenaż 1 partii ciała",
-      "price": "120 zł",
-      "duration": "30 min",
-      "discount": ""
-    },
-    {
-      "name": "ENDERMOLIFTING twarzy masaz ani-aging",
-      "price": "130 zł",
-      "duration": "45 min",
-      "discount": ""
-    },
-    {
-      "name": "ENDERMOLOGIA masaż/drenaż dowolnie wybranych 3 partii ciata (Np. Brzuch, uda, posladki)",
-      "price": "170 zł",
-      "duration": "60 min",
-      "discount": ""
+      "name": "ENDERMOLOGIA masaż/drenaż dowolnie wybranych 3 partii ciata (Np. Brzuch, uda, posladki)"
     }
   ]
 }

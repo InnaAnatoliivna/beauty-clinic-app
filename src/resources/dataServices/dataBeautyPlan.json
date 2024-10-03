@@ -1,0 +1,48 @@
+{
+  "name": "Beauty plan",
+  "type": "Konsultacje kosmetologiczne",
+  "explanation": "Tworzenie Beauty Planu to spersonalizowana usługa, która pozwala na kompleksowe i indywidualne podejście do pielęgnacji skóry oraz poprawy jej kondycji. Usługa ta jest dedykowana osobom, które pragną uzyskać najlepsze możliwe rezultaty w trosce o swoją urodę, korzystając z profesjonalnej wiedzy i doświadczenia kosmetologa.",
+  "info": "Przebieg usługi:  Usługa rozpoczyna się od konsultacji z kosmetologiem, który przeprowadza szczegółowy wywiad i analizę skóry. Następnie okiem chemika przyglądamy się wszystkim stosowanym dotychczas kosmetykom do pielęgnacji (na wizycie należy je mieć ze sobą). Na podstawie głębokiej analizy potrzeb skóry wprowadzamy indywidualny Beauty Plan, który jest omawiany z klientem. Kosmetolog wyjaśnia, jakie zabiegi i produkty będą najskuteczniejsze oraz jak stosować je w codziennej pielęgnacji.",
+  "advantages": [
+    {
+      "suptitle": "Beauty Plan jest tworzony na podstawie szczegółowej analizy stanu skóry, jej potrzeb oraz celów, które klient chce osiągnąć. W ramach usługi przeprowadzana jest konsultacja, podczas której kosmetolog dokładnie ocenia typ skóry, jej kondycję, problematyczne obszary oraz konsultuje używane przez klienta produkty do pielęgnacji. Na tej podstawie opracowywany jest spersonalizowany plan pielęgnacyjny, który obejmuje:",
+      "info": [
+        {
+          "advantage": "Analizę skóry:",
+          "description": "Dokładna ocena stanu skóry oraz zidentyfikowanie problemów i potrzeb skóry."
+        },
+        {
+          "advantage": "Rekomendacje zabiegów:",
+          "description": "Dobór odpowiednich zabiegów kosmetycznych, które pomogą osiągnąć zamierzone cele, takie jak redukcja zmarszczek, poprawa nawilżenia, wyrównanie kolorytu skóry czy redukcja niedoskonałości."
+        },
+        {
+          "advantage": "Indywidualny plan pielęgnacyjny: ",
+          "description": "Opracowanie codziennej rutyny pielęgnacyjnej, w której uwzględnione zostaną odpowiednie produkty do pielęgnacji domowej, takie jak produkty do mycia, kremy czy sera."
+        },
+        {
+          "advantage": "Zalecenia dotyczące stylu życia:",
+          "description": "Porady dotyczące diety, suplementacji oraz zdrowych nawyków, które wspomagają ogólną kondycję skóry i wspierają efekty zabiegów kosmetycznych."
+        }
+      ]
+    },
+    {
+      "suptitle": "Korzyści z usługi:",
+      "info": [
+        {
+          "advantage": "Spersonalizowane podejście",
+          "description": " Beauty Plan jest dostosowany do indywidualnych potrzeb i celów każdej osoby, co zapewnia maksymalną skuteczność."
+        },
+        {
+          "advantage": "Profesjonalna opieka:",
+          "description": "Usługa jest świadczona przez doświadczonego kosmetologa, który zapewnia fachową opiekę i doradztwo na każdym etapie."
+        },
+        {
+          "advantage": "Kompleksowa pielęgnacja: ",
+          "description": "Obejmuje wszystkie aspekty dbania o skórę, od zabiegów profesjonalnych po codzienną pielęgnację domową."
+        }
+      ]
+    }
+  ],
+  "additionalInfo": "",
+  "services": []
+}

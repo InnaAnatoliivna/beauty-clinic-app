@@ -1,0 +1,31 @@
+{
+  "name": "Podstawowa pielęgnacja twarzy + masaż",
+  "type": "Twarz",
+  "explanation": "Podstawowa pielęgnacja twarzy to zabieg, który łączy oczyszczanie skóry za pomocą dermokosmetyków PCA SKIN oraz zastosowanie terapeutycznej maski odpowiednio dobranej do potrzeb skóry. Zabieg uzupełnia relaksujący masaż, który poprawia krążenie i zwiększa efektywność zastosowanych produktów.",
+  "info": "Podstawowa pielęgnacja jest idealnym rozwiązaniem dla osób, które chcą zadbać o codzienną kondycję skóry i zrelaksować się podczas zabiegu. Dzięki wysokiej jakości kosmetykom PCA SKIN, skóra jest oczyszczona, odżywiona i promienna, a masaż dodaje jej elastyczności.",
+  "advantages": [
+    {
+      "suptitle": "Zalety podstawowej pielęgnacji twarzy:",
+      "info": [
+        {
+          "advantage": "Dogłębne oczyszczenie skóry",
+          "description": "Zabieg usuwa zanieczyszczenia oraz nadmiar sebum, pozostawiając skórę czystą i świeżą."
+        },
+        {
+          "advantage": "Odżywienie i regeneracja",
+          "description": "Maska terapeutyczna dostarcza skórze niezbędnych składników odżywczych, które wspomagają regenerację."
+        },
+        {
+          "advantage": "Relaks i redukcja stresu",
+          "description": "Masaż twarzy działa relaksująco, redukując napięcie mięśni i poprawiając ogólne samopoczucie."
+        },
+        {
+          "advantage": "Poprawa elastyczności skóry",
+          "description": "Dzięki masażowi skóra staje się bardziej jędrna i elastyczna, co wpływa na jej młodszy wygląd."
+        }
+      ]
+    }
+  ],
+  "additionalInfo": "",
+  "services": []
+}

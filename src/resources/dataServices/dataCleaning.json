@@ -1,20 +1,100 @@
-[
-  {
-    "name": "Oczyszczanie wodorowe + maską PCA",
-    "description": "",
-    "services": [
-      {
-        "name": "Oczyszczanie wodorowe + maską PCA",
-        "price": "220 zł",
-        "duration": "60 min",
-        "discount": ""
-      }
-    ]
-  },
-  {
-    "name": "Podstawowa pielęgnacja twarzy + masaż",
-    "price": "200 zł",
-    "duration": "60 min",
-    "discount": ""
-  }
-]
+{
+  "name": "Oczyszczanie wodorowe + maską PCA",
+  "type": "Twarz",
+  "explanation": "Oczyszczanie wodorowe to nowoczesny, nieinwazyjny zabieg pielęgnacyjny, który wykorzystuje wodór jako główny składnik aktywny. Zabieg polega na aplikacji cząsteczek wodoru na powierzchnię skóry w celu głębokiego oczyszczenia jej z zanieczyszczeń, nadmiaru sebum i martwych komórek. Wodór, będąc silnym antyoksydantem, działa również na neutralizację wolnych rodników, co wspomaga regenerację skóry i zapobiega przedwczesnemu starzeniu. ",
+  "info": "Dzięki właściwościom oczyszczającym, detoksykacyjnym oraz nawilżającym, oczyszczanie wodorowe poprawia kondycję skóry, wyrównuje jej koloryt, zmniejsza widoczność niedoskonałości, takich jak trądzik czy zaskórniki, oraz przywraca cerze zdrowy, promienny wygląd. Jest to zabieg bezbolesny, bezpieczny i odpowiedni dla każdego typu skóry (także podczas ciąży czy w połogu), w tym dla osób o cerze wrażliwej.",
+  "advantages": [
+    {
+      "suptitle": "Zalety zabiegu oczyszczania wodorowego: ",
+      "info": [
+        {
+          "advantage": "Skuteczne oczyszczanie skóry",
+          "description": "Usuwa zanieczyszczenia, martwe komórki skóry, nadmiar sebum oraz toksyny, przywracając cerze świeżość i zdrowy wygląd."
+        },
+        {
+          "advantage": "Głęboka detoksykacja",
+          "description": "Dzięki zastosowaniu wodoru, który działa jako silny antyoksydant, zabieg neutralizuje wolne rodniki, redukując stres oksydacyjny skóry."
+        },
+        {
+          "advantage": "Poprawa nawilżenia",
+          "description": "Wodór pomaga w głębokim nawilżeniu skóry, co sprawia, że staje się ona bardziej elastyczna i jędrna."
+        },
+        {
+          "advantage": "Redukcja niedoskonałości",
+          "description": "Zabieg pomaga w walce z trądzikiem, rozszerzonymi porami i zaskórnikami, poprawiając ogólny wygląd skóry."
+        },
+        {
+          "advantage": "Bezbolesny i nieinwazyjny",
+          "description": "Zabieg jest bezpieczny, bez ryzyka podrażnień czy długotrwałego zaczerwienienia, idealny dla osób z wrażliwą cerą."
+        },
+        {
+          "advantage": "Poprawa kolorytu skóry",
+          "description": "Regularne oczyszczanie wodorowe przyczynia się do wygładzenia skóry, wyrównania jej kolorytu i zmniejszenia przebarwień."
+        },
+        {
+          "advantage": "Zwiększona produkcja kolagenu",
+          "description": "Zabieg wspomaga regenerację skóry, stymulując produkcję kolagenu, co skutkuje poprawą jej gęstości i elastyczności."
+        },
+        {
+          "advantage": "Ochrona przed starzeniem",
+          "description": "Regularne oczyszczanie wodorowe może spowolnić proces starzenia skóry, redukując widoczność zmarszczek i drobnych linii."
+        }
+      ]
+    },
+    {
+      "suptitle": "Zalety zabiegu złuszczania skóry za pomocą kwasów PCA Skin: ",
+      "info": [
+        {
+          "advantage": "Skuteczne usuwanie martwego naskórka",
+          "description": "Zabieg złuszczania przy użyciu kwasów PCA Skin usuwa martwe komórki skóry, poprawiając jej teksturę i wygładzając powierzchnię."
+        },
+        {
+          "advantage": "Poprawa kolorytu skóry",
+          "description": "Regularne stosowanie kwasów pomaga w wyrównaniu kolorytu skóry, redukując przebarwienia, plamy słoneczne i inne nierówności. "
+        },
+        {
+          "advantage": "Redukcja zmarszczek i drobnych linii",
+          "description": "Zabieg stymuluje produkcję kolagenu, co skutkuje poprawą jędrności i elastyczności skóry oraz zmniejsza widoczność drobnych zmarszczek. "
+        },
+        {
+          "advantage": "Walka z trądzikiem i zaskórnikami",
+          "description": "Kwasy PCA Skin pomagają w regulowaniu produkcji sebum, oczyszczają pory i zmniejszają skłonność do powstawania wyprysków. "
+        },
+        {
+          "advantage": "Bezpieczny dla różnych typów skóry",
+          "description": "Zabieg jest dostosowany do różnych potrzeb skóry – od suchej po tłustą, a także skuteczny w przypadku wrażliwej skóry. "
+        },
+        {
+          "advantage": "Poprawa nawilżenia",
+          "description": "Złuszczanie kwasami wspomaga lepsze wchłanianie składników aktywnych z produktów pielęgnacyjnych, co prowadzi do głębszego nawilżenia skóry. "
+        },
+        {
+          "advantage": "Redukcja widoczności porów",
+          "description": "Dzięki oczyszczaniu skóry i regulacji produkcji sebum, zabieg może pomóc w zmniejszeniu widoczności rozszerzonych porów. "
+        },
+        {
+          "advantage": "Szybkie efekty i minimalny czas rekonwalescencji",
+          "description": "Zabieg złuszczania kwasami PCA Skin daje szybkie efekty przy minimalnym ryzyku podrażnień, a czas regeneracji jest krótki. Właściwe wraz z końcem zabiegu macie na twarzy glow i blask."
+        }
+      ]
+    }
+  ],
+  "additionalInfo": ""
+}
+
+{
+  "explanation": "",
+  "info": "",
+  "advantages": [
+    {
+      "suptitle": "",
+      "info": [
+        {
+          "advantage": "",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "additionalInfo": "",
+}
