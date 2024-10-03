@@ -180,13 +180,31 @@
     ]
   },
   {
-    "name": "Oczyszczanie wodorowe + maską PCA",
+    "name": "Zabiegi na twarz",
     "description": "",
     "services": [
+      {
+        "name": "Podstawowa pielęgnacja twarzy + masaż",
+        "price": "200 zł",
+        "duration": "60 min",
+        "discount": ""
+      },
       {
         "name": "Oczyszczanie wodorowe + maską PCA",
         "price": "220 zł",
         "duration": "60 min",
+        "discount": ""
+      },
+      {
+        "name": "Maska PCA + Kwasy PCA Twarz",
+        "price": "250 zł",
+        "duration": "70 min",
+        "discount": ""
+      },
+      {
+        "name": "Maska PCA + Kwasy PCA Twarz + Dekolt",
+        "price": "320 zł",
+        "duration": "90 min",
         "discount": ""
       }
     ]
@@ -228,7 +246,7 @@
     ]
   },
   {
-    "name": "Inne",
+    "name": "Konsultacje kosmetologiczne",
     "description": "",
     "services": [
       {
@@ -240,12 +258,6 @@
       {
         "name": "Beauty plan",
         "price": "300 zł",
-        "duration": "60 min",
-        "discount": ""
-      },
-      {
-        "name": "Podstawowa pielęgnacja twarzy + masaż",
-        "price": "200 zł",
         "duration": "60 min",
         "discount": ""
       }
