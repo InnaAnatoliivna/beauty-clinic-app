@@ -3,6 +3,7 @@ import { Section } from './FAQPage.styled';
 import AccordionComponent from '../../components/FAQ/Accordion/Accordion';
 import FilterSection from '../../components/FAQ/FilterSection/FilterSection';
 import dataQA from '../../resources/QuestionAnswer.json';
+import { ItemStyled } from '../ServicesPage/ServicesPage.styled';
 
 const arrayFilter = ["Endermologia LPG", "Oczyszczenie wodorowe", "Epilacja laserowa", "Wszystkie"];
 
@@ -36,9 +37,9 @@ const FAQPage = () => {
         <Section>
             <FilterSection>
                 {arrayFilter.map((item, index) => (
-                    <li key={index} onClick={() => handleClick(item)}>
+                    <ItemStyled key={index} onClick={() => handleClick(item)}>
                         <p>{item}</p>
-                    </li>
+                    </ItemStyled>
                 ))}
             </FilterSection>
             <AccordionComponent question={filteredArray} />

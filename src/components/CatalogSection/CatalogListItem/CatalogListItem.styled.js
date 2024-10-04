@@ -20,25 +20,6 @@ export const Item = styled.div`
     @media screen and (min-width: 1440px) {
         height: 360px;
     }
-
-    /* .enderm {
-
-    }
-    .laser {
-
-    }
-    .nanofrax {
-
-    }
-    .wodor {
-
-    }
-    .mezoter {
-
-    }
-    .storz {
-
-    } */
 `;
 
 

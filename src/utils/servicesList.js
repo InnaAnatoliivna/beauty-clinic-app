@@ -14,37 +14,37 @@ export const servicesList = [
         name: 'Endermologia LPG',
         photo: endermIMG,
         link: '/services/endermologia-lpg',
-        className: 'enderm'
+        type: 'Ciało'
     },
     {
         name: 'Epilacja laserowa',
         photo: epilIMG,
         link: '/services/epilacja-laserowa',
-        className: 'laser'
+        type: 'Ciało'
     },
     {
         name: 'Mezoterapia mikroigłowa Nanofrax',
         photo: mezmicroIMG,
         link: '/services/mezoterapia-mikroigłowa',
-        className: 'nanofrax'
+        type: 'Medycyna estetyczna'
     },
     {
         name: 'Mezoterapia igłowa',
         photo: mezIMG,
         link: '/services/mezoterapia-igłowa',
-        className: 'mezoter'
+        type: 'Medycyna estetyczna'
     },
     {
         name: 'Oczyszczanie wodorowe + maską PCA',
         photo: wodorIMG,
         link: '/services/oczyszczanie-wodorowe',
-        className: 'wodor'
+        type: 'Twarz'
     },
     {
         name: 'STORZ Fala uderzeniowa',
         photo: storzIMG,
         link: '/services/storz-fala-uderzeniowa',
-        className: 'storz'
+        type: 'Ciało'
     }
 ]
 
@@ -53,20 +53,24 @@ export const servicesNextList = [
         name: 'Stymulatory tkankowe',
         photo: stimulIMG,
         link: '/services/stymulatory-tkankowe',
+        type: 'Medycyna estetyczna'
     },
     {
         name: 'Podstawowa pielęgnacja twarzy + masaż',
         photo: imgMassage,
         link: '/services/podstawowa-pielęgnacja-twarzy',
+        type: 'Twarz'
     },
     {
         name: 'Konsultacja przedzabiegowa',
         photo: imgConsult,
         link: '/services/konsultacja-przedzabiegowa',
+        type: 'Konsultacje kosmetologiczne'
     },
     {
         name: 'Beauty plan',
         photo: imgConsult,
         link: '/services/beauty-plan',
+        type: 'Konsultacje kosmetologiczne'
     }
 ]
