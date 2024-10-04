@@ -1,5 +1,4 @@
 import styled from '@emotion/styled';
-import { Link } from 'react-router-dom';
 
 export const FlexBox = styled.div`
     display: flex;
@@ -65,7 +64,7 @@ export const ButtonsBox = styled.div`
     margin-bottom: 60px;
 `;
 
-export const LinkStyled = styled(Link)`
+export const LinkStyled = styled.div`
     color: var(--color-brown);
     border: 1.5px solid var(--color-main-text);
     border-radius: var(--card-border-radius);

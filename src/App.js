@@ -9,23 +9,26 @@ import ContactPage from './pages/ContactPage/ContactPage';
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import ServiceDescription from './pages/ServicesPage/ServiceDescription/ServiceDescription';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
+import ScrollRefresh from './components/ScrollRefresh/ScrollRefresh';
 
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={<SharedLayout />}>
-        <Route index element={<MainPage />} />
-        <Route path='services' element={<ServicesPage />} />
-        <Route path='services/:id' element={<ServiceDescription />} />
-        <Route path='price' element={<PricePage />} />
-        <Route path='about-us' element={<AboutUsPage />} />
-        <Route path='faq' element={<FAQPage />} />
-        <Route path='contact' element={<ContactPage />} />
-        <Route path='*' element={<NotFoundPage />} />
-      </Route>
-    </Routes>
-
+    <>
+      <ScrollRefresh />
+      <Routes>
+        <Route path='/' element={<SharedLayout />}>
+          <Route index element={<MainPage />} />
+          <Route path='services' element={<ServicesPage />} />
+          <Route path='services/:id' element={<ServiceDescription />} />
+          <Route path='price' element={<PricePage />} />
+          <Route path='about-us' element={<AboutUsPage />} />
+          <Route path='faq' element={<FAQPage />} />
+          <Route path='contact' element={<ContactPage />} />
+          <Route path='*' element={<NotFoundPage />} />
+        </Route>
+      </Routes>
+    </>
   );
 }
 

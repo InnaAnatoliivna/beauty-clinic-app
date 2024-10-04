@@ -11,4 +11,5 @@ const ButtonLink = ({ children, path }) => {
 
 export default ButtonLink;
 
-// <ButtonLink path={'/about-us'}>Czytaj więcej...</ButtonLink>
+// how to use >
+//<ButtonLink path={'/about-us'}>Czytaj więcej...</ButtonLink>
