@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Container } from '@mui/material';
 import { servicesList, servicesNextList } from '../../utils/servicesList';
-import ServicesList from '../../components/ServicesComponents/ServicesList/ServicesList'
-import ServiceItems from '../../components/ServicesComponents/ServicesList/ServiceItems/ServiceItems';
-import { ListStyled, ItemStyled } from './ServicesPage.styled';
+import { ListStyled, ItemStyled, Wrapper } from './ServicesPage.styled';
+import CatalogListItem from '../../components/CatalogSection/CatalogListItem/CatalogListItem';
+import CatalogList from '../../components/CatalogSection/CatalogList/CatalogList';
+import { Title } from '../../components/CatalogSection/Catalog.styled';
 
 
 const ServicesPage = () => {
@@ -37,16 +38,20 @@ const ServicesPage = () => {
     return (
         <>
             <Container>
-                <ListStyled>
-                    {filterArray.map((item, index) => (
-                        <ItemStyled key={index} onClick={() => handleClick(item)}>{item}</ItemStyled>
-                    )
-                    )}
-                </ListStyled>
+                <div id="back-to-top-anchor"></div>
+                <Wrapper>
+                    <Title>Nasze zabiegi</Title>
+                    <ListStyled>
+                        {filterArray.map((item, index) => (
+                            <ItemStyled key={index} onClick={() => handleClick(item)}>{item}</ItemStyled>
+                        )
+                        )}
+                    </ListStyled>
+                    <CatalogList>
+                        <CatalogListItem array={filteredArray} />
+                    </CatalogList>
+                </Wrapper>
             </Container>
-            <ServicesList>
-                <ServiceItems array={filteredArray} />
-            </ServicesList>
         </>
     )
 };

@@ -30,14 +30,14 @@ import imgPlan from '../images/services/beauty.jpg';
 
 const services = [
     {
-        id: "mezoterapia-mikroigłowa",
-        service: MesotherapyMicro,
-        image: [imgMMicroFirst, imgMMicroSecond]
-    },
-    {
         id: "mezoterapia-igłowa",
         service: Mesotherapy,
         image: [imgMezotFirst, imgMezotSecond]
+    },
+    {
+        id: "mezoterapia-mikroigłowa",
+        service: MesotherapyMicro,
+        image: [imgMMicroFirst, imgMMicroSecond]
     },
     {
         id: "stymulatory-tkankowe",
