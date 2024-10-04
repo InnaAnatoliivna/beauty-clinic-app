@@ -7,7 +7,7 @@ import mezIMG from '../images/services/Mezoterapia-igłowa.jpg';
 import stimulIMG from '../images/services/igłowa1.jpg';
 import imgMassage from '../images/services/Masaż-21.jpg';
 import imgConsult from '../images/services/DSC013912.jpg';
-
+import imgCons from '../images/services/consult.jpg';
 
 export const servicesList = [
     {
@@ -63,7 +63,7 @@ export const servicesNextList = [
     },
     {
         name: 'Konsultacja przedzabiegowa',
-        photo: imgConsult,
+        photo: imgCons,
         link: '/services/konsultacja-przedzabiegowa',
         type: 'Konsultacje kosmetologiczne'
     },

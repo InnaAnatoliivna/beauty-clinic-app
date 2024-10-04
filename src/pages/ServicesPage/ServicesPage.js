@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container } from '@mui/material';
 import { servicesList, servicesNextList } from '../../utils/servicesList';
-import { ListStyled, ItemStyled, Wrapper } from './ServicesPage.styled';
+import { ListStyled, ItemStyled, Section, Wrapper } from './ServicesPage.styled';
 import CatalogListItem from '../../components/CatalogSection/CatalogListItem/CatalogListItem';
 import CatalogList from '../../components/CatalogSection/CatalogList/CatalogList';
 import { Title } from '../../components/CatalogSection/Catalog.styled';
@@ -37,9 +37,9 @@ const ServicesPage = () => {
 
     return (
         <>
-            <Container>
-                <div id="back-to-top-anchor"></div>
-                <Wrapper>
+            <Section>
+                <Container>
+                    <div id="back-to-top-anchor"></div>
                     <Title>Nasze zabiegi</Title>
                     <ListStyled>
                         {filterArray.map((item, index) => (
@@ -47,11 +47,15 @@ const ServicesPage = () => {
                         )
                         )}
                     </ListStyled>
-                    <CatalogList>
-                        <CatalogListItem array={filteredArray} />
-                    </CatalogList>
+                </Container>
+                <Wrapper>
+                    <Container>
+                        <CatalogList>
+                            <CatalogListItem array={filteredArray} />
+                        </CatalogList>
+                    </Container>
                 </Wrapper>
-            </Container>
+            </Section>
         </>
     )
 };
