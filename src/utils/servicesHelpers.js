@@ -10,15 +10,17 @@ import dataCleaning from '../resources/dataServices/dataCleaning.json';
 import dataBeautyPlan from '../resources/dataServices/dataBeautyPlan.json';
 import imgCleaningFirst from '../images/services/Oczyszczanie-wodorowe.jpg';
 import imgCleaningSecond from '../images/services/Zabieg-pca-twarz.jpg';
+import imgCleaningThird from '../images/services/Zabiegi-na-twarz.jpg';
+import imgCleaningFourth from '../images/services/Wodorowe.jpg';
 import imgMMicroFirst from '../images/services/Mezoterapia-mikroigłowa1.jpg';
 import imgMMicroSecond from '../images/services/mezmikro.jpg';
-import imgMezotFirst from '../images/services/Mezoterapia-mikroigłowa1.jpg';
+import imgMezotFirst from '../images/services/Mezoterapia-igłowa1.jpg';
 import imgMezotSecond from '../images/services/Mezoterapia-skóry-głowy.jpg';
 import imgStFirst from '../images/services/stymulator.jpg';
 import imgStSecond from '../images/services/stymulat.jpg';
 import imgStorzFirst from '../images/services/Fala-udzerzeniowa-Storz1.jpg';
 import imgStorzSecond from '../images/services/DSC01391.jpg';
-import imgEpilFirst from '../images/services/Epilacja.jpg';
+import imgEpilFirst from '../images/services/Zdjęcia-epil.jpg';
 import imgEpilSecond from '../images/services/Epilacja-pach1.jpg';
 import imgEndermFirst from '../images/services/Enderm.jpg';
 import imgEndermSecond from '../images/services/Endermolif-twarz-szyja-dekolt1.jpg';
@@ -72,7 +74,7 @@ const services = [
     {
         id: "oczyszczanie-wodorowe",
         service: dataCleaning,
-        image: [imgCleaningFirst, imgCleaningSecond]
+        image: [imgCleaningFirst, imgCleaningSecond, imgCleaningThird, imgCleaningFourth]
     },
     {
         id: "beauty-plan",

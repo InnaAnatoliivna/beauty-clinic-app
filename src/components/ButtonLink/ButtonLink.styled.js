@@ -5,7 +5,6 @@ export const Button = styled.div`
     width: 180px;
     color: var(--color-brown);
     border: 1.5px solid var(--color-main-text);
-    border-color: var(--color-main-text);
     background-color: var(--bc-hero);
     border-radius: var(--card-border-radius);
     box-shadow: var(--shadow-cards-second), var(--shadow-card-inset);

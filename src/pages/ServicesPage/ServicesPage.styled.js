@@ -11,7 +11,7 @@ background: rgb(238,238,238);background: linear-gradient(90deg, rgba(238,238,238
 
 export const ListStyled = styled.ul`
   list-style: none;
-  margin-bottom: 30px; //60px
+  margin-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: stretch;

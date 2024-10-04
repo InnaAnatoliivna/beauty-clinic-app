@@ -1,0 +1,54 @@
+import React from 'react';
+import Container from '../../../components/Container/Container';
+import { FaFire } from "react-icons/fa";
+import { Box, FlexBox, TextBox, TitleStyled } from '../../../pages/ServicesPage/ServiceDescription/ServiceDescription.styled';
+import { ItemStyled, ListStyled } from './Description.styled';
+
+const Description = ({ service, children }) => {
+
+    const { name, advantages } = service.service;
+
+    return (
+        <Container>
+            <FlexBox>
+                <TextBox>
+                    {advantages.map((item, index) => (
+                        <React.Fragment key={`advantage-section-${index}`}>
+                            <TitleStyled key={`subtitle${index}`}>{item.suptitle}</TitleStyled>
+                            <ListStyled key={`list${index}`}>
+                                {item.info.map((advantage, subIndex) => (
+                                    <ItemStyled key={`advantage-${index}-${subIndex}`}><p><FaFire />{advantage.advantage}</p>
+                                        <span>{advantage.description}</span>
+                                    </ItemStyled>
+                                ))}
+                            </ListStyled>
+                        </React.Fragment>
+                    ))}
+
+                    {children}
+
+                </TextBox>
+                <Box>
+                    <img
+                        alt={name}
+                        src={service.image[1]}
+                    ></img>
+                    {service.image[2] && (
+                        <img
+                            alt={name}
+                            src={service.image[2]}
+                        ></img>
+                    )}
+                    {service.image[3] && (
+                        <img
+                            alt={name}
+                            src={service.image[3]}
+                        ></img>
+                    )}
+                </Box>
+            </FlexBox>
+        </Container>
+    )
+};
+
+export default Description;

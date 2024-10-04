@@ -36,3 +36,42 @@ export const StyledButton = styled.button`
     }
     }
 `;
+
+export const ButtonNavigate = styled.button`
+    width: 100%;
+    padding: 10px 20px;
+    color: var(--color-brown);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+
+    letter-spacing: 0em;
+    overflow: hidden;
+    background-color: #d6cfc781;
+    border: 2px solid var(--color-brown);
+    border-radius: 4px;
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    position: absolute;
+    z-index: 100;
+
+    transition: color linear 500ms,
+        border-color linear 500ms,
+        background-color linear 500ms;
+    &:hover {
+            color: var(--color-brown);
+            border-color: var(--color-brown);
+            background-color: var(--bc-hero);
+        }
+    svg {
+        font-size: 22px;
+        color: var(--color-red);
+    }
+
+    @media screen and (max-width: 1439px) {
+        font-size: 12px;
+    }
+`;
