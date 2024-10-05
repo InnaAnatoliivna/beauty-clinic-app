@@ -21,7 +21,6 @@ const About = () => {
                     <AboutTitle>
                         {dataAboutUs.title}
                     </AboutTitle>
-                    {isDesktopOrTablet && <span>W Klinice:</span>}
                     <ContentWrapper>
                         {isMobile && (
                             <>
@@ -29,7 +28,8 @@ const About = () => {
                                 <AboutTitle>W Klinice:</AboutTitle>
                             </>
                         )}
-                        <AboutList>
+
+                        <AboutList> {isDesktopOrTablet && <span>W Klinice:</span>}
                             <AboutListItem />
                         </AboutList>
                         {isDesktopOrTablet && (

@@ -9,6 +9,7 @@ const Logo = () => {
                 src={logo}
                 alt='ŻELAZNOWSKA - beauty clinic'
                 width='300'
+                loading="lazy"
             />
         </Link>
     )

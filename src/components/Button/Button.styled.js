@@ -52,7 +52,6 @@ export const ButtonNavigate = styled.button`
     
     display: flex;
     align-items: center;
-    gap: 4px;
 
     position: absolute;
     z-index: 100;

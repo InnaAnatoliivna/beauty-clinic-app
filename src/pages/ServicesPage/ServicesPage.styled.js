@@ -2,16 +2,22 @@ import styled from "@emotion/styled";
 import circleImg from '../../images/b-c-img.jpg';
 
 export const Section = styled.div`
+  padding-top: 30px;
+  @media (min-width: 768px) {
   padding-top: 60px;
+  }
 `;
 export const Wrapper = styled.div`
-padding: 30px 0 60px 0;
-background: rgb(238,238,238);background: linear-gradient(90deg, rgba(238,238,238,0.9781162464985994) 0%, rgba(238,238,238,0.8884803921568627) 24%, rgba(233,232,230,1) 45%, rgba(214,207,199,1) 100%);
+  padding: 15px 0 30px 0;
+  background: rgb(238,238,238);background: linear-gradient(90deg, rgba(238,238,238,0.9781162464985994) 0%, rgba(238,238,238,0.8884803921568627) 24%, rgba(233,232,230,1) 45%, rgba(214,207,199,1) 100%);
+  @media (min-width: 768px) {
+  padding: 30px 0 60px 0;
+  }
 `;
 
 export const ListStyled = styled.ul`
   list-style: none;
-  margin-bottom: 30px;
+  padding-bottom: 15px;
   display: flex;
   flex-wrap: wrap;
   justify-content: stretch;
@@ -27,6 +33,7 @@ export const ListStyled = styled.ul`
     flex-wrap: nowrap;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 30px;
   }
 `;
 

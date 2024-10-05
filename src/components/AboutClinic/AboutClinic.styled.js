@@ -2,22 +2,34 @@ import styled from '@emotion/styled';
 
 export const Section = styled.div`
     background-color: #e2cfc2;
-    @media screen and (min-width: 1440px)  {
-    }
 `;
 
 export const Wrapper = styled.div`
     position: relative;
     @media screen and (max-width: 767px)  {
-        padding-top: 28px;
+        padding-top: 30px;
+        padding-bottom: 15px;
     }
 `;
+
+export const WrappTeam = styled.div`
+    position: relative;
+    @media screen and (max-width: 767px)  {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1439px) {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+`;
+
 
 export const FlexWrapp = styled.div`
     display: flex;
     gap: 30px;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
         @media screen and (max-width: 767px)  {
             flex-direction: column;
             img {
@@ -29,7 +41,7 @@ export const FlexWrapp = styled.div`
     span {
         width: 100%;
         color: var(--bc-header);
-        font-size: 10px;
+        font-size: 14px;
         font-weight: 500;
         background-color: #47373765;
         padding: 8px 20px;
@@ -42,7 +54,7 @@ export const FlexWrapp = styled.div`
             border-bottom-right-radius: 8px; 
         }
         @media screen and (min-width: 768px) {
-            font-size: 16px;
+            font-size: 18px;
         }
     }
 `;
@@ -78,7 +90,7 @@ export const TitleStyled = styled.h1`
         margin-bottom: 62px;
         font-size: 26px;
     }
-@media screen and (min-width: 768px){
+    @media screen and (min-width: 768px){
             &::after {
                 content: '';
                 display: block;
@@ -90,7 +102,6 @@ export const TitleStyled = styled.h1`
                 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
                 position: absolute;
-                /* top: 64px; */
                 left: 0;
 
                 animation: colorShift 3s infinite;
@@ -120,12 +131,10 @@ export const Text = styled.p`
     gap: 12px;
 
     @media screen and (min-width: 768px) {
-        /* width: 60%; */
         font-size: 16px;
         line-height: 1.2;
     }
     @media screen and (min-width: 1440px) {
-        /* width: 55%; */
         line-height: 1.3;
         font-size: 20px;
     }

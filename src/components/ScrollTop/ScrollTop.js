@@ -47,7 +47,7 @@ export default function BackToTop(props) {
     return (
         <React.Fragment>
             <ScrollTop {...props}>
-                <Fab style={{ zIndex: 1000 }} size="small" aria-label="scroll back to top">
+                <Fab style={{ zIndex: 9999 }} size="medium" aria-label="scroll back to top">
                     <KeyboardArrowUpIcon />
                 </Fab>
             </ScrollTop>

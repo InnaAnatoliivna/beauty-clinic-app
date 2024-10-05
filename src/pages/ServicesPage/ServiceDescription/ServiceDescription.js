@@ -24,9 +24,7 @@ const ServiceDescription = () => {
     useEffect(() => {
         if (isShowModal) {
             window.addEventListener('keydown', handleKeyDown);
-        } else {
-            window.removeEventListener('keydown', handleKeyDown);
-        }
+        } else { window.removeEventListener('keydown', handleKeyDown); }
         return () => {
             window.removeEventListener('keydown', handleKeyDown);
         };

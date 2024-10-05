@@ -5,9 +5,9 @@ export const Wrapper = styled.div`
     min-height: 700px;
     overflow: hidden;
     position: relative;
-    padding: 28px 0;
+    padding: 30px 0;
     @media screen and (min-width: 768px)  {
-        padding: 58px 0;
+        padding: 60px 0 30px 0;
     }
 
     span {

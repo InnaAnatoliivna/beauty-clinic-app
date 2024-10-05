@@ -1,11 +1,11 @@
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     @media (min-width: 768px) {
-        padding-bottom: 30px;
-        padding-top: 30px;
+        padding-bottom: 60px;
+        padding-top: 60px;
     }
 `;
 

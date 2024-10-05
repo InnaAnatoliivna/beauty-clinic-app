@@ -84,10 +84,6 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-/* @media (min-width: 768px) {
-        font-size: 8px;
-    } */
-
 /* =========================== */
 .swiper {
   width: 100%;
@@ -114,6 +110,12 @@ body::-webkit-scrollbar {
 
 /* pading section  
 1440 - 60px
-768-
-376-
+768 -  60px
+376 - 30px
 */
+/* export const Section = styled.div`
+  padding-top: 30px;
+  @media (min-width: 768px) {
+  padding-top: 60px;
+  }
+`; */

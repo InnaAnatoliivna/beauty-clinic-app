@@ -1,16 +1,13 @@
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
-    padding: 28px 0;
+    padding: 30px 0;
     display: flex;
     flex-direction: column;
     @media screen and (min-width: 768px)  {
         flex-direction: row;
         gap: 20px;
-        padding: 42px 0;
-    }
-    @media screen and (min-width: 1440px) {
-        padding: 58px 0;
+        padding: 60px 0;
     }
 
     h3 {

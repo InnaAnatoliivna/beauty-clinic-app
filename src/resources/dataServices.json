@@ -1,5 +1,23 @@
 [
   {
+    "name": "Konsultacje kosmetologiczne",
+    "description": "",
+    "services": [
+      {
+        "name": "Konsultacja przedzabiegowa",
+        "price": "100 zł",
+        "duration": "20 min",
+        "discount": ""
+      },
+      {
+        "name": "Beauty plan",
+        "price": "300 zł",
+        "duration": "60 min",
+        "discount": ""
+      }
+    ]
+  },
+  {
     "name": "Endermologia LPG",
     "description": "",
     "services": [
@@ -241,24 +259,6 @@
         "name": "Twarz + Szyja + Dekolt - Filorga NCTF 135/Cytocare 532",
         "price": "400 zł",
         "duration": "90 min",
-        "discount": ""
-      }
-    ]
-  },
-  {
-    "name": "Konsultacje kosmetologiczne",
-    "description": "",
-    "services": [
-      {
-        "name": "Konsultacja przedzabiegowa",
-        "price": "100 zł",
-        "duration": "20 min",
-        "discount": ""
-      },
-      {
-        "name": "Beauty plan",
-        "price": "300 zł",
-        "duration": "60 min",
         "discount": ""
       }
     ]

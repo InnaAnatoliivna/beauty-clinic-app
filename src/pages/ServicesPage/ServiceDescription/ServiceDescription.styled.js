@@ -8,24 +8,22 @@ export const FlexBox = styled.div`
 
 export const Box = styled.div`
     position: relative;
-    width:34%;
+    width:40%;
     min-height: 100%;
     background-color: #e2cfc2;
     align-self: stretch;
     @media screen and (min-width: 768px) {
-        width: 40%;
     }
 `;
 
 export const TextBox = styled.div`
-    width: 66%;
+    width: 60%;
     padding: 0 10px;
     @media screen and (min-width: 768px) {
-        width: 60%;
         padding: 0 25px;
     }
     @media screen and (min-width: 1440px) {
-            padding: 0 30px;
+        padding: 0 30px;
     }
 
     p {
@@ -74,8 +72,9 @@ export const ButtonsBox = styled.div`
     justify-content: space-evenly;
     align-items: center;
     gap: 12px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     @media screen and (min-width: 768px) {
+        margin-bottom: 60px;
         gap: 20px;
     }
 

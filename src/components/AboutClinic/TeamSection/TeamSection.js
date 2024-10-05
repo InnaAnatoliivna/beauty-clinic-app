@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import { Box, FlexWrapp, Section, Text, TextBox } from '../AboutClinic.styled';
+import { Box, FlexWrapp, Section, Text, TextBox, WrappTeam } from '../AboutClinic.styled';
 import { Title } from '../../CatalogSection/Catalog.styled';
 import Container from '../../Container/Container';
 import teamIMG from '../../../images/team.jpg';
@@ -18,32 +18,36 @@ const TeamSection = () => {
     return (
         <Section>
             <Container>
-                {isMobile && (<Title>Nasz zespół</Title>)}
-
-                <FlexWrapp>
-                    {isMobile && (<Box>
-                        <img
-                            alt='Portrait'
-                            src={teamIMG}
-                            width='500px'
-                        ></img>
-                        <span>{data.employee.name}</span>
-                    </Box>)}
-                    <TextBox>
-                        {isDesktop && (<Title>Nasz zespół</Title>)}
-                        <Text>{data.employee.info}</Text>
-                    </TextBox>
-                    {isDesktopOrTablet && (
-                        <Box>
-                            {isTablet && (<Title>Nasz zespół</Title>)}
-                            <img
-                                alt='Portrait'
-                                src={teamIMG}
-                                width='500px'
-                            ></img>
-                            <span>{data.employee.name}</span>
-                        </Box>)}
-                </FlexWrapp>
+                <WrappTeam>
+                    {isMobile && (<Title>Nasz zespół</Title>)}
+                    <FlexWrapp>
+                        {isMobile && (
+                            <Box>
+                                <img
+                                    alt='Portrait'
+                                    src={teamIMG}
+                                    width='500px'
+                                    loading="lazy"
+                                ></img>
+                                <span>{data.employee.name}</span>
+                            </Box>)}
+                        <TextBox>
+                            {isDesktop && (<Title>Nasz zespół</Title>)}
+                            <Text>{data.employee.info}</Text>
+                        </TextBox>
+                        {isDesktopOrTablet && (
+                            <Box>
+                                {isTablet && (<Title>Nasz zespół</Title>)}
+                                <img
+                                    alt='Portrait'
+                                    src={teamIMG}
+                                    width='500px'
+                                    loading="lazy"
+                                ></img>
+                                <span>{data.employee.name}</span>
+                            </Box>)}
+                    </FlexWrapp>
+                </WrappTeam>
             </Container>
         </Section>
     )

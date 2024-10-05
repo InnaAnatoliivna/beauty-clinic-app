@@ -14,17 +14,17 @@ export const Section = styled.div`
 `;
 
 export const Title = styled.h1`
-    font-size: 16px;
+    font-size: 20px;
     color: var(--color-main-text);
     position: relative;
     padding-bottom: 30px;
     text-shadow: var(--shadow-text-title);
 
-    @media(max-width: 767px)  {
+    @media screen and (max-width: 767px)  {
         padding-top: 20px;
         text-align: center;
     }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
         font-size: 26px;
         padding-bottom: 50px;
     }
@@ -42,9 +42,12 @@ export const Title = styled.h1`
         position: absolute;
         top: 78px;
         left: 0;
-        @media(max-width: 767px)  {
+        @media screen and(max-width: 767px)  {
             top: 65px;
             left: 0;
+        }
+        @media screen and (min-width: 470px) and (max-width: 767px) {
+            display: none;
         }
     };
 `;

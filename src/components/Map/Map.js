@@ -12,7 +12,6 @@ const Map = () => {
         else if (isTablet) setWidthMap("450");
         else if (isMobile) setWidthMap("100%");
     }, [isDesktop, isTablet, isMobile]);
-    console.log(widthMap)
     return (
         <div>
             <iframe

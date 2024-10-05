@@ -1,21 +1,12 @@
 import styled from '@emotion/styled';
-import background from '../../../images/b-c-img.jpg'
-
-export const Section = styled.div`
-    border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    @media screen and (min-width: 1440px)  {
-        background-image: url(${background});
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: 100% 0;
-    }
-`;
 
 export const Wrapper = styled.div`
-    padding: 28px 0px;
+    padding: 15px 0px;
     @media screen and (min-width: 768px)  {
-        padding: 58px 0px;
+        padding: 60px 0px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1439px) {
+        padding-bottom: 30px;
     }
 `;
 

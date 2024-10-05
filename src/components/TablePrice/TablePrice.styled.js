@@ -1,8 +1,12 @@
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @media screen and (min-width: 768px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 `;
 
 export const TableWrapp = styled.div`

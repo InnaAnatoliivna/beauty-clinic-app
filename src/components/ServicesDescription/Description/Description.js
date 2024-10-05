@@ -33,6 +33,7 @@ const Description = ({ service, children }) => {
                     <img
                         alt={name}
                         src={isMobile ? service.imageMob[1] : service.image[1]}
+                        loading="lazy"
                     ></img>
                     {service.image[2] && (
                         <img
@@ -44,6 +45,7 @@ const Description = ({ service, children }) => {
                         <img
                             alt={name}
                             src={isMobile ? service.imageMob[3] : service.image[3]}
+                            loading="lazy"
                         ></img>
                     )}
                 </Box>

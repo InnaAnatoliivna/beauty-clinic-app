@@ -18,11 +18,12 @@ const DetailsSection = () => {
 
                     <SwiperComponent>
                         {slidesList.map((img, index) => (
-                            <div key={index}>
+                            <div key={index} >
                                 <img
                                     src={img.image}
                                     alt='Photos of the clinic'
                                     width='300px'
+                                    loading="lazy"
                                 />
                             </div>
                         ))

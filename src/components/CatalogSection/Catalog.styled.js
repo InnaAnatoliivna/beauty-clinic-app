@@ -37,6 +37,9 @@ export const ButtonBox = styled.div`
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    @media (min-width: 768px) {
+    margin-top: 30px;
+    }
 `;
 
 
