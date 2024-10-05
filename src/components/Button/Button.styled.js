@@ -78,7 +78,7 @@ export const ButtonNavigate = styled.button`
 
     svg {
         font-size: 28px;
-        color: var(--color-red);
+        color: #c3580b;
     @media screen and (min-width: 768px) {
         font-size: 22px;
     }

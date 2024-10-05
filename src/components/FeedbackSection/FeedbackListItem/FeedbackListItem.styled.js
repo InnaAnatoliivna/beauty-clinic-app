@@ -2,12 +2,11 @@ import styled from '@emotion/styled';
 
 export const ItemStyled = styled.div`
     width: 100%;
-    max-width: 500px;
     height: 280px;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 
     background-color: var(--bc-header);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);

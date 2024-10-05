@@ -1,16 +1,41 @@
 import styled from '@emotion/styled';
 
-export const Wrapper = styled.div`
-    width: 100%;
-    min-height: 100%;
-    padding: 20px 0;
-    /* overflow: hidden; */
+export const Section = styled.div`
+    position: relative;
+    /* height: 300px; */
+    padding: 15px 0 10px 0;
     background-color: var(--bc-header);
-    border-top: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 6px 1px rgba(46, 47, 66, 0.08);
+    /* border-top: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 6px 1px rgba(46, 47, 66, 0.08); */
 
     @media screen and (min-width: 768px) {
-        padding: 28px 0;
+        padding: 30px 0;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: var(--color-main-text);
+        box-shadow: var(--shadow-cards-second);
+        border-radius: var(--card-border-radius);
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
+        position: absolute;
+        bottom: 48px;
+        left: 0px;
+        @media(min-width: 768px)  {
+            left: 0px;
+            bottom: 60px;
+        }
+    };
+`;
+
+export const Wrapper = styled.div`
+    height: 126px;
+    @media(min-width: 768px)  {
+        height: 170px;
     }
 `;
 
@@ -79,28 +104,9 @@ export const TextStyled = styled.p`
         font-weight: 500;
         color: var(--color-main-text);
     }
-
-        @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) {
         font-size: 14px;
     }
 
-    &::after {
-        content: '';
-        display: block;
-        width: 100%;
-        max-width: 1440px;
-        height: 1px;
-        background-color: var(--color-main-text);
-        box-shadow: var(--shadow-cards-second);
-        border-radius: var(--card-border-radius);
-        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-
-        position: absolute;
-        top: -20px;
-        left: 0px;
-        @media(max-width: 767px)  {
-            top: -8px;
-            left: 0px;
-        }
-    };
+    
 `;
