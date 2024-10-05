@@ -39,9 +39,6 @@ export const TitleStyled = styled.h3`
 
                 animation: colorShift 3s infinite;
 
-                /* @media screen and (min-width: 768px) and (max-width: 1439px) {
-                    top: 140px;
-                } */
                 @media screen and (min-width: 1440px) {
                     top: 65px;
                 }

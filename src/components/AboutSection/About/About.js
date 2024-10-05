@@ -29,7 +29,7 @@ const About = () => {
                             </>
                         )}
 
-                        <AboutList> {isDesktopOrTablet && <span>W Klinice:</span>}
+                        <AboutList> {isDesktopOrTablet && <span style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>W Klinice:</span>}
                             <AboutListItem />
                         </AboutList>
                         {isDesktopOrTablet && (

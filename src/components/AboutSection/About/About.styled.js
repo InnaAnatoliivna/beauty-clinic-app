@@ -52,7 +52,7 @@ export const ButtonBox = styled.div`
     
     @media screen and (min-width: 1440px) {
         position: absolute;
-        bottom: 76px;
+        bottom: 50px;
         left: 239px;
     }
 `;
