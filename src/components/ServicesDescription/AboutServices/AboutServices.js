@@ -1,4 +1,5 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import Container from '../../Container/Container';
 import { RxThickArrowLeft } from "react-icons/rx";
 import { ButtonNavigate } from '../../../components/Button/Button.styled';
@@ -9,6 +10,7 @@ import { SectionWrapper } from '../../Section/Section.styled';
 const AboutServices = ({ service }) => {
 
     const navigate = useNavigate();
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
     const { name, explanation, info } = service.service;
 
     const handleClick = async values => {
@@ -28,7 +30,7 @@ const AboutServices = ({ service }) => {
                         </ButtonNavigate>
                         <img
                             alt={name}
-                            src={service.image[0]}
+                            src={isMobile ? service.imageMob[0] : service.image[0]}
                         ></img>
                     </Box>
                     <TextBox>

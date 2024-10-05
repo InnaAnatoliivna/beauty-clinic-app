@@ -42,6 +42,7 @@ export const ItemStyled = styled.li`
         font-weight: 400;
     }
     p {
+        text-align: start;
         display: flex;
         gap: 10px;
         align-items: center;

@@ -39,21 +39,20 @@ export const StyledButton = styled.button`
 
 export const ButtonNavigate = styled.button`
     width: 100%;
-    padding: 10px 20px;
-    color: var(--color-brown);
-    text-transform: uppercase;
+    padding: 4px 2px;
     font-weight: 500;
-    font-size: 14px;
+    color: var(--color-brown);
+    font-size: 9px;
 
     letter-spacing: 0em;
     overflow: hidden;
     background-color: #d6cfc781;
-    border: 2px solid var(--color-brown);
+    border: 1px solid var(--color-brown);
     border-radius: 4px;
     
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 4px;
 
     position: absolute;
     z-index: 100;
@@ -66,12 +65,24 @@ export const ButtonNavigate = styled.button`
             border-color: var(--color-brown);
             background-color: var(--bc-hero);
         }
-    svg {
-        font-size: 22px;
-        color: var(--color-red);
+
+    @media screen and (min-width: 768px) {
+        font-size: 12px;
+        text-transform: uppercase; 
+        padding: 10px 20px;
+        gap: 10px;
+        border: 1.5px solid var(--color-brown);
+    }
+    @media screen and (min-width: 1440px) {
+        font-size: 14px;
     }
 
-    @media screen and (max-width: 1439px) {
-        font-size: 12px;
+    svg {
+        font-size: 28px;
+        color: var(--color-red);
+    @media screen and (min-width: 768px) {
+        font-size: 22px;
     }
+    }
+
 `;

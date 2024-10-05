@@ -67,19 +67,6 @@ export const ButtonStyled = styled(StyledButton)`
         bottom: 50%;
         left: -50%;
         padding: 18px 40px;
-        /* color: var(--bc-hero);
-        border-color: var(--bc-hero);
-        background-color: var(--color-brown);
-
-        transition: color linear 500ms,
-            border-color linear 500ms,
-            background-color linear 500ms;
-
-        &:hover {
-            color: var(--color-brown);
-            border-color: var(--color-brown);
-            background-color: var(--bc-hero);
-        } */
 
         @media screen and (min-width: 1440px) {
             bottom: 35%;
