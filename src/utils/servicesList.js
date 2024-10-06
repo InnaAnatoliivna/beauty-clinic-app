@@ -13,37 +13,37 @@ export const servicesList = [
     {
         name: 'Endermologia LPG',
         photo: endermIMG,
-        link: '/services/endermologia-lpg',
+        link: '/zabiegi/endermologia-lpg',
         type: 'Ciało'
     },
     {
         name: 'Epilacja laserowa',
         photo: epilIMG,
-        link: '/services/epilacja-laserowa',
+        link: '/zabiegi/epilacja-laserowa',
         type: 'Ciało'
     },
     {
         name: 'Mezoterapia mikroigłowa Nanofrax',
         photo: mezmicroIMG,
-        link: '/services/mezoterapia-mikroigłowa',
+        link: '/zabiegi/mezoterapia-mikroigłowa',
         type: 'Medycyna estetyczna'
     },
     {
         name: 'Mezoterapia igłowa',
         photo: mezIMG,
-        link: '/services/mezoterapia-igłowa',
+        link: '/zabiegi/mezoterapia-igłowa',
         type: 'Medycyna estetyczna'
     },
     {
         name: 'Oczyszczanie wodorowe + maską PCA',
         photo: wodorIMG,
-        link: '/services/oczyszczanie-wodorowe',
+        link: '/zabiegi/oczyszczanie-wodorowe',
         type: 'Twarz'
     },
     {
         name: 'STORZ Fala uderzeniowa',
         photo: storzIMG,
-        link: '/services/storz-fala-uderzeniowa',
+        link: '/zabiegi/storz-fala-uderzeniowa',
         type: 'Ciało'
     }
 ]
@@ -52,25 +52,25 @@ export const servicesNextList = [
     {
         name: 'Stymulatory tkankowe',
         photo: stimulIMG,
-        link: '/services/stymulatory-tkankowe',
+        link: '/zabiegi/stymulatory-tkankowe',
         type: 'Medycyna estetyczna'
     },
     {
         name: 'Podstawowa pielęgnacja twarzy + masaż',
         photo: imgMassage,
-        link: '/services/podstawowa-pielęgnacja-twarzy',
+        link: '/zabiegi/podstawowa-pielęgnacja-twarzy',
         type: 'Twarz'
     },
     {
         name: 'Konsultacja przedzabiegowa',
         photo: imgCons,
-        link: '/services/konsultacja-przedzabiegowa',
+        link: '/zabiegi/konsultacja-przedzabiegowa',
         type: 'Konsultacje kosmetologiczne'
     },
     {
         name: 'Beauty plan',
         photo: imgConsult,
-        link: '/services/beauty-plan',
+        link: '/zabiegi/beauty-plan',
         type: 'Konsultacje kosmetologiczne'
     }
 ]

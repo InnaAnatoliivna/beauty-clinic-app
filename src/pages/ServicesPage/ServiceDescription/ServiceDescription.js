@@ -35,7 +35,7 @@ const ServiceDescription = () => {
             <AboutServices service={service} />
             <Description service={service}>
                 <ButtonsBox>
-                    <LinkStyled><ButtonStyled to='/faq'>Najczęściej zadawane pytania</ButtonStyled></LinkStyled>
+                    <LinkStyled><ButtonStyled to='/pytania-i-odpowiedzi'>Najczęściej zadawane pytania</ButtonStyled></LinkStyled>
                     <ButtonTypeStyled onClick={handleButton}>UMÓW SIĘ</ButtonTypeStyled>
                 </ButtonsBox>
                 {isShowModal && <ModalWindow toggleShowMenu={handleButton} />}

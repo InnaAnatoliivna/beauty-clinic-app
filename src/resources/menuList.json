@@ -1,22 +1,22 @@
 [
   {
     "name": "ZABIEGI",
-    "link": "/services"
+    "link": "/zabiegi"
   },
   {
     "name": "O NAS",
-    "link": "/about-us"
+    "link": "/o-nas"
   },
   {
     "name": "CENNIK",
-    "link": "/price"
+    "link": "/cennik"
   },
   {
     "name": "PYTANIA I ODPOWIEDZI",
-    "link": "/faq"
+    "link": "/pytania-i-odpowiedzi"
   },
   {
     "name": "KONTAKT",
-    "link": "/contact"
+    "link": "/kontakt"
   }
 ]

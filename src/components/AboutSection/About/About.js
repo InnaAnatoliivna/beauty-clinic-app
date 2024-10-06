@@ -37,7 +37,7 @@ const About = () => {
                         )}
                     </ContentWrapper>
                     <ButtonBox>
-                        <ButtonLink path={'/about-us'}>Czytaj więcej...</ButtonLink>
+                        <ButtonLink path={'/o-nas'}>Czytaj więcej...</ButtonLink>
                     </ButtonBox>
                 </Wrapper>
             </Container>

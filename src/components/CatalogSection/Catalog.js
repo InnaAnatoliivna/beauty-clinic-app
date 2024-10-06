@@ -17,7 +17,7 @@ const Catalog = () => {
                         <CatalogListItem array={servicesList} />
                     </CatalogList>
                     <ButtonBox>
-                        <ButtonLink path={'/services'}>Pokaż więcej...</ButtonLink>
+                        <ButtonLink path={'/zabiegi'}>Pokaż więcej...</ButtonLink>
                     </ButtonBox>
                 </Wrapper>
             </Container>

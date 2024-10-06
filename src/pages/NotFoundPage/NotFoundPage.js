@@ -1,13 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Wrapper } from './NotFoundPage.styles';
+import Container from '../../components/Container/Container';
+import { SectionWrapper } from '../../components/Section/Section.styled';
+import { Title } from '../../components/CatalogSection/Catalog.styled';
+import { Text } from '../../components/AboutClinic/DetailsSection/DetailsSection.styled';
+import { LinkStyled } from '../ServicesPage/ServiceDescription/ServiceDescription.styled';
+import { ButtonStyled } from '../../components/ButtonLink/ButtonLink.styled';
 
 const NotFoundPage = () => {
     return (
-        <div>
-            <h1>Nie znaleźliśmy tej strony!</h1>
-            <p>Przykro nam, ale ta strona nie jest dostępna. Proszę spróbować ponownie.</p>
-            <Link to='/'>Przejdź z powrotem na stronę główną.</Link>
-        </div>
+        <SectionWrapper>
+            <Container>
+                <Wrapper>
+                    <Title>Nie znaleźliśmy tej strony!</Title>
+                    <Text>Przykro nam, ale ta strona nie jest dostępna. <br /> Proszę spróbować ponownie.</Text>
+                    <LinkStyled><ButtonStyled to='/'>Przejdź z powrotem na stronę główną.</ButtonStyled></LinkStyled>
+                </Wrapper>
+            </Container>
+        </SectionWrapper>
     )
 };
 
