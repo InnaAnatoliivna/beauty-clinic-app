@@ -5,12 +5,16 @@ export const WindowStyle = styled.div`
     max-width: 100%;
     width: 280px;
     position: absolute;
-    top: 120px;
+    top: 160px;
     border-radius: 12px;
     border: 1px solid var(--color-brown);
     background-color: var(--bc-header);
     color: var(--color-main-text);
     padding: 50px 18px 25px 18px;
+    
+    @media screen and (min-width: 400px) {
+        width: 350px;
+    }
     @media screen and (min-width: 768px) {
         width: 500px;
         padding: 35px 30px;
@@ -25,11 +29,15 @@ export const WindowStyle = styled.div`
 
 export const CloseButton = styled.button`
     position: absolute;
-    top: 26px;
-    right: 32px;
+    top: 16px;
+    right: 10px;
     background: none;
     border: none;
     cursor: pointer;
+    @media screen and (min-width: 768px) {
+        top: 26px;
+        right: 32px;
+    }
     p {
         color:  var(--color-black);
     }
