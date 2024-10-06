@@ -6,6 +6,7 @@ import Description from '../../../components/ServicesDescription/Description/Des
 import { ButtonsBox, ButtonTypeStyled, LinkStyled } from './ServiceDescription.styled';
 import { ButtonStyled } from '../../../components/ButtonLink/ButtonLink.styled';
 import ModalWindow from '../../../components/ModalWindow/ModalWindow';
+import NotFoundPage from '../../NotFoundPage/NotFoundPage'
 
 
 const ServiceDescription = () => {
@@ -32,14 +33,18 @@ const ServiceDescription = () => {
 
     return (
         <><div id="back-to-top-anchor"></div>
-            <AboutServices service={service} />
-            <Description service={service}>
-                <ButtonsBox>
-                    <LinkStyled><ButtonStyled to='/pytania-i-odpowiedzi'>Najczęściej zadawane pytania</ButtonStyled></LinkStyled>
-                    <ButtonTypeStyled onClick={handleButton}>UMÓW SIĘ</ButtonTypeStyled>
-                </ButtonsBox>
-                {isShowModal && <ModalWindow toggleShowMenu={handleButton} />}
-            </Description>
+            {service ? (
+                <><AboutServices service={service} />
+                    <Description service={service}>
+                        <ButtonsBox>
+                            <LinkStyled><ButtonStyled to='/pytania-i-odpowiedzi'>Najczęściej zadawane pytania</ButtonStyled></LinkStyled>
+                            <ButtonTypeStyled onClick={handleButton}>UMÓW SIĘ</ButtonTypeStyled>
+                        </ButtonsBox>
+                        {isShowModal && <ModalWindow toggleShowMenu={handleButton} />}
+                    </Description></>
+            ) : (
+                <NotFoundPage />
+            )}
         </>
     )
 };

@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 
 export const Wrapper = styled.div`
-    padding: 120px 0;
+    padding: 130px 0;
     display: flex;
     flex-direction: column;
     align-items: center;

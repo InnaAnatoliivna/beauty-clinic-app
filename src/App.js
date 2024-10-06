@@ -19,24 +19,12 @@ function App() {
       <Routes>
         <Route path='/' element={<SharedLayout />}>
           <Route index element={<MainPage />} />
-          {/* <Route path='services' element={<ServicesPage />} /> */}
           <Route path='zabiegi' element={<ServicesPage />} />
-
-          {/* <Route path='services/:id' element={<ServiceDescription />} /> */}
           <Route path='zabiegi/:id' element={<ServiceDescription />} />
-
-          {/* <Route path='price' element={<PricePage />} /> */}
           <Route path='cennik' element={<PricePage />} />
-
-          {/* <Route path='about-us' element={<AboutUsPage />} /> */}
           <Route path='o-nas' element={<AboutUsPage />} />
-
-          {/* <Route path='faq' element={<FAQPage />} /> */}
           <Route path='pytania-i-odpowiedzi' element={<FAQPage />} />
-
-          {/* <Route path='contact' element={<ContactPage />} /> */}
           <Route path='kontakt' element={<ContactPage />} />
-
           <Route path='*' element={<NotFoundPage />} />
         </Route>
       </Routes>

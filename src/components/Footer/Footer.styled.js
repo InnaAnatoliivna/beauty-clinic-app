@@ -10,31 +10,15 @@ export const Section = styled.div`
     @media screen and (min-width: 768px) {
         padding: 30px 0;
     }
-
-    &::after {
-        content: '';
-        display: block;
-        width: 100%;
-        height: 1px;
-        background-color: var(--color-main-text);
-        box-shadow: var(--shadow-cards-second);
-        border-radius: var(--card-border-radius);
-        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-
-        position: absolute;
-        bottom: 48px;
-        left: 0px;
-        @media(min-width: 768px)  {
-            left: 0px;
-            bottom: 60px;
-        }
-    };
 `;
 
 export const Wrapper = styled.div`
-    height: 126px;
-    @media(min-width: 768px)  {
-        height: 170px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media(min-width: 400px)  {
+    height: 170px;
     }
 `;
 

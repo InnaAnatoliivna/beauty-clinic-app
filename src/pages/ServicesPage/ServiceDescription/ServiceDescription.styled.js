@@ -94,7 +94,9 @@ export const LinkStyled = styled.div`
         border-color: var(--color-dark);
         color: var(--color-brown);
     }
-    
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
     @media (min-width: 768px) {
         transition: color linear 500ms,
         border-color linear 500ms,

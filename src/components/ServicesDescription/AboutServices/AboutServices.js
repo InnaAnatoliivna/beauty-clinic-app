@@ -14,7 +14,7 @@ const AboutServices = ({ service }) => {
     const { name, explanation, info } = service.service;
 
     const handleClick = async values => {
-        navigate("/services", { replace: true });
+        navigate("/zabiegi", { replace: true });
     };
 
     return (

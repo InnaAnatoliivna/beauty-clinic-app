@@ -67,6 +67,11 @@ export const TextBox = styled.div`
 
 export const Box = styled.div`
     position: relative;
+    img {
+    @media screen and (min-width: 768px) {
+        width: 500px;
+    }
+    }
 `;
 
 export const TitleStyled = styled.h1`

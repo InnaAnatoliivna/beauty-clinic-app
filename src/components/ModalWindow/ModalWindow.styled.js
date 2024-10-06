@@ -3,14 +3,24 @@ import { TfiClose } from "react-icons/tfi";
 
 export const WindowStyle = styled.div`
     max-width: 100%;
-    width: 300px;
-    height: 300px;
+    width: 280px;
     position: absolute;
+    top: 120px;
     border-radius: 12px;
     border: 1px solid var(--color-brown);
     background-color: var(--bc-header);
     color: var(--color-main-text);
-    padding: 35px 20px;
+    padding: 50px 18px 25px 18px;
+    @media screen and (min-width: 768px) {
+        width: 500px;
+        padding: 35px 30px;
+        top: 110px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 600px;
+        top: 180px;
+        padding: 60px 30px;
+    }
 `;
 
 export const CloseButton = styled.button`
@@ -33,35 +43,77 @@ export const CloseIconStyled = styled(TfiClose)`
 `;
 //-------------------------
 
-export const ModalTitle = styled.h3`
+export const ModalTitle = styled.h2`
     text-align: center;
-    margin: 25px 0;
+    margin-bottom: 18px;
     transform: uppercase;
-    letter-spacing: 1.1px;
+    font-size: 16px;
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+`;
+
+export const Text = styled.h3`
+    text-align: center;
+    margin: 15px 0;
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        margin: 25px 0;
+    }
+    p {
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        svg {
+            font-size: 18px;
+            @media screen and (min-width: 768px) {
+                font-size: 25px;
+            }
+        }
+    }
+
+    a {
+        color: var(--color-black);
+        transition: transform 0.5s ease;
+        transform: scale(1);
+
+        &:hover, &:focus {
+            transform: scale(1.1); 
+        }
+    }
 `;
 
 export const ModalContent = styled.div`
+`;
+
+export const NetworksWrapp = styled.div`
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 16px;
 
+
     a {
+        font-size: 18px;
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: transform 0.3s ease;
     }
 
     img {
         transition: transform 0.3s ease; 
-
     }
     svg {
         font-size: 40px;
         color: var(--color-black);
-        transition: transform 0.3s ease; 
+        transition: transform 0.5s ease; 
     }
 
     a:hover svg, a:focus svg {
