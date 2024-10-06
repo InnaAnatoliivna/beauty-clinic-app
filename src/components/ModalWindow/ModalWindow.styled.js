@@ -11,7 +11,8 @@ export const WindowStyle = styled.div`
     background-color: var(--bc-header);
     color: var(--color-main-text);
     padding: 50px 18px 25px 18px;
-    
+   overflow-y: auto; 
+
     @media screen and (min-width: 400px) {
         width: 350px;
     }

@@ -12,5 +12,4 @@ export const ModalOverlay = styled.div`
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 100;
   overflow-y: auto; 
-
 `;
