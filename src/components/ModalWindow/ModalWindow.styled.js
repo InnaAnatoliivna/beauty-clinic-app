@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import { TfiClose } from "react-icons/tfi";
+import { slideModal } from '../../animation.styled';
 
 export const WindowStyle = styled.div`
     max-width: 100%;
@@ -11,7 +12,10 @@ export const WindowStyle = styled.div`
     background-color: var(--bc-header);
     color: var(--color-main-text);
     padding: 50px 18px 25px 18px;
-   overflow-y: auto; 
+    overflow-y: auto; 
+
+    animation: ${slideModal} 0.5s ease-in-out;
+
 
     @media screen and (min-width: 400px) {
         width: 350px;
@@ -67,6 +71,7 @@ export const Text = styled.h3`
     text-align: center;
     margin: 15px 0;
     font-size: 14px;
+    line-height: 1.2;
 
     display: flex;
     flex-direction: column;
@@ -107,7 +112,9 @@ export const NetworksWrapp = styled.div`
     align-items: center;
     justify-content: center;
     gap: 16px;
-
+    @media screen and (min-width: 768px) {
+        gap: 30px;
+    }
 
     a {
         font-size: 18px;

@@ -31,7 +31,9 @@ const ModalWindow = ({ toggleShowMenu }) => {
 
                         <Text><p><FaLink />Znajdź nas na:</p></Text>
                         <NetworksWrapp>
-                            <NetworksList /></NetworksWrapp>
+                            <NetworksList />
+                        </NetworksWrapp>
+                        <Text style={{ marginBottom: '0' }}>Zapraszamy do kontaktu!</Text>
                     </ModalContent>
                 </>
             </WindowStyle>

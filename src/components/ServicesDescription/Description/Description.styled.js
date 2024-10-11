@@ -44,8 +44,11 @@ export const ItemStyled = styled.li`
     p {
         text-align: start;
         display: flex;
-        gap: 10px;
         align-items: center;
+        gap: 5px;
+        @media screen and (min-width: 768px) {
+            gap: 10px;
+        }
     }
 
     svg {

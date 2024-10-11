@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import styled from '@emotion/styled';
 import { TfiClose } from "react-icons/tfi";
+import { slideMenu } from '../../animation.styled';
 
 export const Overlay = styled.div`
   overflow: auto;
@@ -14,6 +15,8 @@ export const Overlay = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 1200;
+
+  animation: ${slideMenu} 0.5s ease-in-out;
 `;
 
 export const WrappMenu = styled.div`
@@ -29,7 +32,7 @@ export const WrappLinks = styled.div`
   align-items: center;
   justify-content: center;
   gap: 24px;
-  margin-top: 90px; 
+  margin-top: 70px; 
 
   position: relative;
   svg {

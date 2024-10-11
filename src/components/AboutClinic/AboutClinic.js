@@ -23,7 +23,7 @@ const AboutClinic = () => {
                                     <img
                                         alt='Portrait'
                                         src={cosmetologistIMG}
-                                        loading="lazy"
+                                    // loading="lazy"
                                     ></img>
                                     <span>Alicja Łyszyk-Żelaznowska</span>
                                 </Box></>)}
