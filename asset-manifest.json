@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beauty-clinic-app/static/css/main.5c03c016.css",
-    "main.js": "/beauty-clinic-app/static/js/main.039ac0fb.js",
+    "main.js": "/beauty-clinic-app/static/js/main.49766377.js",
     "static/js/453.bb792684.chunk.js": "/beauty-clinic-app/static/js/453.bb792684.chunk.js",
     "static/media/FAQ-bi.jpg": "/beauty-clinic-app/static/media/FAQ-bi.3052456c6e15d31d2274.jpg",
     "static/media/about-1.jpg": "/beauty-clinic-app/static/media/about-1.070eb455fe0b06d9e5b7.jpg",
@@ -17,7 +17,6 @@
     "static/media/consult.jpg": "/beauty-clinic-app/static/media/consult.11430f73a23979a3cef2.jpg",
     "static/media/Zdjęcia-epil-mob.jpg": "/beauty-clinic-app/static/media/Zdjęcia-epil-mob.abedf811a7266d7aeab7.jpg",
     "static/media/beauty-mob.jpg": "/beauty-clinic-app/static/media/beauty-mob.945ca7327b94f142c17c.jpg",
-    "static/media/cosmetologist.jpg": "/beauty-clinic-app/static/media/cosmetologist.8229b0b9854630bb42ec.jpg",
     "static/media/DSC01391-mob.jpg": "/beauty-clinic-app/static/media/DSC01391-mob.5ddb3d149c55c80823d2.jpg",
     "static/media/Enderm.jpg": "/beauty-clinic-app/static/media/Enderm.04e47f877b075cce5c1a.jpg",
     "static/media/Oczyszczanie-wodorowe.jpg": "/beauty-clinic-app/static/media/Oczyszczanie-wodorowe.8ee9df2df920ca5054d1.jpg",
@@ -58,6 +57,7 @@
     "static/media/Zabiegi-na-twarz.jpg": "/beauty-clinic-app/static/media/Zabiegi-na-twarz.c64c91fe331e339fcc45.jpg",
     "static/media/slide3.jpg": "/beauty-clinic-app/static/media/slide3.c64c91fe331e339fcc45.jpg",
     "static/media/slide1.jpg": "/beauty-clinic-app/static/media/slide1.aba601dc20b474107282.jpg",
+    "static/media/cosmetologist.jpg": "/beauty-clinic-app/static/media/cosmetologist.d64e69dd4b07e1f5284d.jpg",
     "static/media/Wodorowe-mob.jpg": "/beauty-clinic-app/static/media/Wodorowe-mob.90bc25420f7a7742c0f1.jpg",
     "static/media/slide15.jpg": "/beauty-clinic-app/static/media/slide15.0f4ffbf21fcba810a6cf.jpg",
     "static/media/igłowa1.jpg": "/beauty-clinic-app/static/media/igłowa1.da215790c006963b1910.jpg",
@@ -91,11 +91,11 @@
     "static/media/BooksyIcon.png": "/beauty-clinic-app/static/media/BooksyIcon.b7f812d889192d19fc52.png",
     "index.html": "/beauty-clinic-app/index.html",
     "main.5c03c016.css.map": "/beauty-clinic-app/static/css/main.5c03c016.css.map",
-    "main.039ac0fb.js.map": "/beauty-clinic-app/static/js/main.039ac0fb.js.map",
+    "main.49766377.js.map": "/beauty-clinic-app/static/js/main.49766377.js.map",
     "453.bb792684.chunk.js.map": "/beauty-clinic-app/static/js/453.bb792684.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c03c016.css",
-    "static/js/main.039ac0fb.js"
+    "static/js/main.49766377.js"
   ]
 }
