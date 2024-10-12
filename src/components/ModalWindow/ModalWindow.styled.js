@@ -5,6 +5,7 @@ import { slideModal } from '../../animation.styled';
 export const WindowStyle = styled.div`
     max-width: 100%;
     width: 280px;
+    max-height: 500px;
     position: absolute;
     top: 160px;
     border-radius: 12px;
@@ -12,7 +13,6 @@ export const WindowStyle = styled.div`
     background-color: var(--bc-header);
     color: var(--color-main-text);
     padding: 50px 18px 25px 18px;
-    max-height: 80vh;
     /* overflow-y: auto;  */
 
     animation: ${slideModal} 0.5s ease-in-out;
@@ -22,11 +22,13 @@ export const WindowStyle = styled.div`
         width: 350px;
     }
     @media screen and (min-width: 768px) {
+        max-height: 600px;
         width: 500px;
         padding: 35px 30px;
         top: 110px;
     }
     @media screen and (min-width: 1440px) {
+        max-height: 700px;
         width: 600px;
         top: 180px;
         padding: 60px 30px;
