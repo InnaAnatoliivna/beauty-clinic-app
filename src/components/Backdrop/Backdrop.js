@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { ModalOverlay } from './Backdrop.styled';
-import { disablePageScroll, enablePageScroll } from 'scroll-lock';
+// import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 
 const Backdrop = ({ closeModal, children }) => {
     const modalRoot = useRef(document.querySelector('#modal-root'));
@@ -14,10 +14,10 @@ const Backdrop = ({ closeModal, children }) => {
         };
 
         document.addEventListener('keydown', handleKeyDown);
-        disablePageScroll();
+        // disablePageScroll();
         return () => {
             document.removeEventListener('keydown', handleKeyDown);
-            enablePageScroll();
+            // enablePageScroll();
         };
     }, [closeModal]);
 
