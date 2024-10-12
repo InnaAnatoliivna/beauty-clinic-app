@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beauty-clinic-app/static/css/main.770b414f.css",
-    "main.js": "/beauty-clinic-app/static/js/main.38b19233.js",
+    "main.js": "/beauty-clinic-app/static/js/main.8a2395a6.js",
     "static/js/453.bb792684.chunk.js": "/beauty-clinic-app/static/js/453.bb792684.chunk.js",
     "static/media/FAQ-bi.jpg": "/beauty-clinic-app/static/media/FAQ-bi.6a3e766a959e4089844e.jpg",
     "static/media/about-1.jpg": "/beauty-clinic-app/static/media/about-1.070eb455fe0b06d9e5b7.jpg",
@@ -91,11 +91,11 @@
     "static/media/BooksyIcon.png": "/beauty-clinic-app/static/media/BooksyIcon.b7f812d889192d19fc52.png",
     "index.html": "/beauty-clinic-app/index.html",
     "main.770b414f.css.map": "/beauty-clinic-app/static/css/main.770b414f.css.map",
-    "main.38b19233.js.map": "/beauty-clinic-app/static/js/main.38b19233.js.map",
+    "main.8a2395a6.js.map": "/beauty-clinic-app/static/js/main.8a2395a6.js.map",
     "453.bb792684.chunk.js.map": "/beauty-clinic-app/static/js/453.bb792684.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.770b414f.css",
-    "static/js/main.38b19233.js"
+    "static/js/main.8a2395a6.js"
   ]
 }
