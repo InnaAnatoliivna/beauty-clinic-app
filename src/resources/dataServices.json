@@ -1,7 +1,6 @@
 [
   {
     "name": "Konsultacje kosmetologiczne",
-    "description": "",
     "services": [
       {
         "name": "Konsultacja przedzabiegowa",
@@ -19,7 +18,6 @@
   },
   {
     "name": "Endermologia LPG",
-    "description": "",
     "services": [
       {
         "name": "ENDERMOLOGIA masaż/drenaż 1 partii ciała",
@@ -43,7 +41,6 @@
   },
   {
     "name": "Epilacja laserowa",
-    "description": "",
     "services": [
       {
         "name": "Epilacja bikini głębokie",
@@ -163,7 +160,6 @@
   },
   {
     "name": "STORZ Fala uderzeniowa",
-    "description": "",
     "services": [
       {
         "name": "STORZ Fala uderzeniowa BRZUCH",
@@ -199,7 +195,6 @@
   },
   {
     "name": "Zabiegi na twarz",
-    "description": "",
     "services": [
       {
         "name": "Podstawowa pielęgnacja twarzy + masaż",
@@ -229,7 +224,6 @@
   },
   {
     "name": "Mezoterapia mikroigłowa Nanofrax",
-    "description": "",
     "services": [
       {
         "name": "Zabieg mezoterapii mikroigłowej obejmujący obszar twarzy",
@@ -247,7 +241,6 @@
   },
   {
     "name": "Mezoterapia igłowa",
-    "description": "",
     "services": [
       {
         "name": "Oko - RRS",

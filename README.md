@@ -1,70 +1,145 @@
-# Getting Started with Create React App
+# Beauty Clinic App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application designed for a beauty clinic to showcase their services, pricing, and provide contact information for clients. The application has been built using React.js, and it is deployed on GitHub Pages. The app is fully responsive and offers users a seamless experience across different devices.
 
-## Available Scripts
+## FEATURES
 
-In the project directory, you can run:
+- **Dynamic Routing:** The app uses React Router for navigation between different pages.
+- **Modal Integration:** Clients can easily schedule an appointment through a modal pop-up with contact details.
+- **Responsive Design:** The application is fully responsive and optimized for various screen sizes.
+- **Modern UI:** Leveraging Material UI (MUI) for sleek, professional design components.
+- **Scroll to Top Button:** A smooth scroll to top button is included to improve user experience.
+
+## RESPONSIVE DESIGN
+
+This application has been designed to provide an optimal viewing experience across a wide range of devices. The layout and styling adapt to different screen sizes using CSS media queries.
+
+### BREAKPOINTS:
+
+- **Mobile:** Default styles apply for small screens (up to **375px** wide).
+- **Tablet:** For devices with a screen width of **768px** and above, additional styles are applied to enhance the user experience on medium-sized screens.
+- **Desktop:** For screens with a minimum width of **1440px**, the layout and design are further adjusted for large displays.
+
+The application ensures a seamless and consistent experience for users on mobile devices, tablets, and desktop screens.
+
+## PAGES
+
+The application contains the following main pages:
+
+1. **Zabiegi (Services)** - `/zabiegi`
+
+   - This page lists the clinic's treatments and procedures. Each treatment has a detailed description accessible via the page.
+
+2. **O Nas (About Us)** - `/o-nas`
+
+   - This section introduces the clinic, its mission, and team members.
+
+3. **Cennik (Pricing)** - `/cennik`
+
+   - A detailed pricing page that shows the cost of different beauty treatments.
+
+4. **Pytania i Odpowiedzi (FAQ)** - `/pytania-i-odpowiedzi`
+
+   - A Frequently Asked Questions page to help clients with common inquiries about services and procedures.
+
+5. **Kontakt (Contact)** - `/kontakt`
+
+   - The contact page includes a form, phone number, email, and social media links for clients to reach out to the clinic.
+
+6. **Not Found (404)** - `*`
+   - A 404 page is displayed if a user navigates to a non-existent route.
+
+## TECHNOLOGIES USED
+
+- **React.js:** The core framework for building the user interface.
+- **React Router:** Handles dynamic routing in the application.
+- **MUI (Material UI):** Used for pre-built React components and icons to ensure a modern design.
+- **Emotion Styled Components:** For custom styling.
+- **Swiper.js:** Used for any carousel or sliders within the application.
+- **React Icons:** Provides the application with various icons.
+- **Scroll-Lock:** To manage scroll behavior within modals.
+
+## INSTALLATION & SETUP
+
+To run the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/InnaAnatoliivna/beauty-clinic-app.git
+   cd beauty-clinic-app
+   ```
+
+2. Install dependencies:
+
+### `npm install`
+
+3.Run the app:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4.Build the app:
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application is deployed to GitHub Pages. To deploy any changes:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Pre-deploy:
 
-### `npm run eject`
+### `npm run predeploy`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Deploy:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `npm run deploy`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+###### HOW YOU CAN CHANGE YOUR CLINIC'S INFORMATION
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+PLEASE, WHEN MAKING CHANGES TO DATA FILES - STRICTLY FOLLOW THE FORMAT OF WRITING
 
-## Learn More
+Here are the ways you can find and change clinic information:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. edit social media links
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## `src/utils/links.js`
 
-### Code Splitting
+2. edit the contact information of the clinic (attention - you must add a separate phone number in the correct format for making a call(phoneToCall) and a separate phone number for aesthetic display(phoneToShow))
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## `srs/resources/dataContacts.json`
 
-### Analyzing the Bundle Size
+3. edit the clinic's working hours
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## `srs/resources/dataScheduleOfWork.json`
 
-### Making a Progressive Web App
+4.  change the names of menu items / add a menu item
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## `srs/resources/menuList.json`
 
-### Advanced Configuration
+5.  edit the list of services
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## `src/utils/servicesList.js`
 
-### Deployment
+6. edit services in path='zabiegi/:id' element=<ServiceDescription>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## `src/utils/servicesHelpers.js`
 
-### `npm run build` fails to minify
+7. edit a specific service
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## `src/resources/dataServices/...` > here select the file with the appropriate service
+
+8. edit info (name, price, duration, discount) in PricePage
+
+## `srs/resources/dataServices.json`
+
+9. edit the description of the clinic and employees (the description of the clinic is divided into several parts (subtitle, suptitle) to improve visualization)
+
+## `srs/resources/dataAboutUs.json`
+
+10. edit/add frequently asked questions and answers about the clinic's services
+
+## `srs/resources/QuestionAnswer.json`
+
+11. add user feedback
+
+## `srs/resources/usersFeedback.json`
