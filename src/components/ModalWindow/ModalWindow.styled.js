@@ -13,7 +13,7 @@ export const WindowStyle = styled.div`
     border: 1px solid var(--color-brown);
     background-color: var(--bc-header);
     color: var(--color-main-text);
-    padding: 50px 18px 25px 18px;
+    padding: 50px 18px;
 
     animation: ${slideModal} 0.5s ease-in-out;
 

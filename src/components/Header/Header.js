@@ -40,7 +40,7 @@ const Header = () => {
         <Wrapper isSticky={isSticky}>
             <Container>
                 <Navigation>
-                    <Logo />
+                    <Logo onClick={handleMobileMenu} />
                     {isMobile && (
                         <ButtonMenu type='button' onClick={handleMobileMenu}>
                             <MenuIconStyled />
