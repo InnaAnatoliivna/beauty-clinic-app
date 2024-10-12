@@ -34,10 +34,15 @@ const MobileMenu = ({ showMenu, children }) => {
         }
     };
 
+    const handleOverlayClick = (e) => {
+        if (e.target === e.currentTarget) {
+            showMenu();
+        }
+    };
 
     return (
         <>
-            <Overlay onClick={() => showMenu()}>
+            <Overlay onClick={(e) => handleOverlayClick(e)}>
                 <MenuWrapper>
                     <WrappMenu>
                         <Logo onClick={handleKeyDown} />

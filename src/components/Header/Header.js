@@ -35,6 +35,7 @@ const Header = () => {
     }, [isDesktopOrTablet]);
     // <<<-----------------------------------
 
+
     return (
         <Wrapper isSticky={isSticky}>
             <Container>
@@ -55,7 +56,7 @@ const Header = () => {
                         (<MobileMenu showMenu={handleMobileMenu}>
 
                             <MenuItems isMobile={true} onLinkClick={handleMobileMenu}>
-                                <ListItem><LinkStyled
+                                <ListItem onClick={handleMobileMenu}><LinkStyled
                                     to='/'
                                 >GłÓWNA</LinkStyled></ListItem>
                             </MenuItems>
