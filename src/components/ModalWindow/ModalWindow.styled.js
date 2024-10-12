@@ -12,7 +12,8 @@ export const WindowStyle = styled.div`
     background-color: var(--bc-header);
     color: var(--color-main-text);
     padding: 50px 18px 25px 18px;
-    overflow-y: auto; 
+    max-height: 80vh;
+    /* overflow-y: auto;  */
 
     animation: ${slideModal} 0.5s ease-in-out;
 

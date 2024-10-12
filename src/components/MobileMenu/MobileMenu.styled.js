@@ -32,7 +32,7 @@ export const WrappLinks = styled.div`
   align-items: center;
   justify-content: center;
   gap: 24px;
-  margin-top: 70px; 
+  margin: 70px 0 40px 0; 
 
   position: relative;
   svg {

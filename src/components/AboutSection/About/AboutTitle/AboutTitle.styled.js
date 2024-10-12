@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const TitleStyled = styled.h3`
+export const TitleStyled = styled.h2`
     position: relative; 
 
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
