@@ -56,9 +56,9 @@ const Header = () => {
                         (<MobileMenu showMenu={handleMobileMenu}>
 
                             <MenuItems isMobile={true} onLinkClick={handleMobileMenu}>
-                                <ListItem onClick={handleMobileMenu}><LinkStyled
-                                    to='/'
-                                >GłÓWNA</LinkStyled></ListItem>
+                                <ListItem onClick={handleMobileMenu}>
+                                    <LinkStyled to='/'>GłÓWNA</LinkStyled>
+                                </ListItem>
                             </MenuItems>
                         </MobileMenu>)}
                 </Navigation>

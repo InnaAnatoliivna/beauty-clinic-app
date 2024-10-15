@@ -29,6 +29,7 @@ const AboutServices = ({ service }) => {
                             Powrót do oferty zabiegów
                         </ButtonNavigate>
                         <img
+                            width='500px'
                             alt={name}
                             src={isMobile ? service.imageMob[0] : service.image[0]}
                             loading="lazy"

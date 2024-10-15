@@ -37,12 +37,14 @@ const Description = ({ service, children }) => {
                     ></img>
                     {service.image[2] && (
                         <img
+                            width='500px'
                             alt={name}
                             src={isMobile ? service.imageMob[2] : service.image[2]}
                         ></img>
                     )}
                     {service.image[3] && (
                         <img
+                            width='500px'
                             alt={name}
                             src={isMobile ? service.imageMob[3] : service.image[3]}
                             loading="lazy"
