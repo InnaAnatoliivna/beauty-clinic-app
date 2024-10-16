@@ -49,3 +49,55 @@ Oto jak właścicielka salonu może wprowadzać zmiany na stronie React i publik
    - przesłać nową wersję na Netlify.
 
    Jest to nieco bardziej skomplikowane niż korzystanie z Git, ale jak najbardziej wykonalne.
+
+---
+
+Jak wprowadzać zmiany w projekcie React na iOS i publikować je na Netlify:
+Edycja plików:
+Edycja plików:
+
+Użyj aplikacji do edycji kodu na swoim urządzeniu iOS, takiej jak Textastic, Koder lub inne.
+Otwórz plik projektu, wprowadź zmiany w treści i zapisz plik.
+Budowanie projektu:
+
+Aby zbudować projekt na iOS, potrzebujesz zdalnego dostępu do terminala lub narzędzia, które pozwoli Ci zbudować projekt zdalnie, na przykład:
+Usługa SSH do zdalnego połączenia z komputerem, na którym jest zainstalowane Node.js.
+Możesz użyć aplikacji, takich jak Termius lub Prompt, aby połączyć się z komputerem.
+Uruchomienie PowerShell lub terminala na zdalnym komputerze:
+
+Po połączeniu z komputerem uruchom terminal (np. PowerShell na Windows).
+Wykonaj następujące kroki, aby upewnić się, że masz odpowiednie uprawnienia:
+Sprawdź aktualną politykę wykonywania:
+powershell
+Копіювати код
+Get-ExecutionPolicy
+Ustaw politykę wykonywania, jeśli to konieczne:
+powershell
+Set-ExecutionPolicy RemoteSigned
+Potwierdź, jeśli pojawi się prośba.
+Zbudowanie projektu:
+
+Przejdź do folderu z projektem:
+
+cd /ścieżka/do/twojego/projektu
+Uruchom polecenie budowania:
+
+npm run build
+To wygeneruje zoptymalizowaną wersję projektu i utworzy folder build.
+Przesyłanie na Netlify:
+Przesyłanie na Netlify:
+
+Właścicielka przechodzi do panelu zarządzania Netlify na swoim urządzeniu iOS (może użyć przeglądarki Safari lub innej).
+Wybiera swój projekt (jeśli już został stworzony) lub tworzy nowy.
+W ustawieniach projektu Netlify znajduje opcję ręcznego przesyłania plików.
+Kliknij przycisk "Deploy" lub "Upload", a następnie wybierz folder build, który został stworzony na zdalnym komputerze.
+Sprawdzanie zmian:
+
+Po przesłaniu plików właścicielka może przejść na stronę, aby sprawdzić, czy wprowadzone zmiany są widoczne.
+Podsumowanie:
+W ten sposób, korzystając z zdalnego dostępu do komputera, można wprowadzać zmiany w treści projektu React na iOS. Proces ten wymaga kilku kroków:
+
+Edytowanie plików,
+Budowanie projektu zdalnie,
+Przesyłanie nowej wersji na Netlify.
+Choć jest to nieco bardziej skomplikowane niż korzystanie z Git, jest to w pełni wykonalne.
