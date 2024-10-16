@@ -54,7 +54,6 @@ export const ListStyled = styled.ul`
 
 export const Item = styled.li`
     color: var(--color-main-text);
-    /* font-weight: 500; */
     font-size: 14px;
     line-height: 1.2;
 
@@ -82,4 +81,8 @@ export const Item = styled.li`
             min-height: 26px;
         }
     }
+`;
+
+export const SwiperWrapp = styled.div`
+    height: auto;
 `;

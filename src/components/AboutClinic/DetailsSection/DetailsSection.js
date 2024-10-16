@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '../../Container/Container';
 import SwiperComponent from '../../Swiper/Swiper';
-import { Item, ListStyled, Wrapper, Text } from './DetailsSection.styled';
+import { Item, ListStyled, Wrapper, Text, SwiperWrapp } from './DetailsSection.styled';
 import dataAboutUs from '../../../resources/dataAboutUs.json';
 import { FaFire } from "react-icons/fa";
 import { slidesList } from '../../../utils/slidesList';
@@ -16,19 +16,21 @@ const DetailsSection = () => {
                 <Wrapper>
                     <Text>{dataAboutUs.suptitle}</Text>
 
-                    <SwiperComponent>
-                        {slidesList.map((img, index) => (
-                            <div key={index} >
-                                <img
-                                    src={img.image}
-                                    alt='Photos of the clinic'
-                                    width='300px'
-                                    loading="lazy"
-                                />
-                            </div>
-                        ))
-                        }
-                    </SwiperComponent>
+                    <SwiperWrapp>
+                        <SwiperComponent>
+                            {slidesList.map((img, index) => (
+                                <div key={index} >
+                                    <img
+                                        src={img.image}
+                                        alt='Photos of the clinic'
+                                        width='300px'
+                                        loading="lazy"
+                                    />
+                                </div>
+                            ))
+                            }
+                        </SwiperComponent>
+                    </SwiperWrapp>
 
                     <ListStyled><Text>W klinice:</Text>
                         {dataAboutUs.descriptions.map((item, index) => (

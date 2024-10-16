@@ -29,7 +29,6 @@ export const FlexWrapp = styled.div`
     display: flex;
     gap: 30px;
     align-items: center;
-    /* justify-content: space-between; */
         @media screen and (max-width: 767px)  {
             flex-direction: column;
             img {

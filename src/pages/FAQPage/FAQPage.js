@@ -9,11 +9,9 @@ const arrayFilter = ["Endermologia LPG", "Oczyszczenie wodorowe", "Epilacja lase
 
 const FAQPage = () => {
 
-    // const [value, setValue] = useState('Wszystkie');
     const [filteredArray, setFilteredArray] = useState(dataQA);
 
     const handleClick = (newValue) => {
-        // setValue(newValue);
         switch (newValue) {
             case "Endermologia LPG":
                 setFilteredArray(dataQA.filter(item => item.theme === "Endermologia LPG"));

@@ -14,6 +14,7 @@ const AboutImage = () => {
                 src={isDesktopOrTablet ? aboutImg : aboutImgMob}
                 alt="Klinika kosmetologii"
                 loading="lazy"
+                width="300px"
             />
         </ImgWrapper>
     )

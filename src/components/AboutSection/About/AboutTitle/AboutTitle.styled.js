@@ -18,7 +18,7 @@ export const TitleStyled = styled.h2`
         font-size: 24px;
     }
     @media screen and (min-width: 1440px) {
-        margin-bottom: 62px;
+        margin-bottom: 40px;
         font-size: 26px;
     }
 
@@ -34,13 +34,13 @@ export const TitleStyled = styled.h2`
                 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
                 position: absolute;
-                top: 80px;
+                top: 68px;
                 left: 0;
 
                 animation: colorShift 3s infinite;
 
                 @media screen and (min-width: 1440px) {
-                    top: 65px;
+                    top: 50px;
                 }
             };
         }

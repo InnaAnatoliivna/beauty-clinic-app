@@ -6,7 +6,8 @@ export const ItemStyled = styled.div`
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+
 
     background-color: var(--bc-header);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -20,7 +21,7 @@ export const ItemStyled = styled.div`
     }
     @media (min-width: 1440px) {
         height: 300px;
-        font-size: 18px;
+        font-size: 16px;
     }
 `;
 

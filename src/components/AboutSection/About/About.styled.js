@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
     width: 100%;
-    min-height: 700px;
     overflow: hidden;
     position: relative;
     padding: 30px 0;
@@ -13,7 +12,6 @@ export const Wrapper = styled.div`
     span {
     @media screen and (min-width: 768px) {
         width: 704px;
-        /* font-size: 24px; */
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
         margin-bottom: 32px;
         text-indent: 10px;
@@ -27,7 +25,7 @@ export const Wrapper = styled.div`
     }
     @media screen and (min-width: 1440px) {
         margin-bottom: 62px;
-        font-size: 26px;
+        font-size: 20px;
     }
     }
 `;
@@ -38,7 +36,6 @@ export const ContentWrapper = styled.div`
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 16px 0 0 0;
         margin-bottom: 20px;
     }
     @media screen and (min-width: 1440px) {
@@ -52,7 +49,7 @@ export const ButtonBox = styled.div`
     
     @media screen and (min-width: 1440px) {
         position: absolute;
-        bottom: 50px;
-        left: 239px;
+        bottom: 100px;
+        left: 220px;
     }
 `;

@@ -9,10 +9,10 @@ export const ListStyled = styled.ul`
     }
 
     @media screen and (min-width: 768px) and (max-width: 1439px)  {
-        max-width: 380px;
+        max-width: 360px;
         margin-left: 0;
         > *:not(:last-child) {
-        margin-bottom: 11px;
+        margin-bottom: 12px;
     }
     }
 
@@ -20,7 +20,6 @@ export const ListStyled = styled.ul`
     > *:not(:last-child) {
         margin-bottom: 16px;
     }
-
-        width: 538px;
+        max-width: 700px;
     }
 `;
