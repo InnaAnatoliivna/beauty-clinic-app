@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbeauty_clinic_app=self.webpackChunkbeauty_clinic_app||[]).push([[238],{8857:(e,c,a)=>{a.r(c),a.d(c,{default:()=>u});var n=a(5043),t=a(3216);const u=()=>{const{pathname:e}=(0,t.zy)();return(0,n.useEffect)((()=>{window.scrollTo(0,0)}),[e]),null}}}]);
+//# sourceMappingURL=238.a42bb5da.chunk.js.map
