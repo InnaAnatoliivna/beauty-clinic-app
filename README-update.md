@@ -13,11 +13,11 @@ Oto jak właścicielka salonu może wprowadzać zmiany na stronie React i publik
 
    ### Sprawdź aktualną politykę wykonywania:
 
-   ### W PowerShell wpisz polecenie: `Get-ExecutionPolicy`
+   ### W PowerShell wpisz polecenie: `Get-ExecutionPolicy` + enter
 
-   ### Wpisz następujące polecenie, aby zezwolić na wykonywanie skryptów: `Set-ExecutionPolicy RemoteSigned`
+   ### Wpisz następujące polecenie, aby zezwolić na wykonywanie skryptów: `Set-ExecutionPolicy RemoteSigned`+ enter
 
-   ### Może pojawić się prośba o potwierdzenie zmiany, naciśnij `Y` (Tak), aby potwierdzić.
+   ### Może pojawić się prośba o potwierdzenie zmiany, naciśnij `Y` + enter (Tak), aby potwierdzić.
 
    ### Zamknij PowerShell.
 
@@ -53,7 +53,6 @@ Oto jak właścicielka salonu może wprowadzać zmiany na stronie React i publik
 ---
 
 Jak wprowadzać zmiany w projekcie React na iOS i publikować je na Netlify:
-Edycja plików:
 Edycja plików:
 
 Użyj aplikacji do edycji kodu na swoim urządzeniu iOS, takiej jak Textastic, Koder lub inne.

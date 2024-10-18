@@ -3,7 +3,7 @@ import { CiMenuBurger } from "react-icons/ci";
 import { Link } from 'react-router-dom';
 
 export const Wrapper = styled.div`
-    /* width: 100vw; */
+    width: 100vw;
     background-color: ${({ isSticky }) => (isSticky ? '#efefef9a' : 'var(--bc-header)')};
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);

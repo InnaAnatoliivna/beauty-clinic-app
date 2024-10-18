@@ -40,7 +40,6 @@ export const ButtonStyled = styled(Link)`
     text-align: center;
 
     color: inherit;
-    /* text-transform: uppercase; */
     font-weight: 500;
     letter-spacing: 0em;
     font-size: 14px;
@@ -54,6 +53,6 @@ export const ButtonStyled = styled(Link)`
     }
     @media screen and (min-width: 1440px) {
         padding: 20px 40px;
-        font-size: 20px;
+        font-size: 18px;
     }
 `;

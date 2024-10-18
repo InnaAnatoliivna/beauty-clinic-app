@@ -1,7 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import React from 'react';
-
 import SharedLayout from './components/SharedLayout/SharedLayout';
 import MainPage from './pages/MainPage/MainPage';
 import ServicesPage from './pages/ServicesPage/ServicesPage';
