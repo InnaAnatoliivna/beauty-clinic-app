@@ -12,6 +12,11 @@ export const TitleStyled = styled.h2`
     text-transform: uppercase;
     line-height: 1.3;
     color: var(--color-main-text);
+        @media screen and (max-width: 767px) {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 330px;
+        }
 
     @media screen and (min-width: 768px) and (max-width: 1439px) {
         width: 704px;

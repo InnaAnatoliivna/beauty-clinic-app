@@ -1,6 +1,6 @@
 import React from 'react';
 import { Section, Wrapper, WrappFlex, WrappLinks, ContactInfo, TextStyled } from './Footer.styled';
-import Container from '../Container/Container'
+import Container from '../Container/Container';
 import Logo from '../Logo/Logo';
 import NetworksList from '../NetworksList/NetworksList';
 import GoogleMapLink from '../GoogleMapLink/GoogleMapLink';

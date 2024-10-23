@@ -13,6 +13,7 @@ const paths = [
 
 module.exports = {
     plugins: [
-        new SitemapPlugin({ base: 'https://yourwebsite.com', paths }) // my link
+        new SitemapPlugin({ base: 'https://zelaznowska-beauty-clinic.com', paths }) // my link
     ],
 };
+//Zelaznowska Beauty Clinic
